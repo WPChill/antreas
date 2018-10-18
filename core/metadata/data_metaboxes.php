@@ -92,117 +92,13 @@ function cpotheme_metadata_layout_options() {
 	return apply_filters( 'cpotheme_metadata_layout', $data );
 }
 
-
 //Create slide meta fields
 function cpotheme_metadata_slide_options() {
 
 	$data = array();
 
-	$data['slide_image'] = array(
-		'name'  => 'slide_image',
-		'std'   => '',
-		'label' => __( 'Slide Image', 'antreas' ),
-		'desc'  => __( 'Add a complementary image to the slide.', 'antreas' ),
-		'type'  => 'upload',
-	);
-
-	$data['slide_position'] = array(
-		'name'   => 'slide_position',
-		'std'    => '',
-		'label'  => __( 'Caption Position', 'antreas' ),
-		'desc'   => __( 'Determines where the caption of the slide is positioned.', 'antreas' ),
-		'type'   => 'select',
-		'option' => cpotheme_metadata_slide_position(),
-	);
-
-	$data['slide_color'] = array(
-		'name'   => 'slide_color',
-		'std'    => '',
-		'label'  => __( 'Color Scheme', 'antreas' ),
-		'desc'   => __( 'Determines the color scheme used in the caption.', 'antreas' ),
-		'type'   => 'select',
-		'option' => cpotheme_metadata_color_scheme(),
-	);
-
-	$data['slide_title'] = array(
-		'name'    => 'slide_title',
-		'std'     => '1',
-		'label'   => __( 'Hide Slide title', 'antreas' ),
-		'desc'    => __( 'Removes the title of this slide.', 'antreas' ),
-		'type'    => 'yesno',
-		'default' => true,
-	);
-
-	$data['slide_title_font_size'] = array(
-		'name'    => 'slide_title_font_size',
-		'label'   => __( 'Slide title font size', 'antreas' ),
-		'desc'    => __( 'specify the slide title font size in pixels', 'antreas' ),
-		'type'    => 'range',
-		'attrs'   => array( 'min' => 5, 'max' => 100, 'step' => 1 ),
-		'std'     => 40,
-	);
-
-	$data['slide_content_font_size'] = array(
-		'name'    => 'slide_content_font_size',
-		'label'   => __( 'Slide content font size', 'antreas' ),
-		'desc'    => __( 'specify the slide content font size in pixels', 'antreas' ),
-		'type'    => 'range',
-		'attrs'   => array( 'min' => 5, 'max' => 100, 'step' => 1 ),
-		'std'     => 20,
-	);
-
-	$data['slide_button_text_1'] = array(
-		'name'  => 'slide_button_text_1',
-		'std'   => '',
-		'label' => __( 'First Button Text', 'antreas' ),
-		'desc'  => __( 'Sets the text of the first button of this slide.', 'antreas' ),
-		'type'  => 'text',
-	);  
-
- 	$data['slide_button_url_1'] = array(
-		'name'  => 'slide_button_url_1',
-		'std'   => '',
-		'label' => __( 'First Button URL', 'antreas' ),
-		'desc'  => __( 'Specify a URL for the first button of this slide. Requires a valid destination URL.', 'antreas' ),
-		'type'  => 'text',
-	);
-
-	$data['slide_button_text_2'] = array(
-		'name'  => 'slide_button_text_2',
-		'std'   => '',
-		'label' => __( 'Second Button Text', 'antreas' ),
-		'desc'  => __( 'Sets the text of the second button of this slide.', 'antreas' ),
-		'type'  => 'text',
-	);  
-
- 	$data['slide_button_url_2'] = array(
-		'name'  => 'slide_button_url_2',
-		'std'   => '',
-		'label' => __( 'Second Button URL', 'antreas' ),
-		'desc'  => __( 'Specify a URL for the second button of this slide. Requires a valid destination URL.', 'antreas' ),
-		'type'  => 'text',
-	);
-
-	$data['slide_overlay_color'] = array(
-		'name'    => 'slide_overlay_color',
-		'label'   => __( 'Overlay Color', 'antreas' ),
-		'desc'    => __( 'specify the overlay color for this slide', 'antreas' ),
-		'type'    => 'color',
-		'std'     => '#000000',
-	);
-
-	$data['slide_overlay_opacity'] = array(
-		'name'    => 'slide_overlay_opacity',
-		'label'   => __( 'Overlay Transparency', 'antreas' ),
-		'desc'    => __( 'specify the overlay transparency for this slide', 'antreas' ),
-		'type'    => 'range',
-		'attrs'   => array( 'min' => 0, 'max' => 1, 'step' => 0.1 ),
-		'std'     => 0,
-	); 
-
 	return apply_filters( 'cpotheme_metadata_slide', $data );
 }
-
 
 //Create feature meta fields
 function cpotheme_metadata_feature_options() {

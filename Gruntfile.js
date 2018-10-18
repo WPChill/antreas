@@ -71,7 +71,7 @@ module.exports = function(grunt){
                     '!composer.json',
                     '!composer.lock',
                     '!set_tags.sh',
-					'!antreas-pro.zip',
+					'!antreas.zip',
 					'!webpack.config.js',
 					'!postcss.config.js',
 					'!src/**',
@@ -84,7 +84,7 @@ module.exports = function(grunt){
             build: {
                 options: {
                     pretty: true,                           // Pretty print file sizes when logging.
-                    archive: 'antreas-pro.zip'
+                    archive: 'antreas.zip'
                 },
                 expand: true,
                 cwd: 'build/',
