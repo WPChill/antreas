@@ -163,14 +163,6 @@ function cpotheme_metadata_client_options() {
 
 	$data = array();
 
-	$data['client_url'] = array(
-		'name'  => 'client_url',
-		'std'   => '',
-		'label' => __( 'Destination URL', 'antreas' ),
-		'desc'  => __( 'Links the client to a specific URL.', 'antreas' ),
-		'type'  => 'text',
-	);
-
 	return apply_filters( 'cpotheme_metadata_client', $data );
 }
 
@@ -188,23 +180,6 @@ function cpotheme_metadata_team_options() {
 		'type'  => 'yesno',
 	);
 
-	$data['team_description'] = array(
-		'name'  => 'team_description',
-		'std'   => '',
-		'label' => __( 'Member Description', 'antreas' ),
-		'desc'  => __( 'Specifies a small description for this team member.', 'antreas' ),
-		'type'  => 'text',
-	);
-
-	$data['team_links'] = array(
-		'name'   => 'team_links',
-		'std'    => '',
-		'label'  => __( 'Social Profiles', 'antreas' ),
-		'desc'   => __( 'Enter the URL of the social profiles for this team member.', 'antreas' ),
-		'type'   => 'collection',
-		'option' => cpotheme_metadata_social_profiles(),
-	);
-
 	return apply_filters( 'cpotheme_metadata_team', $data );
 }
 
@@ -213,14 +188,6 @@ function cpotheme_metadata_team_options() {
 function cpotheme_metadata_testimonial_options() {
 
 	$data = array();
-
-	$data['testimonial_description'] = array(
-		'name'  => 'testimonial_description',
-		'std'   => '',
-		'label' => __( 'Testimonial Description', 'antreas' ),
-		'desc'  => __( 'Specifies a small description for this testimonial.', 'antreas' ),
-		'type'  => 'text',
-	);
 
 	return apply_filters( 'cpotheme_metadata_testimonial', $data );
 }

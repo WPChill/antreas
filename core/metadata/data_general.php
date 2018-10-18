@@ -317,33 +317,6 @@ if ( ! function_exists( 'cpotheme_metadata_post_layout' ) ) {
 }
 
 
-if ( ! function_exists( 'cpotheme_metadata_social_profiles' ) ) {
-	function cpotheme_metadata_social_profiles() {
-		$cpotheme_data = array(
-			'name' => array(
-				'label' => __( 'Name', 'antreas' ),
-				'width' => '75',
-				'args'  => array( 'placeholder' => 'Profile Name' ),
-			),
-			'icon' => array(
-				'label'  => __( 'Icon', 'antreas' ),
-				'width'  => '25',
-				'type'   => 'select',
-				'option' => cpotheme_metadata_icons_social(),
-				'args'   => array( 'class' => 'select-icon fontawesome' ),
-			),
-			'url'  => array(
-				'label' => __( 'URL', 'antreas' ),
-				'width' => '100',
-				'args'  => array( 'placeholder' => 'URL of profile' ),
-			),
-		);
-
-		return $cpotheme_data;
-	}
-}
-
-
 //Social network mapping to icons
 if ( ! function_exists( 'cpotheme_metadata_social_networks' ) ) {
 	function cpotheme_metadata_social_networks() {

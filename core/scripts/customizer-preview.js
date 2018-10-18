@@ -6,7 +6,6 @@
 
 	 	wp.customize.preview.bind( 'section-highlight', function( data ) {
 			var selectors = {
-				'cpotheme_layout_home' : '#tagline',
 				'cpotheme_layout_slider' : '#slider',
 				'cpotheme_layout_features' : '#features',
 				'cpotheme_layout_about' : '#about',

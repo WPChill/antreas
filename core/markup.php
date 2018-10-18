@@ -829,28 +829,6 @@ if ( ! function_exists( 'cpotheme_author' ) ) {
 }
 
 
-//Displays the author box
-if ( ! function_exists( 'cpotheme_team_links' ) ) {
-	function cpotheme_team_links( $args = null ) {
-		$links = get_post_meta( get_the_ID(), 'team_links', true );
-		if ( is_array( $links ) ) {
-			wp_enqueue_style( 'cpotheme-fontawesome' );
-			echo '<div class="team-member-links">';
-			foreach ( $links as $link ) {
-				if ( isset( $link['url'] ) && $link['url'] != '' ) {
-					echo '<a class="team-member-link" rel="nofollow" href="' . $link['url'] . '" title="' . $link['name'] . '" target="_blank">';
-					cpotheme_icon( $link['icon'] );
-					echo '</a>';
-				}
-			}
-			echo '<div class="clear"></div>';
-			echo '</div>';
-		}
-
-	}
-}
-
-
 //Displays visual media of a particular post
 if ( ! function_exists( 'cpotheme_get_media' ) ) {
 	function cpotheme_get_media( $url ) {
