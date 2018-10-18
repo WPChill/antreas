@@ -1,6 +1,5 @@
 ( function( api ) {
 	var sections = [ 
-		'cpotheme_layout_home', 
 		'cpotheme_layout_slider', 
 		'cpotheme_layout_features', 
 		'cpotheme_layout_about', 

@@ -29,37 +29,10 @@
 	margin-bottom: 15px;
 }
 
-.team .team-member-description {
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-size: 0.65em;
-	margin: 0 0 15px; 
-}
-
 .team .team-member-content {
 	margin: 15px 0 0;
 }
 
 .team .team-member-content p:last-child {
 	margin-bottom: 0;
-}
-
-.team .team-member-links {
-	margin: 10px 0 0;
-}
-
-.team .team-member-link {
-    float: left;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    margin: 0 10px 0 0;
-    color: #999;
-    font-family: 'fontawesome'; 
-}
-
-.team .team-member-link:hover {
-	text-decoration: none;
-    opacity: 0.7;
 }
