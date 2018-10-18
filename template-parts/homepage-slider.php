@@ -8,49 +8,20 @@
 			
 				<?php $image_url = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), array( 1500, 7000 ), false, '' ); ?>
 				
-				<?php $slide_position           = get_post_meta( get_the_ID(), 'slide_position', true ); ?>
-				<?php $slide_color              = get_post_meta( get_the_ID(), 'slide_color', true ); ?>
-				<?php $slide_button_text_1      = get_post_meta( get_the_ID(), 'slide_button_text_1', true ); ?>
-				<?php $slide_button_url_1       = get_post_meta( get_the_ID(), 'slide_button_url_1', true ); ?>
-				<?php $slide_button_text_2      = get_post_meta( get_the_ID(), 'slide_button_text_2', true ); ?>
-				<?php $slide_button_url_2       = get_post_meta( get_the_ID(), 'slide_button_url_2', true ); ?>
-				<?php $slide_title              = get_post_meta( get_the_ID(), 'slide_title', true ); ?>
-				<?php $slide_title_font_size    = get_post_meta( get_the_ID(), 'slide_title_font_size', true ); ?>
-				<?php $slide_content_font_size  = get_post_meta( get_the_ID(), 'slide_content_font_size', true ); ?>
-				<?php $slide_overlay_color      = get_post_meta( get_the_ID(), 'slide_overlay_color', true ); ?>
-				<?php $slide_overlay_opacity    = get_post_meta( get_the_ID(), 'slide_overlay_opacity', true ); ?>
-
-				<div id="slide-<?php echo get_the_ID(); ?>" class="slide slide-<?php echo get_the_ID(); ?> cycle-slide-active <?php echo esc_attr( $slide_position ) . ' ' . esc_attr( $slide_color ); ?>" style="background-image:url(<?php echo esc_url( $image_url[0] ); ?>);">
-					<div class="slide-overlay" style="<?php echo $slide_overlay_color ? 'background-color: ' . esc_attr( $slide_overlay_color ) . ';' : ''; ?> <?php echo $slide_overlay_opacity ? 'opacity:' . esc_attr( $slide_overlay_opacity ) . ';' : ''; ?>"></div>	
+				<div id="slide-<?php echo get_the_ID(); ?>" class="slide slide-<?php echo get_the_ID(); ?> cycle-slide-active slide-center dark" style="background-image:url(<?php echo esc_url( $image_url[0] ); ?>);">
+					<div class="slide-overlay"></div>	
 					<div class="slide-body">
 						<div class="container">
 							<div class="slide-caption">
-								<?php if ( '1' != $slide_title ) : ?>
-									<h2 class="slide-title" style="<?php echo $slide_title_font_size ? 'font-size: ' . esc_attr( $slide_title_font_size ) . 'px;' : ''; ?>">
-										<?php the_title(); ?>
-									</h2>
-								<?php endif; ?>
-
-								<div class="slide-content" style="<?php echo $slide_content_font_size ? 'font-size: ' . esc_attr( $slide_content_font_size ) . 'px;' : ''; ?>">
+								<h2 class="slide-title">
+									<?php the_title(); ?>
+								</h2>
+								
+								<div class="slide-content">
 									<?php the_content(); ?>
 								</div>
 
-								<?php if ( '' !== $slide_button_url_1 && '' !== $slide_button_text_1 ) : ?>
-									<a class="slide-button button" href="<?php echo esc_url( $slide_button_url_1 ); ?>">
-										<?php echo esc_html( $slide_button_text_1 ); ?>
-									</a>
-								<?php endif; ?>
-
-								<?php if ( '' !== $slide_button_url_2 && '' !== $slide_button_text_2 ) : ?>
-									<a class="slide-button slide-button--second button" href="<?php echo esc_url( $slide_button_url_2 ); ?>">
-										<?php echo esc_html( $slide_button_text_2 ); ?>
-									</a>
-								<?php endif; ?>
-
 								<?php cpotheme_edit(); ?>
-							</div>
-							<div class="slide-image">
-								<?php cpotheme_get_media( get_post_meta( get_the_ID(), 'slide_image', true ) ); ?>
 							</div>
 						</div>
 					</div>

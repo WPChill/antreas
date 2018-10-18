@@ -159,13 +159,6 @@ if ( ! function_exists( 'cpotheme_metadata_sections' ) ) {
 			'priority'    => 50,
 		);
 
-		$data['cpotheme_typography'] = array(
-			'title'       => __( 'Typography', 'antreas' ),
-			'description' => __( 'Custom typefaces for the entire site.', 'antreas' ),
-			'capability'  => 'edit_theme_options',
-			'priority'    => 45,
-		);
-
 		$data['cpotheme_content_general'] = array(
 			'title'       => __( 'Site Wide Content', 'antreas' ),
 			'description' => __( 'Content areas located in common areas throughout the site. You can use HTML and shortcodes here.', 'antreas' ),
@@ -489,48 +482,6 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			'type'     => 'checkbox',
 			'sanitize' => 'cpotheme_sanitize_bool',
 			'default'  => true,
-		);
-
-		//Typography
-		$data['type_size'] = array(
-			'label'   => __( 'Font Size', 'antreas' ),
-			'section' => 'cpotheme_typography',
-			'type'    => 'select',
-			'choices' => cpotheme_metadata_font_sizes(),
-			'default' => '0.875',
-		);
-
-		$data['type_headings'] = array(
-			'label'   => __( 'Headings & Titles', 'antreas' ),
-			'section' => 'cpotheme_typography',
-			'type'    => 'select',
-			'choices' => cpotheme_metadata_fonts(),
-			'default' => '',
-		);
-
-		$data['type_nav'] = array(
-			'label'   => __( 'Main Navigation Menu', 'antreas' ),
-			'section' => 'cpotheme_typography',
-			'type'    => 'select',
-			'choices' => cpotheme_metadata_fonts(),
-			'default' => '',
-		);
-
-		$data['type_body'] = array(
-			'label'   => __( 'Body Text', 'antreas' ),
-			'section' => 'cpotheme_typography',
-			'type'    => 'select',
-			'choices' => cpotheme_metadata_fonts(),
-			'default' => '',
-		);
-
-		$data['type_body_variants'] = array(
-			'label'       => __( 'Load Font Variants', 'antreas' ),
-			'description' => __( 'Loads additional font variations for the selected body typeface, if available. This will result in better-looking bold/light text.', 'antreas' ),
-			'section'     => 'cpotheme_typography',
-			'type'        => 'checkbox',
-			'sanitize'    => 'cpotheme_sanitize_bool',
-			'default'     => true,
 		);
 
 		return apply_filters( 'cpotheme_customizer_controls', $data );

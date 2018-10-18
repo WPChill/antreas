@@ -237,10 +237,10 @@ if ( defined( 'CPOTHEME_CORE' ) ) {
 // Classes.
 require_once( $core_path . 'classes/class_menu_edit.php' );
 require_once( $core_path . 'classes/class_menu.php' );
-//require_once($core_path.'classes/class_tgm.php');
 require_once( $core_path . 'classes/class_customizer.php' );
 require_once( $core_path . 'classes/class_cpo_customize_contact_control.php' );
 require_once( $core_path . 'classes/class_cpo_customize_tinymce_control.php' );
+
 // Main Components.
 require_once( $core_path . 'admin.php' );
 require_once( $core_path . 'functions.php' );
@@ -253,16 +253,13 @@ require_once( $core_path . 'gallery.php' );
 require_once( $core_path . 'custom.php' );
 require_once( $core_path . 'forms.php' );
 require_once( $core_path . 'sections.php' );
-//require_once($core_path.'settings.php');
 require_once( $core_path . 'taxonomy.php' );
 require_once( $core_path . 'icons.php' );
 require_once( $core_path . 'layout.php' );
-// require_once($core_path.'update.php');
 require_once( $core_path . 'menus.php' );
 require_once( $core_path . 'customizer.php' );
 require_once( $core_path . 'gutenberg.php' );
-//require_once($core_path.'branding.php');
-//require_once($core_path.'plugins.php');
+
 // Metadata.
 require_once( $core_path . 'metadata/data_general.php' );
 require_once( $core_path . 'metadata/data_icons.php' );
