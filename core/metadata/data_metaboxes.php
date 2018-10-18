@@ -113,14 +113,6 @@ function cpotheme_metadata_feature_options() {
 		'type'  => 'iconlist',
 	);
 
-	$data['feature_url'] = array(
-		'name'  => 'feature_url',
-		'std'   => '',
-		'label' => __( 'Target URL', 'antreas' ),
-		'desc'  => __( 'Sets a destination URL for this feature.', 'antreas' ),
-		'type'  => 'text',
-	);
-
 	return apply_filters( 'cpotheme_metadata_feature', $data );
 }
 
@@ -138,52 +130,8 @@ function cpotheme_metadata_portfolio_options() {
 		'type'  => 'yesno',
 	);
 
-	$data['portfolio_layout'] = array(
-		'name'   => 'portfolio_layout',
-		'std'    => '',
-		'label'  => __( 'Media Layout', 'antreas' ),
-		'desc'   => __( 'Specifies how the images attached to this item should be displayed. The featured image will be excluded from the list of elements.', 'antreas' ),
-		'type'   => 'select',
-		'option' => cpotheme_metadata_media(),
-	);
-
-	$data['portfolio_custom_url'] = array(
-		'name'  => 'portfolio_custom_url',
-		'std'   => '',
-		'label' => __( 'Custom URL', 'antreas' ),
-		'desc'  => __( 'Sets a custom URL for this portfolio project.', 'antreas' ),
-		'type'  => 'text',
-	);
-
 	return apply_filters( 'cpotheme_metadata_portfolio', $data );
 }
-
-
-//Create product meta fields
-function cpotheme_metadata_product_options() {
-
-	$data = array();
-
-	$data['product_featured'] = array(
-		'name'  => 'product_featured',
-		'std'   => '',
-		'label' => __( 'Featured Item', 'antreas' ),
-		'desc'  => __( 'Specifies whether this item appears in the homepage.', 'antreas' ),
-		'type'  => 'yesno',
-	);
-
-	$data['product_layout'] = array(
-		'name'   => 'product_layout',
-		'std'    => '',
-		'label'  => __( 'Media Layout', 'antreas' ),
-		'desc'   => __( 'Specifies how the images attached to this item should be displayed. The featured image will be excluded from the list of elements.', 'antreas' ),
-		'type'   => 'select',
-		'option' => cpotheme_metadata_media(),
-	);
-
-	return apply_filters( 'cpotheme_metadata_product', $data );
-}
-
 
 //Create service meta fields
 function cpotheme_metadata_service_options() {
@@ -198,49 +146,12 @@ function cpotheme_metadata_service_options() {
 		'type'  => 'yesno',
 	);
 
-	$data['service_icon_type'] = array(
-		'name'   => 'service_icon_type',
-		'std'    => '',
-		'label'  => __( 'Service Icon Type', 'antreas' ),
-		'desc'   => __( 'select to use icon or image as the service preview.', 'antreas' ),
-		'type'   => 'select',
-		'option' => array(
-			'fontawesome'     => __( 'Font Awesome', 'antreas' ),
-			'image'   => __( 'Image', 'antreas' ),
-		),
-	);
-
 	$data['service_icon'] = array(
 		'name'  => 'service_icon',
 		'std'   => '',
 		'label' => __( 'Service Icon', 'antreas' ),
 		'desc'  => __( 'Sets an icon to be used as the service preview.', 'antreas' ),
 		'type'  => 'iconlist',
-	);
-
-	$data['service_image'] = array(
-		'name'  => 'service_image',
-		'std'   => '',
-		'label' => __( 'Service Image', 'antreas' ),
-		'desc'  => __( 'Sets an image to be used as the service preview.', 'antreas' ),
-		'type'  => 'upload',
-	);
-
-	$data['service_layout'] = array(
-		'name'   => 'service_layout',
-		'std'    => '',
-		'label'  => __( 'Media Layout', 'antreas' ),
-		'desc'   => __( 'Specifies how the images attached to this item should be displayed. The featured image will be excluded from the list of elements.', 'antreas' ),
-		'type'   => 'select',
-		'option' => cpotheme_metadata_media(),
-	);
-
-	$data['service_url'] = array(
-		'name'  => 'service_url',
-		'std'   => '',
-		'label' => __( 'Target URL', 'antreas' ),
-		'desc'  => __( 'Sets a destination URL for this service.', 'antreas' ),
-		'type'  => 'text',
 	);
 
 	return apply_filters( 'cpotheme_metadata_service', $data );

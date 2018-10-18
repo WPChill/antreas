@@ -134,24 +134,3 @@ function cpotheme_embed_wrapper( $html ) {
 		return $html;
 	}
 }
-
-
-add_filter( 'the_permalink', 'cpotheme_the_permalink' );
-function cpotheme_the_permalink( $url ) {
-
-	if ( get_post_type() === 'cpo_portfolio' ) {
-		$portfolio_custom_url = get_post_meta( get_the_ID(), 'portfolio_custom_url', true );
-		if ( $portfolio_custom_url !== '' ) {
-			$url = esc_url( $portfolio_custom_url );
-		}
-	}
-
-	if ( get_post_type() === 'cpo_service' ) {
-		$service_url = get_post_meta( get_the_ID(), 'service_url', true );
-		if ( $service_url !== '' ) {
-			$url = esc_url( $service_url );
-		}
-	}
-
-	return $url;
-}

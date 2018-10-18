@@ -41,12 +41,6 @@ function cpotheme_get_icon( $library, $value ) {
 		case 'fontawesome':
 			$result = cpotheme_icon_library_fontawesome( $value );
 			break;
-		case 'linearicons':
-			$result = cpotheme_icon_library_linearicons( $value );
-			break;
-		case 'typicons':
-			$result = cpotheme_icon_library_typicons( $value );
-			break;
 		default:
 			$result = cpotheme_icon_library_fontawesome( $value );
 			break;
@@ -59,18 +53,4 @@ function cpotheme_get_icon( $library, $value ) {
 function cpotheme_icon_library_fontawesome( $value ) {
 	wp_enqueue_style( 'cpotheme-fontawesome' );
 	return '<span style="font-family:\'fontawesome\'">' . $value . '</span>';
-}
-
-
-//Icon library for linearicons
-function cpotheme_icon_library_linearicons( $value ) {
-	wp_enqueue_style( 'cpotheme-linearicons' );
-	return '<span style="font-family:\'linearicons\'">' . $value . '</span>';
-}
-
-
-//Icon library for typicons
-function cpotheme_icon_library_typicons( $value ) {
-	wp_enqueue_style( 'cpotheme-typicons' );
-	return '<span style="font-family:\'typicons\'">' . $value . '</span>';
 }

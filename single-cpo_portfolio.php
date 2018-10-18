@@ -2,7 +2,7 @@
 
 <div id="main" class="main">
 	<div class="container">
-		<?php cpotheme_post_media( get_the_ID(), get_post_meta( get_the_ID(), 'portfolio_layout', true ) ); ?>
+		<?php cpotheme_post_media( get_the_ID(), 'image' ); ?>
 		<section id="content" class="content">
 			<?php do_action( 'cpotheme_before_content' ); ?>
 			<?php if ( have_posts() ) : ?>

@@ -200,8 +200,6 @@ if ( ! function_exists( 'cpotheme_add_styles' ) ) {
 
 		// Font Libraries.
 		wp_register_style( 'cpotheme-fontawesome', $stylesheets_path . 'icon-fontawesome.css', array(), CPOTHEME_VERSION );
-		wp_register_style( 'cpotheme-linearicons', $stylesheets_path . 'icon-linearicons.css', array(), CPOTHEME_VERSION );
-		wp_register_style( 'cpotheme-typicons', $stylesheets_path . 'icon-typicons.css', array(), CPOTHEME_VERSION );
 	}
 }
 
@@ -220,8 +218,6 @@ if ( ! function_exists( 'cpotheme_add_admin_styles' ) ) {
 		wp_enqueue_style( 'cpotheme_admin', $stylesheets_path . 'admin.css', array(), CPOTHEME_VERSION );
 
 		wp_enqueue_style( 'cpotheme-fontawesome', $stylesheets_path . 'icon-fontawesome.css', array(), CPOTHEME_VERSION );
-		wp_enqueue_style( 'cpotheme-linearicons', $stylesheets_path . 'icon-linearicons.css', array(), CPOTHEME_VERSION );
-		wp_enqueue_style( 'cpotheme-typicons', $stylesheets_path . 'icon-typicons.css', array(), CPOTHEME_VERSION );
 		wp_enqueue_style( 'thickbox' );
 		wp_enqueue_style( 'cpotheme-select2-css', $stylesheets_path . 'select2.min.css', array(), CPOTHEME_VERSION );
 	}
@@ -242,15 +238,11 @@ require_once( $core_path . 'classes/class_cpo_customize_contact_control.php' );
 require_once( $core_path . 'classes/class_cpo_customize_tinymce_control.php' );
 
 // Main Components.
-require_once( $core_path . 'admin.php' );
 require_once( $core_path . 'functions.php' );
 require_once( $core_path . 'markup.php' );
 require_once( $core_path . 'filters.php' );
-require_once( $core_path . 'users.php' );
 require_once( $core_path . 'meta.php' );
 require_once( $core_path . 'metaboxes.php' );
-require_once( $core_path . 'gallery.php' );
-require_once( $core_path . 'custom.php' );
 require_once( $core_path . 'forms.php' );
 require_once( $core_path . 'sections.php' );
 require_once( $core_path . 'taxonomy.php' );
