@@ -20,11 +20,9 @@ function cpotheme_metaboxes() {
 	}
 	if ( defined( 'CPOTHEME_USE_PORTFOLIO' ) && CPOTHEME_USE_PORTFOLIO == true ) {
 		add_meta_box( 'cpotheme_portfolio', __( 'Portfolio Options', 'antreas' ), 'cpotheme_metabox_portfolio', 'cpo_portfolio', 'normal', 'high' );
-		add_meta_box( 'cpotheme_portfolio_gallery', __( 'Attached Images', 'antreas' ), 'cpotheme_metabox_gallery', 'cpo_portfolio', 'side', 'low' );
 	}
 	if ( defined( 'CPOTHEME_USE_SERVICES' ) && CPOTHEME_USE_SERVICES == true ) {
 		add_meta_box( 'cpotheme_service', __( 'Service Options', 'antreas' ), 'cpotheme_metabox_service', 'cpo_service', 'normal', 'high' );
-		add_meta_box( 'cpotheme_service_gallery', __( 'Attached Images', 'antreas' ), 'cpotheme_metabox_gallery', 'cpo_service', 'side', 'low' );
 	}
 	if ( defined( 'CPOTHEME_USE_CLIENTS' ) && CPOTHEME_USE_CLIENTS == true ) {
 		add_meta_box( 'cpotheme_client', __( 'Client Options', 'antreas' ), 'cpotheme_metabox_client', 'cpo_client', 'normal', 'high' );
@@ -54,9 +52,6 @@ function cpotheme_metabox_feature( $post ) {
 }
 function cpotheme_metabox_portfolio( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_portfolio_options() );
-}
-function cpotheme_metabox_product( $post ) {
-	cpotheme_meta_fields( $post, cpotheme_metadata_product_options() );
 }
 function cpotheme_metabox_service( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_service_options() );

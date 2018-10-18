@@ -869,147 +869,15 @@ if ( ! function_exists( 'cpotheme_get_media' ) ) {
 if ( ! function_exists( 'cpotheme_post_media' ) ) {
 	function cpotheme_post_media( $post_id, $media_type, $video = '', $options = null ) {
 
-		//Backwards compatibility - If meta not exists, use attached images
-		if ( metadata_exists( 'post', $post_id, 'page_gallery' ) ) {
-			$value = get_post_meta( $post_id, 'page_gallery', true );
-		} else {
-			$args   = array(
-				'post_type'      => 'attachment',
-				'post_status'    => 'inherit',
-				'post_parent'    => $post_id,
-				'exclude'        => get_post_thumbnail_id( $post_id ),
-				'post_mime_type' => 'image',
-				'posts_per_page' => - 1,
-				'order'          => 'ASC',
-				'orderby'        => 'menu_order',
-			);
-			$images = get_posts( $args );
-			$value  = '';
-			$first  = true;
-			foreach ( $images as $current_image ) {
-				if ( ! $first ) {
-					$value .= ',';
-				}
-				$value .= $current_image->ID;
-				$first = false;
-			}
-		}
-
 		switch ( $media_type ) {
 			case 'none':
 				break;
 			case 'image':
 				the_post_thumbnail( 'full', array( 'class' => 'single-image' ) );
 				break;
-			case 'slideshow':
-				cpotheme_post_slideshow( $value );
-				break;
-			case 'gallery':
-				cpotheme_post_gallery( $value, 3 );
-				break;
-			case 'video':
-				cpotheme_post_video( $video );
-				break;
 			default:
 				the_post_thumbnail( 'full', array( 'class' => 'single-image' ) );
 				break;
-		}
-	}
-}
-
-
-//Displays a slideshow of the given query
-if ( ! function_exists( 'cpotheme_post_slideshow' ) ) {
-	function cpotheme_post_slideshow( $images, $options = null ) {
-		$attachments = array_filter( explode( ',', $images ) );
-		$image_size  = isset( $options['size'] ) ? $options['size'] : 'full';
-		$thumb_count = 0;
-		if ( $attachments ) { ?>
-            <div class="slideshow">
-                <div class="slideshow-slides cycle-slideshow" data-cycle-slides=".slideshow-slide"
-                     data-cycle-prev=".slideshow-prev" data-cycle-next=".slideshow-next" data-cycle-timeout="5000"
-                     data-cycle-speed="700" data-cycle-fx="fade" data-cycle-auto-height="container">
-					<?php wp_enqueue_script( 'cpotheme_cycle' ); ?>
-					<?php foreach ( $attachments as $attachment_id ) : ?>
-						<?php if ( trim( $attachment_id ) != '' ) : ?>
-							<?php $thumb_count ++; ?>
-                            <div class="slideshow-slide"
-								<?php
-								if ( $thumb_count != 1 ) {
-									echo 'style="display:none;"';
-								}
-								?>
-                            >
-								<?php $image_url = wp_get_attachment_image_src( $attachment_id, $image_size ); ?>
-                                <img src="<?php echo esc_url( $image_url[0] ); ?>"/>
-                            </div>
-						<?php endif; ?>
-					<?php endforeach; ?>
-                </div>
-                <div class="slideshow-prev"></div>
-                <div class="slideshow-next"></div>
-            </div>
-			<?php
-		}
-	}
-}
-
-
-//Displays a gallery of the given query
-if ( ! function_exists( 'cpotheme_post_gallery' ) ) {
-	function cpotheme_post_gallery( $images, $columns = 3, $size = 'portfolio', $options = null ) {
-		$attachments   = array_filter( explode( ',', $images ) );
-		$column_style  = isset( $options['style'] ) ? $options['style'] : 'column-narrow';
-		$feature_count = 0;
-		if ( $attachments ) {
-			wp_enqueue_style( 'cpotheme-magnific' );
-			wp_enqueue_script( 'cpotheme-magnific' );
-			?>
-            <div class="image-gallery">
-                <div class="row">
-					<?php foreach ( $attachments as $attachment_id ) : ?>
-						<?php if ( trim( $attachment_id ) != '' ) : ?>
-							<?php
-							if ( $feature_count % $columns == 0 && $feature_count > 0 ) {
-								echo '</div><div class="row">';
-							}
-							?>
-							<?php $feature_count ++; ?>
-                            <div class="column <?php echo $column_style; ?> col
-															<?php
-							echo esc_attr( $columns );
-							if ( $feature_count % $columns == 0 ) {
-								echo ' col-last';
-							}
-							?>
-							">
-                                <div class="image-gallery-item">
-									<?php $source = wp_get_attachment_image_src( $attachment_id, $size ); ?>
-									<?php $original_source = wp_get_attachment_image_src( $attachment_id, 'full' ); ?>
-                                    <a href="<?php echo esc_url( $original_source[0] ); ?>" rel="gallery[portfolio]">
-                                        <img src="<?php echo esc_url( $source[0] ); ?>"/>
-                                    </a>
-                                </div>
-                            </div>
-						<?php endif; ?>
-					<?php endforeach; ?>
-                    <div class="clear"></div>
-                </div>
-            </div>
-			<?php
-		}
-	}
-}
-
-//Displays a video of the given query
-if ( ! function_exists( 'cpotheme_post_video' ) ) {
-	function cpotheme_post_video( $video_url, $image_url = '' ) {
-		if ( $video_url != '' ) {
-			?>
-            <div class="video">
-				<?php echo wp_oembed_get( $video_url ); ?>
-            </div>
-			<?php
 		}
 	}
 }
