@@ -150,7 +150,7 @@ $features = array(
 		<tr>
 			<td></td>
 			<td colspan="2" class="text-right">
-				<a href="//www.cpothemes.com/theme/antreas?utm_source=antreas&utm_medium=about-page&utm_campaign=upsell" target="_blank" class="button button-primary button-hero"><span class="dashicons dashicons-cart"></span><?php _e( 'Get The Pro Version Now!', 'antreas' ); ?>
+				<a href="<?php echo esc_url_raw( cpotheme_upgrade_link( 'about-page' ) ); ?>" target="_blank" class="button button-primary button-hero"><span class="dashicons dashicons-cart"></span><?php _e( 'Get The Pro Version Now!', 'antreas' ); ?>
 				</a></td>
 		</tr>
 		</tbody>
