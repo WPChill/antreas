@@ -289,7 +289,7 @@ function cpotheme_sanitize_bool( $data ) {
 }
 
 //Return the URL to the premium theme page
-function cpotheme_upgrade_link( $name = 'Customizer' ) {
-	$url  = esc_url_raw( CPOTHEME_PREMIUM_URL . '?utm_source=antreas&utm_medium=customizer&utm_campaign=upsell' );
+function cpotheme_upgrade_link( $medium = 'customizer' ) {
+	$url  = esc_url_raw( CPOTHEME_PREMIUM_URL . '?utm_source=antreas&utm_medium=' . $medium . '&utm_campaign=upsell' );
 	return $url;
 }
