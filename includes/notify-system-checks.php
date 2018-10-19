@@ -139,7 +139,7 @@ if ( ! class_exists( 'CPOTheme_Notify_System' ) ) {
 		}
 
 		public static function check_content_import() {
-			$content = get_option( 'antreas_pro_content_imported' );
+			$content = get_option( 'antreas_content_imported' );
 			if ( $content ) {
 				return true;
 			}
