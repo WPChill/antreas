@@ -81,7 +81,7 @@ class CPO_Theme {
 		Epsilon_Welcome_Screen::get_instance(
 			$config = array(
 				'theme-name'  => 'Antreas',
-				'theme-slug'  => 'antreas_pro',
+				'theme-slug'  => 'antreas',
 				'actions'     => $this->actions,
 				'plugins'     => $this->plugins,
 				'edd'         => true,
@@ -131,7 +131,7 @@ class CPO_Theme {
 
 		if ( is_customize_preview() ) {
 			$url  = 'themes.php?page=%1$s-welcome&tab=%2$s';
-			$html = '<a class="button button-primary" id="" href="' . esc_url( admin_url( sprintf( $url, 'antreas_pro', 'recommended-actions' ) ) ) . '">' . __( 'Import Demo Content', 'antreas' ) . '</a>';
+			$html = '<a class="button button-primary" id="" href="' . esc_url( admin_url( sprintf( $url, 'antreas', 'recommended-actions' ) ) ) . '">' . __( 'Import Demo Content', 'antreas' ) . '</a>';
 		} else {
 			$html  = '<p><a class="button button-primary cpo-import-button epsilon-ajax-button" data-action="import_demo" id="add_default_sections" href="#">' . __( 'Import Demo Content', 'antreas' ) . '</a>';
 			$html .= '<a class="button epsilon-hidden-content-toggler" href="#welcome-hidden-content">' . __( 'Advanced', 'antreas' ) . '</a></p>';
@@ -182,7 +182,7 @@ class CPO_Theme {
 	}
 
 	public function import_option() {
-		return 'antreas_pro_content_imported';
+		return 'antreas_content_imported';
 	}
 
 }

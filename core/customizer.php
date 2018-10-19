@@ -14,7 +14,27 @@ function cpotheme_customizer( $customize ) {
 	//Add sections to the customizer
 	$settings = cpotheme_metadata_sections();
 	foreach ( $settings as $setting_id => $setting_data ) {
-		$customize->add_section( $setting_id, $setting_data );
+
+		if ( isset( $setting_data['type'] ) ) {
+
+			switch ( $setting_data['type'] ) {
+				case 'epsilon-section-pro':
+					$customize->add_section(
+						new Epsilon_Section_Pro(
+							$customize,
+							$setting_id,
+							$setting_data
+						)
+					);
+					break;
+
+				default:
+					$customize->add_section( $setting_id, $setting_data );
+					break;
+			}
+		} else {
+			$customize->add_section( $setting_id, $setting_data );
+		}
 	}
 
 	$customize->get_section( 'title_tagline' )->panel     = 'cpotheme_management';
@@ -103,6 +123,9 @@ function cpotheme_customizer( $customize ) {
 					break;
 				case 'collection':
 					$customize->add_control( new CPO_Customize_Collection_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					break;
+				case 'epsilon-upsell':
+					$customize->add_control( new Epsilon_Control_Upsell( $customize, 'cpotheme_' . $control_id, $args ) );
 					break;
 				case 'sortable':
 					$customize->add_control( new CPO_Customize_Sortable_Control( $customize, 'cpotheme_' . $control_id, $args ) );

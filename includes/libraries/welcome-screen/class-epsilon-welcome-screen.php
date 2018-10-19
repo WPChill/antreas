@@ -381,7 +381,7 @@ class Epsilon_Welcome_Screen {
 		$notifications = Epsilon_Notifications::get_instance();
 		$notifications->add_notice(
 			array(
-				'id'      => 'antreas_pro_welcome_notification',
+				'id'      => 'antreas_welcome_notification',
 				'type'    => 'notice epsilon-big',
 				'message' => $this->notice,
 			)
@@ -522,6 +522,12 @@ class Epsilon_Welcome_Screen {
 				'url'   => $this->generate_admin_url( 'support' ),
 				'label' => __( 'Support', 'epsilon-framework' ),
 				'path'  => get_template_directory() . '/includes/libraries/welcome-screen/sections/support.php',
+			),
+			'features'            => array(
+				'id'    => 'features',
+				'url'   => $this->generate_admin_url( 'features' ),
+				'label' => __( 'Lite VS PRO', 'epsilon-framework' ),
+				'path'  => get_template_directory() . '/includes/libraries/welcome-screen/sections/features.php',
 			),
 			'registration'        => array(
 				'id'    => 'registration',

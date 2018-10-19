@@ -12,10 +12,10 @@ $count          = $this->count_actions();
 		<p><?php esc_html_e( 'Make sure you implement all of our recommended actions.', 'antreas' ); ?></p>
 		<?php if ( $count == 0 ) { ?>
 			<p><span class="dashicons dashicons-yes"></span>
-				<a href="<?php echo admin_url( 'themes.php?page=antreas_pro-welcome&tab=recommended-actions' ); ?>"><?php esc_html_e( 'No recommended actions left to perform', 'antreas' ); ?></a>
+				<a href="<?php echo admin_url( 'themes.php?page=antreas-welcome&tab=recommended-actions' ); ?>"><?php esc_html_e( 'No recommended actions left to perform', 'antreas' ); ?></a>
 			</p>
 		<?php } else { ?>
-			<p><span class="dashicons dashicons-no-alt"></span> <a href="<?php echo admin_url( 'themes.php?page=antreas_pro-welcome&tab=recommended-actions' ); ?>"><?php esc_html_e( 'Check recommended actions', 'antreas' ); ?></a>
+			<p><span class="dashicons dashicons-no-alt"></span> <a href="<?php echo admin_url( 'themes.php?page=antreas-welcome&tab=recommended-actions' ); ?>"><?php esc_html_e( 'Check recommended actions', 'antreas' ); ?></a>
 			</p> 
 			<?php
 };
