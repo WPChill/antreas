@@ -290,7 +290,6 @@ function cpotheme_sanitize_bool( $data ) {
 
 //Return the URL to the premium theme page
 function cpotheme_upgrade_link( $name = 'Customizer' ) {
-	$url  = esc_url_raw( CPOTHEME_PREMIUM_URL . '?utm_source=allegiant&utm_medium=customizer&utm_campaign=upsell' );
-	$link = '<a target="_blank" href="' . $url . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>';
+	$url  = esc_url_raw( CPOTHEME_PREMIUM_URL . '?utm_source=antreas&utm_medium=customizer&utm_campaign=upsell' );
 	return $url;
 }

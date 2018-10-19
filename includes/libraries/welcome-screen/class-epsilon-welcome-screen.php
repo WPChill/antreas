@@ -529,12 +529,6 @@ class Epsilon_Welcome_Screen {
 				'label' => __( 'Lite VS PRO', 'epsilon-framework' ),
 				'path'  => get_template_directory() . '/includes/libraries/welcome-screen/sections/features.php',
 			),
-			'registration'        => array(
-				'id'    => 'registration',
-				'url'   => $this->generate_admin_url( 'registration' ),
-				'label' => __( 'Registration', 'epsilon-framework' ),
-				'path'  => get_template_directory() . '/includes/libraries/welcome-screen/sections/registration.php',
-			),
 		);
 
 		if ( 0 === count( $this->plugins ) ) {
