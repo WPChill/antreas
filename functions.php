@@ -21,7 +21,7 @@ define( 'CPOTHEME_USE_CLIENTS', true );
 define( 'CPOTHEME_USE_CONTACT', true );
 define( 'CPOTHEME_USE_ABOUT', true );
 define( 'CPOTHEME_PREMIUM_NAME', 'Antreas Pro' );
-define( 'CPOTHEME_PREMIUM_URL', '//www.cpothemes.com/theme/antreas' );
+define( 'CPOTHEME_PREMIUM_URL', 'www.machothemes.com/theme/antreas' );
 
 //Load Core; check existing core or load development core
 $core_path = get_template_directory() . '/core/';
