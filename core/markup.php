@@ -69,14 +69,9 @@ if ( ! function_exists( 'cpotheme_page_title' ) ) {
 //Displays the current page's title. Used in the main banner area.
 if ( ! function_exists( 'cpotheme_header_image' ) ) {
 	function cpotheme_header_image() {
-		$page_title = cpotheme_layout_title();
-		if ( $page_title != 'minimal' && $page_title != 'none' ) {
-			$url = apply_filters( 'cpotheme_header_image', get_header_image() );
-			if ( $url != '' ) {
-				return $url;
-			} else {
-				return false;
-			}
+		$url = apply_filters( 'cpotheme_header_image', get_header_image() );
+		if ( $url != '' ) {
+			return $url;
 		} else {
 			return false;
 		}
@@ -124,58 +119,11 @@ function cpotheme_body_class( $body_classes = '' ) {
 	$current_id = cpotheme_current_id();
 	$classes    = '';
 
-	//Layout Style
-	/*$layout_style = cpotheme_get_option('layout_style');
-	$classes .= ' wrapper-'.esc_attr($layout_style);*/
-
 	//Sidebar Layout
 	$classes .= ' sidebar-' . cpotheme_get_sidebar_position();
 
-	//Full Width Pages
-	if ( is_404() || is_search() ) {
-		$page_full = 0;
-	} elseif ( function_exists( 'is_shop' ) && is_shop() ) {
-		$page_full = get_post_meta( get_option( 'woocommerce_shop_page_id' ), 'page_full', true );
-	} elseif ( is_tax() || is_category() || is_tag() ) {
-		$page_full = cpotheme_tax_meta( $current_id, 'page_full' );
-	} else {
-		$page_full = get_post_meta( $current_id, 'page_full', true );
-	}
-
-	if ( $page_full == '1' ) {
-		$classes .= ' content-full';
-	}
-
-	//Header type
-	$header = cpotheme_layout_header();
-	if ( $header != '' || $header != 'normal' ) {
-		$classes .= ' header-' . $header;
-	}
-
-	//Title type
-	$title = cpotheme_layout_title();
-	if ( $title != '' || $title != 'normal' ) {
-		$classes .= ' title-' . $title;
-	}
-
-	// Title area type.
-	$title_area = cpotheme_layout_title_area();
-	if ( $title_area !== '' || $title_area !== 'normal' ) {
-		$classes .= ' titlearea-' . $title_area;
-	}
-
-	//Footer type
-	$footer = cpotheme_layout_footer();
-	if ( $footer != '' || $footer != 'normal' ) {
-		$classes .= ' footer-' . $footer;
-	}
-
 	if ( has_post_thumbnail() ) {
 		$classes .= ' has-post-thumbnail';
-	}
-
-	if ( is_customize_preview() ) {
-		$classes .= ' customizer-preview';
 	}
 
 	$body_classes[] = esc_attr( $classes );
@@ -515,98 +463,76 @@ if ( ! function_exists( 'cpotheme_layout_css' ) ) {
 	}
 }
 
-
-//Retrieve sidebar position (DEPRECATED)
-if ( ! function_exists( 'cpotheme_sidebar_position' ) ) {
-	function cpotheme_sidebar_position() {
-		$sidebar_position = cpotheme_get_option( 'sidebar_position' );
-		if ( $sidebar_position == 'left' ) {
-			echo 'content-right';
-		} elseif ( $sidebar_position == 'none' ) {
-			echo 'content-wide';
-		}
-	}
-}
-
-
 // Generates breadcrumb navigation
 if ( ! function_exists( 'cpotheme_breadcrumb' ) ) {
 	function cpotheme_breadcrumb( $display = false ) {
-		$page_title = cpotheme_layout_title();
-		if ( $page_title != 'minimal' && $page_title != 'none' ) {
-			if ( ! is_home() && ! is_front_page() && ( $display || true ) ) {
-				//Use WooCommerce navigation if it's a shop page
-				if ( function_exists( 'is_woocommerce' ) && function_exists( 'woocommerce_breadcrumb' ) && is_woocommerce() ) {
-					woocommerce_breadcrumb();
 
-					return;
-				}
+		if ( ! is_home() && ! is_front_page() && ( $display || true ) ) {
 
-				$result = '';
-				if ( function_exists( 'yoast_breadcrumb' ) ) {
-					$result = yoast_breadcrumb( '', '', false );
-				}
-
-				if ( $result == '' ) {
-					global $post;
-					if ( is_object( $post ) ) {
-						$pid = $post->ID;
-					} else {
-						$pid = '';
-					}
-					$result = '';
-
-					if ( $pid != '' ) {
-						$result = "<span class='breadcrumb-separator'></span>";
-						//Add post hierarchy
-						if ( is_singular() ) :
-							$post_data = get_post( $pid );
-							$result    .= "<span class='breadcrumb-title'>" . apply_filters( 'the_title', $post_data->post_title ) . "</span>\n";
-							//Add post hierarchy
-							while ( $post_data->post_parent ) :
-								$post_data = get_post( $post_data->post_parent );
-								$result    = "<span class='breadcrumb-separator'></span><a class='breadcrumb-link' href='" . get_permalink( $post_data->ID ) . "'>" . apply_filters( 'the_title', $post_data->post_title ) . "</a>\n" . $result;
-							endwhile;
-
-                        elseif ( is_tax() ) :
-							$result .= single_tag_title( '', false );
-
-                        elseif ( is_author() ) :
-							$author = get_userdata( get_query_var( 'author' ) );
-							$result .= $author->display_name;
-
-						//Prefix with a taxonomy if possible
-                        elseif ( is_category() ) :
-							$post_data = get_the_category( $pid );
-							if ( isset( $post_data[0] ) ) :
-								$data = get_category_parents( $post_data[0]->cat_ID, true, ' &raquo; ' );
-								if ( ! is_object( $data ) ) :
-									$result .= substr( $data, 0, - 8 );
-								endif;
-							endif;
-
-                        elseif ( is_search() ) :
-							$result .= __( 'Search Results', 'antreas' );
-						else :
-							if ( isset( $post->ID ) ) {
-								$current_id = $post->ID;
-							} else {
-								$current_id = false;
-							}
-							if ( $current_id ) {
-								$result .= get_the_title( $current_id );
-							}
-						endif;
-					} elseif ( is_404() ) {
-						$result = "<span class='breadcrumb-separator'></span>";
-						$result .= __( 'Page Not Found', 'antreas' );
-					}
-					$result = '<a class="breadcrumb-link" href="' . home_url() . '">' . __( 'Home', 'antreas' ) . '</a>' . $result;
-				}
-
-				$output = '<div id="breadcrumb" class="breadcrumb">' . $result . '</div>';
-				echo $output;
+			$result = '';
+			if ( function_exists( 'yoast_breadcrumb' ) ) {
+				$result = yoast_breadcrumb( '', '', false );
 			}
+
+			if ( $result == '' ) {
+				global $post;
+				if ( is_object( $post ) ) {
+					$pid = $post->ID;
+				} else {
+					$pid = '';
+				}
+				$result = '';
+
+				if ( $pid != '' ) {
+					$result = "<span class='breadcrumb-separator'></span>";
+					//Add post hierarchy
+					if ( is_singular() ) :
+						$post_data = get_post( $pid );
+						$result    .= "<span class='breadcrumb-title'>" . apply_filters( 'the_title', $post_data->post_title ) . "</span>\n";
+						//Add post hierarchy
+						while ( $post_data->post_parent ) :
+							$post_data = get_post( $post_data->post_parent );
+							$result    = "<span class='breadcrumb-separator'></span><a class='breadcrumb-link' href='" . get_permalink( $post_data->ID ) . "'>" . apply_filters( 'the_title', $post_data->post_title ) . "</a>\n" . $result;
+						endwhile;
+
+					elseif ( is_tax() ) :
+						$result .= single_tag_title( '', false );
+
+					elseif ( is_author() ) :
+						$author = get_userdata( get_query_var( 'author' ) );
+						$result .= $author->display_name;
+
+					//Prefix with a taxonomy if possible
+					elseif ( is_category() ) :
+						$post_data = get_the_category( $pid );
+						if ( isset( $post_data[0] ) ) :
+							$data = get_category_parents( $post_data[0]->cat_ID, true, ' &raquo; ' );
+							if ( ! is_object( $data ) ) :
+								$result .= substr( $data, 0, - 8 );
+							endif;
+						endif;
+
+					elseif ( is_search() ) :
+						$result .= __( 'Search Results', 'antreas' );
+					else :
+						if ( isset( $post->ID ) ) {
+							$current_id = $post->ID;
+						} else {
+							$current_id = false;
+						}
+						if ( $current_id ) {
+							$result .= get_the_title( $current_id );
+						}
+					endif;
+				} elseif ( is_404() ) {
+					$result = "<span class='breadcrumb-separator'></span>";
+					$result .= __( 'Page Not Found', 'antreas' );
+				}
+				$result = '<a class="breadcrumb-link" href="' . home_url() . '">' . __( 'Home', 'antreas' ) . '</a>' . $result;
+			}
+
+			$output = '<div id="breadcrumb" class="breadcrumb">' . $result . '</div>';
+			echo $output;
 		}
 	}
 }
@@ -686,39 +612,35 @@ if ( ! function_exists( 'cpotheme_postpage_content' ) ) {
 //Displays the post date
 if ( ! function_exists( 'cpotheme_postpage_date' ) ) {
 	function cpotheme_postpage_date( $display = false, $date_format = '', $format_text = '' ) {
-		if ( $display || cpotheme_get_option( 'postpage_dates' ) === true ) {
-			if ( $date_format != '' ) {
-				$date_string = get_the_date( $date_format );
-			} else {
-				$date_format = get_option( 'date_format' );
-				$date_string = get_the_date( $date_format );
-			}
-			if ( $format_text != '' ) {
-				$date_string = sprintf( $format_text, $date_string );
-			}
-			echo '<div class="post-date">' . $date_string . '</div>';
+		if ( $date_format != '' ) {
+			$date_string = get_the_date( $date_format );
+		} else {
+			$date_format = get_option( 'date_format' );
+			$date_string = get_the_date( $date_format );
 		}
+		if ( $format_text != '' ) {
+			$date_string = sprintf( $format_text, $date_string );
+		}
+		echo '<div class="post-date">' . $date_string . '</div>';
 	}
 }
 
 //Displays the author link
 if ( ! function_exists( 'cpotheme_postpage_author' ) ) {
 	function cpotheme_postpage_author( $display = false, $format_text = '' ) {
-		if ( $display || cpotheme_get_option( 'postpage_authors' ) === true ) {
-			$author_alt = sprintf( esc_attr__( 'View all posts by %s', 'antreas' ), get_the_author() );
-			$author     = sprintf( '<a href="%1$s" title="%2$s">%3$s</a>', get_author_posts_url( get_the_author_meta( 'ID' ) ), $author_alt, get_the_author() );
-			if ( $format_text != '' ) {
-				$author = sprintf( $format_text, $author );
-			}
-			echo '<div class="post-author">' . $author . '</div>';
+		$author_alt = sprintf( esc_attr__( 'View all posts by %s', 'antreas' ), get_the_author() );
+		$author     = sprintf( '<a href="%1$s" title="%2$s">%3$s</a>', get_author_posts_url( get_the_author_meta( 'ID' ) ), $author_alt, get_the_author() );
+		if ( $format_text != '' ) {
+			$author = sprintf( $format_text, $author );
 		}
+		echo '<div class="post-author">' . $author . '</div>';
 	}
 }
 
 //Displays the category list for the current post
 if ( ! function_exists( 'cpotheme_postpage_categories' ) ) {
 	function cpotheme_postpage_categories( $display = false, $format_text = '' ) {
-		if ( $display || cpotheme_get_option( 'postpage_categories' ) === true ) {
+		if ( $display || true ) {
 			$category_list = get_the_category_list( ', ' );
 			if ( $format_text != '' ) {
 				$category_list = sprintf( $format_text, $category_list );
@@ -731,7 +653,7 @@ if ( ! function_exists( 'cpotheme_postpage_categories' ) ) {
 //Displays the number of comments for the post
 if ( ! function_exists( 'cpotheme_postpage_comments' ) ) {
 	function cpotheme_postpage_comments( $display_always = false, $format_text = '' ) {
-		if ( $display_always || cpotheme_get_option( 'postpage_comments' ) === true ) {
+		if ( $display_always || true ) {
 			$comments_num = get_comments_number();
 
 			//Format comment texts
@@ -756,7 +678,7 @@ if ( ! function_exists( 'cpotheme_postpage_comments' ) ) {
 //Displays the post tags
 if ( ! function_exists( 'cpotheme_postpage_tags' ) ) {
 	function cpotheme_postpage_tags( $display = false, $before = '', $separator = ', ', $after = '' ) {
-		if ( $display || cpotheme_get_option( 'postpage_tags' ) === true ) {
+		if ( $display || true ) {
 			echo '<div class="post-tags">';
 			the_tags( $before, $separator, $after );
 			echo '</div>';
@@ -780,7 +702,7 @@ if ( ! function_exists( 'cpotheme_postpage_readmore' ) ) {
 //Displays the author box
 if ( ! function_exists( 'cpotheme_author' ) ) {
 	function cpotheme_author() {
-		if ( cpotheme_get_option( 'postpage_authors' ) === true && get_the_author_meta( 'description' ) ) {
+		if ( get_the_author_meta( 'description' ) ) {
 			if ( function_exists( 'ts_fab_add_author_box' ) ) {
 				echo ts_fab_add_author_box( '' );
 			} else {
@@ -974,23 +896,20 @@ if ( ! function_exists( 'cpotheme_post_pagination' ) ) {
 //Prints the main navigation menu
 if ( ! function_exists( 'cpotheme_menu' ) ) {
 	function cpotheme_menu( $options = null ) {
-		$page_header = cpotheme_layout_header();
-		if ( $page_header != 'minimal' && $page_header != 'none' ) {
-			if ( has_nav_menu( 'main_menu' ) ) {
-				if ( isset( $options['toggle'] ) && $options['toggle'] == true ) {
-					cpotheme_menu_toggle();
-				}
-				wp_nav_menu(
-					array(
-						'menu_id'        => 'menu-main',
-						'menu_class'     => 'menu-main',
-						'theme_location' => 'main_menu',
-						'depth'          => '4',
-						'container'      => false,
-					)
-				);
+		if ( has_nav_menu( 'main_menu' ) ) {
+			if ( isset( $options['toggle'] ) && $options['toggle'] == true ) {
+				cpotheme_menu_toggle();
 			}
-		}
+			wp_nav_menu(
+				array(
+					'menu_id'        => 'menu-main',
+					'menu_class'     => 'menu-main',
+					'theme_location' => 'main_menu',
+					'depth'          => '4',
+					'container'      => false,
+				)
+			);
+		}	
 	}
 }
 
@@ -999,32 +918,29 @@ if ( ! function_exists( 'cpotheme_menu' ) ) {
 if ( ! function_exists( 'cpotheme_mobile_menu' ) ) {
 	add_action( 'wp_footer', 'cpotheme_mobile_menu' );
 	function cpotheme_mobile_menu( $options = null ) {
-		$page_header = cpotheme_layout_header();
-		if ( $page_header != 'minimal' && $page_header != 'none' ) {
-			//Use mobile menu if set, or fall back to the main menu
-			if ( has_nav_menu( 'mobile_menu' ) ) {
-				echo '<div id="menu-mobile-close" class="menu-mobile-close menu-mobile-toggle"></div>';
-				wp_nav_menu(
-					array(
-						'menu_id'        => 'menu-mobile',
-						'menu_class'     => 'menu-mobile',
-						'theme_location' => 'mobile_menu',
-						'depth'          => '4',
-						'container'      => false,
-					)
-				);
-			} elseif ( has_nav_menu( 'main_menu' ) ) {
-				echo '<div id="menu-mobile-close" class="menu-mobile-close menu-mobile-toggle"></div>';
-				wp_nav_menu(
-					array(
-						'menu_id'        => 'menu-mobile',
-						'menu_class'     => 'menu-mobile',
-						'theme_location' => 'main_menu',
-						'depth'          => '4',
-						'container'      => false,
-					)
-				);
-			}
+		//Use mobile menu if set, or fall back to the main menu
+		if ( has_nav_menu( 'mobile_menu' ) ) {
+			echo '<div id="menu-mobile-close" class="menu-mobile-close menu-mobile-toggle"></div>';
+			wp_nav_menu(
+				array(
+					'menu_id'        => 'menu-mobile',
+					'menu_class'     => 'menu-mobile',
+					'theme_location' => 'mobile_menu',
+					'depth'          => '4',
+					'container'      => false,
+				)
+			);
+		} elseif ( has_nav_menu( 'main_menu' ) ) {
+			echo '<div id="menu-mobile-close" class="menu-mobile-close menu-mobile-toggle"></div>';
+			wp_nav_menu(
+				array(
+					'menu_id'        => 'menu-mobile',
+					'menu_class'     => 'menu-mobile',
+					'theme_location' => 'main_menu',
+					'depth'          => '4',
+					'container'      => false,
+				)
+			);
 		}
 	}
 }
@@ -1033,11 +949,8 @@ if ( ! function_exists( 'cpotheme_mobile_menu' ) ) {
 //Prints the main navigation menu
 if ( ! function_exists( 'cpotheme_menu_toggle' ) ) {
 	function cpotheme_menu_toggle() {
-		$page_header = cpotheme_layout_header();
-		if ( $page_header != 'minimal' && $page_header != 'none' ) {
-			if ( has_nav_menu( 'main_menu' ) ) {
-				echo '<div id="menu-mobile-open" class=" menu-mobile-open menu-mobile-toggle"></div>';
-			}
+		if ( has_nav_menu( 'main_menu' ) ) {
+			echo '<div id="menu-mobile-open" class=" menu-mobile-open menu-mobile-toggle"></div>';
 		}
 	}
 }
@@ -1066,21 +979,18 @@ if ( ! function_exists( 'cpotheme_top_menu' ) ) {
 //Prints the footer navigation menu
 if ( ! function_exists( 'cpotheme_footer_menu' ) ) {
 	function cpotheme_footer_menu() {
-		$page_footer = cpotheme_layout_footer();
-		if ( $page_footer != 'minimal' && $page_footer != 'none' ) {
-			if ( has_nav_menu( 'footer_menu' ) ) {
-				echo '<div id="footermenu" class="footermenu">';
-				wp_nav_menu(
-					array(
-						'menu_class'     => 'menu-footer',
-						'theme_location' => 'footer_menu',
-						'depth'          => 1,
-						'fallback_cb'    => false,
-						'walker'         => new Cpotheme_Menu_Walker(),
-					)
-				);
-				echo '</div>';
-			}
+		if ( has_nav_menu( 'footer_menu' ) ) {
+			echo '<div id="footermenu" class="footermenu">';
+			wp_nav_menu(
+				array(
+					'menu_class'     => 'menu-footer',
+					'theme_location' => 'footer_menu',
+					'depth'          => 1,
+					'fallback_cb'    => false,
+					'walker'         => new Cpotheme_Menu_Walker(),
+				)
+			);
+			echo '</div>';
 		}
 	}
 }

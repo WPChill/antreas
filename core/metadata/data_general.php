@@ -1,25 +1,5 @@
 <?php
 
-function cpotheme_metadata_revsliders() {
-	$cpotheme_data = array();
-
-	global $wpdb;
-	$table_name = $wpdb->prefix . 'revslider_sliders';
-	if ( $wpdb->get_var( "SHOW TABLES LIKE '$table_name'" ) == $table_name ) {
-		$cpotheme_data[0] = __( '(Select a Slider...)', 'antreas' );
-		$slider_list      = $wpdb->get_results( "SELECT * FROM $table_name" );
-		if ( $slider_list ) {
-			foreach ( $slider_list as $current_slider ) {
-				$cpotheme_data[ $current_slider->alias ] = $current_slider->title;
-			}
-		}
-	} else {
-		$cpotheme_data[0] = __( '(Revolution Slider is not Active)', 'antreas' );
-	}
-
-	return $cpotheme_data;
-}
-
 
 if ( ! function_exists( 'cpotheme_metadata_color_scheme' ) ) {
 	function cpotheme_metadata_color_scheme() {
@@ -44,35 +24,23 @@ if ( ! function_exists( 'cpotheme_metadata_layoutstyle' ) ) {
 	}
 }
 
-
 function cpotheme_metadata_sidebarposition() {
 	$core_path = get_template_directory_uri() . '/core/';
-	if ( defined( 'CPOTHEME_CORE_URL' ) ) {
-		$core_path = CPOTHEME_CORE_URL;
+	if ( defined( 'CPOTHEME_CORELITE_URL' ) ) {
+		$core_path = CPOTHEME_CORELITE_URL;
 	}
 	$cpotheme_data = array(
-		'none'         => $core_path . '/images/admin/sidebar_position_none.gif',
-		'narrow'       => $core_path . '/images/admin/sidebar_position_narrow.gif',
-		'right'        => $core_path . '/images/admin/sidebar_position_right.gif',
-		'left'         => $core_path . '/images/admin/sidebar_position_left.gif',
-		'double'       => $core_path . '/images/admin/sidebar_position_double.gif',
-		'double-left'  => $core_path . '/images/admin/sidebar_position_dleft.gif',
-		'double-right' => $core_path . '/images/admin/sidebar_position_dright.gif',
+		'right' => $core_path . '/images/admin/sidebar_position_right.gif',
+		'none'  => $core_path . '/images/admin/sidebar_position_none.gif',
 	);
 
 	return $cpotheme_data;
 }
 
-
 function cpotheme_metadata_sidebarposition_text() {
 	$cpotheme_data = array(
 		'none'         => __( 'No sidebar', 'antreas' ),
-		'narrow'       => __( 'No sidebar (narrow)', 'antreas' ),
 		'right'        => __( 'Right sidebar', 'antreas' ),
-		'left'         => __( 'Left sidebar', 'antreas' ),
-		'double'       => __( 'Two opposite sidebars', 'antreas' ),
-		'double-left'  => __( 'Two left sidebars', 'antreas' ),
-		'double-right' => __( 'Two right sidebars', 'antreas' ),
 	);
 
 	return $cpotheme_data;
@@ -222,50 +190,6 @@ function cpotheme_metadata_columns() {
 
 	return $cpotheme_data;
 }
-
-
-function cpotheme_metadata_page_header() {
-	$cpotheme_data = array(
-		'normal'  => __( 'Normal Header', 'antreas' ),
-		'minimal' => __( 'Minimal Header', 'antreas' ),
-		'none'    => __( 'No Header', 'antreas' ),
-	);
-
-	return $cpotheme_data;
-}
-
-
-function cpotheme_metadata_page_title() {
-	$cpotheme_data = array(
-		'normal'  => __( 'Normal Title', 'antreas' ),
-		'minimal' => __( 'Minimal Title', 'antreas' ),
-		'none'    => __( 'No Title', 'antreas' ),
-	);
-
-	return $cpotheme_data;
-}
-
-
-function cpotheme_metadata_page_title_area() {
-	$cpotheme_data = array(
-		'normal'  => __( 'Normal Title Area', 'antreas' ),
-		'large' => __( 'Large Title Area', 'antreas' ),
-	);
-
-	return $cpotheme_data;
-}
-
-
-function cpotheme_metadata_page_footer() {
-	$cpotheme_data = array(
-		'normal'  => __( 'Normal Footer', 'antreas' ),
-		'minimal' => __( 'Minimal Footer', 'antreas' ),
-		'none'    => __( 'No Footer', 'antreas' ),
-	);
-
-	return $cpotheme_data;
-}
-
 
 function cpotheme_metadata_media() {
 	$cpotheme_data = array(

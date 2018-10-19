@@ -20,7 +20,7 @@
 
 			<?php $query = new WP_Query( 'post_type=post&paged=' . cpotheme_current_page() . '&posts_per_page=' . get_option( 'posts_per_page' ) ); ?>
 			<?php if ( $query->posts ) : ?>
-				<?php cpotheme_grid( $query->posts, 'element', 'blog', cpotheme_get_option( 'blog_columns' ), array( 'class' => 'column-narrow' ) ); ?>
+				<?php cpotheme_grid( $query->posts, 'element', 'blog', 2, array( 'class' => 'column-narrow' ) ); ?>
 				<?php cpotheme_numbered_pagination( $query ); ?>
 				<?php wp_reset_postdata(); ?>
 			<?php endif; ?>

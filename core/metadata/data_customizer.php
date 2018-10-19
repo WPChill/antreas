@@ -411,7 +411,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		//Blog Posts
 		$data['home_posts'] = array(
 			'label'    => __( 'Enable Posts On Homepage', 'antreas' ),
-			'section'  => 'cpotheme_layout_home',
+			'section'  => 'cpotheme_layout_posts',
 			'type'     => 'checkbox',
 			'sanitize' => 'cpotheme_sanitize_bool',
 			'default'  => true,
@@ -428,60 +428,12 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			'partials'     => '#main .section-title',
 		);
 
-		$data['blog_columns'] = array(
-			'label'   => __( 'Posts Columns', 'antreas' ),
-			'section' => 'cpotheme_layout_posts',
-			'type'    => 'select',
-			'choices' => cpotheme_metadata_columns(),
-			'default' => 3,
-		);
-
 		$data['postpage_preview'] = array(
 			'label'   => __( 'Content In Post Listings', 'antreas' ),
 			'section' => 'cpotheme_layout_posts',
 			'type'    => 'select',
 			'choices' => cpotheme_metadata_post_preview(),
 			'default' => 'excerpt',
-		);
-
-		$data['postpage_dates'] = array(
-			'label'    => __( 'Enable Post Dates', 'antreas' ),
-			'section'  => 'cpotheme_layout_posts',
-			'type'     => 'checkbox',
-			'sanitize' => 'cpotheme_sanitize_bool',
-			'default'  => true,
-		);
-
-		$data['postpage_authors'] = array(
-			'label'    => __( 'Enable Post Authors', 'antreas' ),
-			'section'  => 'cpotheme_layout_posts',
-			'type'     => 'checkbox',
-			'sanitize' => 'cpotheme_sanitize_bool',
-			'default'  => true,
-		);
-
-		$data['postpage_comments'] = array(
-			'label'    => __( 'Enable Comment Count', 'antreas' ),
-			'section'  => 'cpotheme_layout_posts',
-			'type'     => 'checkbox',
-			'sanitize' => 'cpotheme_sanitize_bool',
-			'default'  => true,
-		);
-
-		$data['postpage_categories'] = array(
-			'label'    => __( 'Enable Post Categories', 'antreas' ),
-			'section'  => 'cpotheme_layout_posts',
-			'type'     => 'checkbox',
-			'sanitize' => 'cpotheme_sanitize_bool',
-			'default'  => true,
-		);
-
-		$data['postpage_tags'] = array(
-			'label'    => __( 'Enable Post Tags', 'antreas' ),
-			'section'  => 'cpotheme_layout_posts',
-			'type'     => 'checkbox',
-			'sanitize' => 'cpotheme_sanitize_bool',
-			'default'  => true,
 		);
 
 		return apply_filters( 'cpotheme_customizer_controls', $data );
