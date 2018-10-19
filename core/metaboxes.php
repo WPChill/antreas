@@ -43,26 +43,37 @@ function cpotheme_metaboxes() {
 //Display and save post metaboxes
 function cpotheme_metabox_layout( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_layout_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s for multiple sidebar layouts, control over the header/title/footer.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 }
 function cpotheme_metabox_slide( $post ) {
-	cpotheme_meta_fields( $post, cpotheme_metadata_slide_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to control the position and appearance of slides, as well as adding captions, foreground images, buttons, overlays.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 }
 function cpotheme_metabox_feature( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_feature_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to control the linking of feature blocks and access multiple icon libraries.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 }
 function cpotheme_metabox_portfolio( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_portfolio_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to control the layout of portfolio items.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
+}
+function cpotheme_metabox_product( $post ) {
+	cpotheme_meta_fields( $post, cpotheme_metadata_product_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to control the layout of products.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 }
 function cpotheme_metabox_service( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_service_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to control the layout of services and access multiple icon libraries.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 }
 function cpotheme_metabox_client( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_client_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to link client items to a URL.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 }
 function cpotheme_metabox_team( $post ) {
 	cpotheme_meta_fields( $post, cpotheme_metadata_team_options() );
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to add descriptions and social links to team members.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 }
 function cpotheme_metabox_testimonial( $post ) {
+	cpotheme_meta_message( sprintf( __( 'Upgrade to %s to add descriptions to testimonials.', 'antreas' ), '<a target="_blank" href="' . esc_url( CPOTHEME_PREMIUM_URL ) . '">' . esc_attr( CPOTHEME_PREMIUM_NAME ) . '</a>' ) );
 	cpotheme_meta_fields( $post, cpotheme_metadata_testimonial_options() );
 }
 function cpotheme_metabox_page( $post ) {

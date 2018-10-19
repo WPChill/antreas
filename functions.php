@@ -7,6 +7,7 @@ define( 'CPOTHEME_ID', 'antreas' );
 define( 'CPOTHEME_NAME', $theme['Name'] );
 define( 'CPOTHEME_VERSION', $theme['Version'] );
 
+
 //Other constants
 define( 'CPOTHEME_LOGO_WIDTH', '90' );
 define( 'CPOTHEME_USE_SLIDES', true );
@@ -19,6 +20,8 @@ define( 'CPOTHEME_USE_TEAM', true );
 define( 'CPOTHEME_USE_CLIENTS', true );
 define( 'CPOTHEME_USE_CONTACT', true );
 define( 'CPOTHEME_USE_ABOUT', true );
+define( 'CPOTHEME_PREMIUM_NAME', 'Antreas Pro' );
+define( 'CPOTHEME_PREMIUM_URL', '//www.cpothemes.com/theme/antreas' );
 
 //Load Core; check existing core or load development core
 $core_path = get_template_directory() . '/core/';

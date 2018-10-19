@@ -119,3 +119,9 @@ if ( ! function_exists( 'cpotheme_meta_save' ) ) {
 		}
 	}
 }
+
+if ( ! function_exists( 'cpotheme_meta_message' ) ) {
+	function cpotheme_meta_message( $message ) {
+		echo '<div class="cpometabox-message">' . $message . '</div>';
+	}
+}

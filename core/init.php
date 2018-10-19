@@ -22,7 +22,7 @@ if ( ! function_exists( 'cpotheme_setup' ) ) {
 		if ( ! defined( 'CPOTHEME_CORE_URL' ) ) {
 			define( 'CPOTHEME_CORE_URL', get_template_directory_uri() . '/core' );
 		}
-
+		
 		//Add custom image size
 		$thumbnail_sizes  = get_option( 'cpotheme_thumbnail', '' );
 		$thumbnail_width  = isset( $thumbnail_sizes['width'] ) && $thumbnail_sizes['width'] != '' ? $thumbnail_sizes['width'] : CPOTHEME_THUMBNAIL_WIDTH;
