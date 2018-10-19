@@ -100,7 +100,7 @@ class Epsilon_Welcome_Screen {
 		$defaults = array(
 			'theme-name'  => $theme->get( 'Name' ),
 			'theme-slug'  => $theme->get( 'TextDomain' ),
-			'author-logo' => get_template_directory_uri() . '/includes/libraries/welcome-screen/img/logo-cpothemes.png',
+			'author-logo' => get_template_directory_uri() . '/includes/libraries/welcome-screen/img/logo-machothemes.png',
 			'actions'     => array(),
 			'plugins'     => array(),
 			'notice'      => '',
