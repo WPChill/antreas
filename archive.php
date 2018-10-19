@@ -15,7 +15,7 @@
 				<?php if ( is_author() ) : ?>
 					<?php cpotheme_author(); ?>
 				<?php endif; ?>
-				<?php cpotheme_grid( null, 'element', 'blog', cpotheme_get_option( 'blog_columns' ), array( 'class' => 'column-narrow' ) ); ?>
+				<?php cpotheme_grid( null, 'element', 'blog', 2, array( 'class' => 'column-narrow' ) ); ?>
 				<?php cpotheme_numbered_pagination(); ?>
 			<?php endif; ?>
 			
