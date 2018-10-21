@@ -298,7 +298,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Extend the Tagline Section', 'antreas' ),
-				
+
 				),
 				'requirements'       => array(
 					esc_html__( 'add images and buttons to the tagline', 'antreas' ),
@@ -336,7 +336,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 
 		//Homepage Features
 		if ( defined( 'CPOTHEME_USE_FEATURES' ) && CPOTHEME_USE_FEATURES == true ) {
-	
+
 			$data['features_upsell'] = array(
 				'section'            => 'cpotheme_layout_features',
 				'type'               => 'epsilon-upsell',
@@ -358,7 +358,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
-			
+
 			$data['home_features'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
 				'section'      => 'cpotheme_layout_features',
@@ -373,7 +373,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 
 		//Portfolio layout
 		if ( defined( 'CPOTHEME_USE_PORTFOLIO' ) && CPOTHEME_USE_PORTFOLIO == true ) {
-		
+
 			$data['portfolio_upsell'] = array(
 				'section'            => 'cpotheme_layout_portfolio',
 				'type'               => 'epsilon-upsell',
@@ -448,11 +448,9 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
-					esc_html__( 'About Columns', 'antreas' ),
 				),
 				'requirements'       => array(
 					esc_html__( 'For each section, apart from title one you can also add a description for users to better understand your sections content', 'antreas' ),
-					esc_html__( 'You can select how many columns to be displayed.', 'antreas' ),
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
@@ -472,31 +470,17 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				'partials'     => '#about .section-title',
 			);
 
-			$data['about_content_column_1'] = array(
-				'label'        => __( 'First column content', 'antreas' ),
+			$data['about_pages'] = array(
+				'label'        => __( 'About Pages', 'antreas' ),
+				'description'  => __( 'Select the pages that will be displayed as columns', 'antreas' ),
 				'section'      => 'cpotheme_layout_about',
-				'multilingual' => true,
-				'sanitize'     => 'wp_kses_post',
-				'type'         => 'cpo_tinymce_editor',
-				'partials'     => '#about .column:nth-child(1)',
-			);
-
-			$data['about_content_column_2'] = array(
-				'label'        => __( 'Second column content', 'antreas' ),
-				'section'      => 'cpotheme_layout_about',
-				'multilingual' => true,
-				'sanitize'     => 'wp_kses_post',
-				'type'         => 'cpo_tinymce_editor',
-				'partials'     => '#about .column:nth-child(2)',
-			);
-
-			$data['about_content_column_3'] = array(
-				'label'        => __( 'Third column content', 'antreas' ),
-				'section'      => 'cpotheme_layout_about',
-				'multilingual' => true,
-				'sanitize'     => 'wp_kses_post',
-				'type'         => 'cpo_tinymce_editor',
-				'partials'     => '#about .column:nth-child(3)',
+				'type'         => 'selectize',
+				'choices' => 'pages',
+				'input_attrs' => array(
+					'maxItems' => 4
+				),
+				'default'      => array(),
+				'partials'     => '#about .about__content',
 			);
 		}
 
@@ -629,7 +613,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 
 			$data['home_contact_custom_control']   = array(
 				'section'  => 'cpotheme_layout_contact',
-				'type'     => 'cpo_contact_control',
+				'type'     => 'contactform',
 			);
 		}
 
@@ -717,7 +701,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 			'separator'          => '- or -',
 		);
-		
+
 		$data['color_settings'] = array(
 			'label'       => __( 'Color Options', 'antreas' ),
 			'description' => __( 'Customize the colors of primary and secondary elements, as well as headings, navigation, and text.', 'antreas' ),

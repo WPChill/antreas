@@ -128,35 +128,36 @@ function cpotheme_customizer( $customize ) {
 					$customize->add_control( new Epsilon_Control_Upsell( $customize, 'cpotheme_' . $control_id, $args ) );
 					break;
 				case 'sortable':
-					$customize->add_control( new CPO_Customize_Sortable_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$customize->add_control( new CPOTheme_Customize_Sortable_Control( $customize, 'cpotheme_' . $control_id, $args ) );
 					break;
-				case 'checkbox':
-					$args['type'] = 'epsilon-toggle';
-					$customize->add_control( new Epsilon_Control_Toggle( $customize, 'cpotheme_' . $control_id, $args ) );
+				case 'selectize':
+					$args['type'] = 'cpotheme-selectize-control';
+					$customize->add_control( new CPOTheme_Customize_Selectize_Control( $customize, 'cpotheme_' . $control_id, $args ) );
 					break;
-				case 'cpo_tinymce_editor':
-					$customize->add_control( new CPO_Customize_Tinymce_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+				case 'tinymce':
+					$args['type'] = 'cpotheme-tinymce-control';
+					$customize->add_control( new CPOTheme_Customize_Tinymce_Control( $customize, 'cpotheme_' . $control_id, $args ) );
 					break;
-				case 'cpo_contact_control':
+				case 'contactform':
+					$args['type'] = 'cpotheme-contactform-control';
+
 					//this custom customizer control has 2 customizer settings
-					$customize->add_setting( 'cpotheme_settings[plugin_select]' , array(
-						'type' => 'option'
-					) );
-					$customize->add_setting( 'cpotheme_settings[form_id]' , array(
-						'type' => 'option',
-					) );
+					$customize->add_setting( 'cpotheme_settings[plugin_select]', array( 'type' => 'option' ) );
+					$customize->add_setting( 'cpotheme_settings[form_id]', array( 'type' => 'option' ) );
+
 					$args['settings'] = array(
 						'plugin_select' => 'cpotheme_settings[plugin_select]',
-						'form_id' => 'cpotheme_settings[form_id]',
+						'form_id'       => 'cpotheme_settings[form_id]',
 					);
-		 
-					$customize->add_control( new CPO_Customize_Contact_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+
+					$customize->add_control( new CPOTheme_Customize_ContactForm_Control( $customize, 'cpotheme_' . $control_id, $args ) );
 					break;
 			}
 
 			if ( $partial_selector != '' ) {
 				$customize->selective_refresh->add_partial(
-					'cpotheme_' . $control_id, array(
+					'cpotheme_' . $control_id,
+					array(
 						'selector' => $partial_selector,
 						'settings' => array( $option_array . '[' . $setting_id . ']' ),
 					)
@@ -166,16 +167,11 @@ function cpotheme_customizer( $customize ) {
 	}
 
 	$customize->selective_refresh->add_partial(
-		'blogname', array(
+		'blogname',
+		array(
 			'selector' => '#logo .site-title a',
 			'settings' => array( 'blogname' ),
 		)
 	);
 
 }
-
-
-function cpotheme_customize_preview_init() {
-	wp_enqueue_style( 'cpotheme-customizer-preview', get_template_directory_uri() . '/core/css/customizer-preview.css' );
-}
-add_action( 'customize_preview_init', 'cpotheme_customize_preview_init' );

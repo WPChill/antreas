@@ -3,19 +3,10 @@ if ( ! class_exists( 'WP_Customize_Control' ) ) {
 	return null;
 }
 
-class CPO_Customize_Tinymce_Control extends WP_Customize_Control {
-
-	/**
-	 * The type of customize control being rendered.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @var    string
-	 */
-	public $type = 'cpo_tinymce_editor';
+class CPOTheme_Customize_Tinymce_Control extends WP_Customize_Control {
 
 	public function enqueue() {
-		wp_enqueue_editor();
+		wp_enqueue_script( 'cpotheme-tinymce-control', get_template_directory_uri() . '/core/scripts/customizer-controls/tinymce-control.js', array( 'jquery', 'customize-controls' ), CPOTHEME_VERSION );
 	}
 
 	public function to_json() {
