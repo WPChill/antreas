@@ -1,18 +1,18 @@
 <?php
 
 //Generate settings
-add_action( 'customize_register', 'cpotheme_customizer' );
-function cpotheme_customizer( $customize ) {
+add_action( 'customize_register', 'antreas_customizer' );
+function antreas_customizer( $customize ) {
 
 	//Add panels to the customizer
-	$settings = cpotheme_metadata_panels();
+	$settings = antreas_metadata_panels();
 	foreach ( $settings as $setting_id => $setting_data ) {
 		$customize->add_panel( $setting_id, $setting_data );
 
 	}
 
 	//Add sections to the customizer
-	$settings = cpotheme_metadata_sections();
+	$settings = antreas_metadata_sections();
 	foreach ( $settings as $setting_id => $setting_data ) {
 
 		if ( isset( $setting_data['type'] ) ) {
@@ -37,13 +37,13 @@ function cpotheme_customizer( $customize ) {
 		}
 	}
 
-	$customize->get_section( 'title_tagline' )->panel     = 'cpotheme_management';
-	$customize->get_section( 'header_image' )->panel      = 'cpotheme_management';
-	$customize->get_section( 'background_image' )->panel  = 'cpotheme_management';
-	$customize->get_section( 'static_front_page' )->panel = 'cpotheme_management';
+	$customize->get_section( 'title_tagline' )->panel     = 'antreas_management';
+	$customize->get_section( 'header_image' )->panel      = 'antreas_management';
+	$customize->get_section( 'background_image' )->panel  = 'antreas_management';
+	$customize->get_section( 'static_front_page' )->panel = 'antreas_management';
 
 	//Add settings & controls
-	$settings = cpotheme_metadata_customizer();
+	$settings = antreas_metadata_customizer();
 	foreach ( $settings as $setting_id => $setting_data ) {
 		$multilingual = isset( $setting_data['multilingual'] ) && $setting_data['multilingual'] ? true : false;
 		$default      = isset( $setting_data['default'] ) ? $setting_data['default'] : '';
@@ -86,7 +86,7 @@ function cpotheme_customizer( $customize ) {
 
 			//If language is not the default one
 			$args         = $setting_data;
-			$option_array = 'cpotheme_settings';
+			$option_array = 'antreas_settings';
 			$control_id   = $setting_id;
 			if ( $current_language != 'default' ) {
 				$option_array .= '_' . $current_language;
@@ -113,50 +113,50 @@ function cpotheme_customizer( $customize ) {
 				case 'text':
 				case 'textarea':
 				case 'select':
-					$customize->add_control( 'cpotheme_' . $control_id, $args );
+					$customize->add_control( 'antreas_' . $control_id, $args );
 					break;
 				case 'color':
-					$customize->add_control( new WP_Customize_Color_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$customize->add_control( new WP_Customize_Color_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'image':
-					$customize->add_control( new WP_Customize_Image_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$customize->add_control( new WP_Customize_Image_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'collection':
-					$customize->add_control( new CPO_Customize_Collection_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$customize->add_control( new Antreas_Customize_Collection_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'epsilon-upsell':
-					$customize->add_control( new Epsilon_Control_Upsell( $customize, 'cpotheme_' . $control_id, $args ) );
+					$customize->add_control( new Epsilon_Control_Upsell( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'sortable':
-					$customize->add_control( new CPOTheme_Customize_Sortable_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$customize->add_control( new Antreas_Customize_Sortable_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'selectize':
-					$args['type'] = 'cpotheme-selectize-control';
-					$customize->add_control( new CPOTheme_Customize_Selectize_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$args['type'] = 'antreas-selectize-control';
+					$customize->add_control( new Antreas_Customize_Selectize_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'tinymce':
-					$args['type'] = 'cpotheme-tinymce-control';
-					$customize->add_control( new CPOTheme_Customize_Tinymce_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$args['type'] = 'antreas-tinymce-control';
+					$customize->add_control( new Antreas_Customize_Tinymce_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'contactform':
-					$args['type'] = 'cpotheme-contactform-control';
+					$args['type'] = 'antreas-contactform-control';
 
 					//this custom customizer control has 2 customizer settings
-					$customize->add_setting( 'cpotheme_settings[plugin_select]', array( 'type' => 'option' ) );
-					$customize->add_setting( 'cpotheme_settings[form_id]', array( 'type' => 'option' ) );
+					$customize->add_setting( 'antreas_settings[plugin_select]', array( 'type' => 'option' ) );
+					$customize->add_setting( 'antreas_settings[form_id]', array( 'type' => 'option' ) );
 
 					$args['settings'] = array(
-						'plugin_select' => 'cpotheme_settings[plugin_select]',
-						'form_id'       => 'cpotheme_settings[form_id]',
+						'plugin_select' => 'antreas_settings[plugin_select]',
+						'form_id'       => 'antreas_settings[form_id]',
 					);
 
-					$customize->add_control( new CPOTheme_Customize_ContactForm_Control( $customize, 'cpotheme_' . $control_id, $args ) );
+					$customize->add_control( new Antreas_Customize_ContactForm_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 			}
 
 			if ( $partial_selector != '' ) {
 				$customize->selective_refresh->add_partial(
-					'cpotheme_' . $control_id,
+					'antreas_' . $control_id,
 					array(
 						'selector' => $partial_selector,
 						'settings' => array( $option_array . '[' . $setting_id . ']' ),

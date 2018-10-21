@@ -2,8 +2,8 @@
 <?php if ( $query->posts ) : ?>
 <div id="portfolio" class="section portfolio">
 	<div class="container-fluid">
-		<?php cpotheme_section_heading( 'portfolio' ); ?>
-		<?php cpotheme_grid( $query->posts, 'element', 'portfolio', 5, array( 'class' => 'column-fit' ) ); ?>
+		<?php antreas_section_heading( 'portfolio' ); ?>
+		<?php antreas_grid( $query->posts, 'element', 'portfolio', 5, array( 'class' => 'column-fit' ) ); ?>
 	</div>
 </div>
 <?php wp_reset_postdata(); ?>

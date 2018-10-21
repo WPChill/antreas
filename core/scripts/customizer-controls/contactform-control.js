@@ -1,6 +1,6 @@
 ( function( api ) {
 
-	api.CPOThemeContactFormControl = api.Control.extend( {
+	api.AntreasContactFormControl = api.Control.extend( {
 
 		ready: function() {
 			var control = this,
@@ -53,7 +53,7 @@
 	} );
 
 	$.extend( api.controlConstructor, {
-		'cpotheme-contactform-control': api.CPOThemeContactFormControl,
+		'antreas-contactform-control': api.AntreasContactFormControl,
     });
 
 })( wp.customize );

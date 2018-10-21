@@ -1,5 +1,5 @@
 <?php
-class CPOTheme_Core_Updater {
+class Antreas_Core_Updater {
 	private $remote_api_url;
 	private $request_data;
 	private $response_key;

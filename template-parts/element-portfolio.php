@@ -4,6 +4,6 @@
 	<h5 class="portfolio-item-title">
 		<?php the_title(); ?>
 	</h5>
-	<?php cpotheme_edit(); ?>
+	<?php antreas_edit(); ?>
 	<?php the_post_thumbnail( 'portfolio', array( 'title' => '' ) ); ?>
 </div>

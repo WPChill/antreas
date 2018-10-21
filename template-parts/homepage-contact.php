@@ -1,6 +1,6 @@
 <?php
-	$contact_form_plugin = cpotheme_get_option( 'plugin_select' );
-	$form_id = cpotheme_get_option( 'form_id' );
+	$contact_form_plugin = antreas_get_option( 'plugin_select' );
+	$form_id = antreas_get_option( 'form_id' );
 
 	if ( $contact_form_plugin === 'wpforms' ) {
 		$shortcode_tag = 'wpforms';
@@ -13,7 +13,7 @@
 
 <div id="contact" class="section contact">
 	<div class="container">	
-		<?php cpotheme_section_heading( 'contact' ); ?>
+		<?php antreas_section_heading( 'contact' ); ?>
 	
 		<div class="row">
 			<?php if ( $shortcode_tag !== '' && $form_id !== '' ) { ?>

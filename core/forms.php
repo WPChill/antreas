@@ -1,16 +1,16 @@
 <?php
 
 //Standard text field
-if ( ! function_exists( 'cpotheme_form_divider' ) ) {
-	function cpotheme_form_divider( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_divider' ) ) {
+	function antreas_form_divider( $name, $value, $args = null ) {
 		$output = '<div class="settings_divider" id="' . $name . '">' . htmlentities( stripslashes( $value ), ENT_QUOTES, 'UTF-8' ) . '</div>';
 		return $output;
 	}
 }
 
 //Read-only field
-if ( ! function_exists( 'cpotheme_form_readonly' ) ) {
-	function cpotheme_form_readonly( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_readonly' ) ) {
+	function antreas_form_readonly( $name, $value, $args = null ) {
 		$output  = '<input type="hidden" value="' . stripslashes( $value ) . '" name="' . $name . '" id="' . $name . '"/>';
 		$output .= '<span id="' . $name . '_value">' . stripslashes( $value ) . '</span>';
 		return $output;
@@ -18,8 +18,8 @@ if ( ! function_exists( 'cpotheme_form_readonly' ) ) {
 }
 
 //Standard text field
-if ( ! function_exists( 'cpotheme_form_text' ) ) {
-	function cpotheme_form_text( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_text' ) ) {
+	function antreas_form_text( $name, $value, $args = null ) {
 		if ( isset( $args['width'] ) ) {
 			$field_width = ' style="width:' . $args['width'] . ';"';
 		} else {
@@ -36,8 +36,8 @@ if ( ! function_exists( 'cpotheme_form_text' ) ) {
 }
 
 //Textarea field
-if ( ! function_exists( 'cpotheme_form_textarea' ) ) {
-	function cpotheme_form_textarea( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_textarea' ) ) {
+	function antreas_form_textarea( $name, $value, $args = null ) {
 		if ( isset( $args['placeholder'] ) ) {
 			$field_placeholder = ' placeholder="' . $args['placeholder'] . '"';
 		} else {
@@ -49,26 +49,26 @@ if ( ! function_exists( 'cpotheme_form_textarea' ) ) {
 }
 
 //Code field
-if ( ! function_exists( 'cpotheme_form_code' ) ) {
-	function cpotheme_form_code( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_code' ) ) {
+	function antreas_form_code( $name, $value, $args = null ) {
 		$code = isset( $args['format'] ) ? $args['format'] : 'xml';
 		if ( isset( $args['placeholder'] ) ) {
 			$field_placeholder = ' placeholder="' . $args['placeholder'] . '"';
 		} else {
 			$field_placeholder = '';
 		}
-		wp_enqueue_script( 'cpotheme_script_codemirror' );
-		wp_enqueue_script( 'cpotheme_script_codemirror_' . $code );
-		wp_enqueue_script( 'cpotheme_script_editor' );
-		wp_enqueue_style( 'cpotheme_style_codemirror' );
+		wp_enqueue_script( 'antreas_script_codemirror' );
+		wp_enqueue_script( 'antreas_script_codemirror_' . $code );
+		wp_enqueue_script( 'antreas_script_editor' );
+		wp_enqueue_style( 'antreas_style_codemirror' );
 		$output = '<textarea class="cpotheme-editor-' . $code . '" name="' . $name . '" id="' . $name . '"' . $field_placeholder . '>' . ( stripslashes( $value ) ) . '</textarea>';
 		return $output;
 	}
 }
 
 //Checkbox field
-if ( ! function_exists( 'cpotheme_form_checkbox' ) ) {
-	function cpotheme_form_checkbox( $name, $value, $list, $args = null ) {
+if ( ! function_exists( 'antreas_form_checkbox' ) ) {
+	function antreas_form_checkbox( $name, $value, $list, $args = null ) {
 		$output = '<input type="checkbox" value="1" name="' . $name . '" id="' . $name . '" ' . checked( $value, '1', false ) . '/>';
 		return $output;
 	}
@@ -76,8 +76,8 @@ if ( ! function_exists( 'cpotheme_form_checkbox' ) ) {
 
 
 //Checklist field
-if ( ! function_exists( 'cpotheme_form_checklist' ) ) {
-	function cpotheme_form_checklist( $name, $value, $list, $args = null ) {
+if ( ! function_exists( 'antreas_form_checklist' ) ) {
+	function antreas_form_checklist( $name, $value, $list, $args = null ) {
 		$field_class = ( isset( $args['class'] ) ? $args['class'] : '' );
 		$output      = '';
 		$output      = '<select class="cpometabox_field_select ' . $field_class . '" name="' . $name . '" id="' . $name . '">';
@@ -107,8 +107,8 @@ if ( ! function_exists( 'cpotheme_form_checklist' ) ) {
 
 
 //Yes/No radio selection field
-if ( ! function_exists( 'cpotheme_form_yesno' ) ) {
-	function cpotheme_form_yesno( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_yesno' ) ) {
+	function antreas_form_yesno( $name, $value, $args = null ) {
 		$checked_yes = '';
 		$checked_no  = ' checked';
 		if ( $value == '1' ) {
@@ -130,8 +130,8 @@ if ( ! function_exists( 'cpotheme_form_yesno' ) ) {
 
 
 //Dropdown list field
-if ( ! function_exists( 'cpotheme_form_select' ) ) {
-	function cpotheme_form_select( $name, $value, $list, $args = null ) {
+if ( ! function_exists( 'antreas_form_select' ) ) {
+	function antreas_form_select( $name, $value, $list, $args = null ) {
 		if ( isset( $args['width'] ) ) {
 			$field_width = ' style="width:' . $args['width'] . ';"';
 		} else {
@@ -161,8 +161,8 @@ if ( ! function_exists( 'cpotheme_form_select' ) ) {
 }
 
 //Image list selection
-if ( ! function_exists( 'cpotheme_form_imagelist' ) ) {
-	function cpotheme_form_imagelist( $name, $value, $list, $args = null ) {
+if ( ! function_exists( 'antreas_form_imagelist' ) ) {
+	function antreas_form_imagelist( $name, $value, $list, $args = null ) {
 		$output = '<div id="' . $name . '_wrap">';
 		foreach ( $list as $list_key => $list_value ) {
 			$checked  = null;
@@ -182,15 +182,15 @@ if ( ! function_exists( 'cpotheme_form_imagelist' ) ) {
 
 
 //Icon list selection
-if ( ! function_exists( 'cpotheme_form_iconlist' ) ) {
-	function cpotheme_form_iconlist( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_iconlist' ) ) {
+	function antreas_form_iconlist( $name, $value, $args = null ) {
 		$output = '<div id="' . $name . '_wrap" class="cpotheme-iconlist">';
 
 		$output .= '<label class="cpotheme-iconlist-item" for="' . $name . '_0"> ';
 		$output .= '<input type="radio" name="' . $name . '" id="' . $name . '_0" value="0"/>';
 		$output .= '</label>';
 
-		$list = cpotheme_metadata_icons();
+		$list = antreas_metadata_icons();
 		foreach ( $list as $library_key => $library_value ) {
 			$output .= '<div class="cpotheme-iconlist-heading">' . $library_value['name'] . '</div>';
 			foreach ( $library_value['icons'] as $list_key => $list_value ) {
@@ -217,8 +217,8 @@ if ( ! function_exists( 'cpotheme_form_iconlist' ) ) {
 
 
 //Expandable list of field elements-- can contain other fields
-if ( ! function_exists( 'cpotheme_form_collection' ) ) {
-	function cpotheme_form_collection( $name, $value, $list, $args = null ) {
+if ( ! function_exists( 'antreas_form_collection' ) ) {
+	function antreas_form_collection( $name, $value, $list, $args = null ) {
 		$field_class = ( isset( $args['class'] ) ? $args['class'] : '' );
 		$output      = '<div class="cpometabox-field-collection ' . $field_class . '">';
 		//Check that given value is an array. If empty, add a single row
@@ -254,31 +254,31 @@ if ( ! function_exists( 'cpotheme_form_collection' ) ) {
 
 				//Display corresponding type of field
 				if ( $field_type == 'readonly' ) {
-					$output .= cpotheme_form_readonly( $field_name, $field_value, $field_args );
+					$output .= antreas_form_readonly( $field_name, $field_value, $field_args );
 
 				} elseif ( $field_type == 'text' ) {
-					$output .= cpotheme_form_text( $field_name, $field_value, $field_args );
+					$output .= antreas_form_text( $field_name, $field_value, $field_args );
 
 				} elseif ( $field_type == 'textarea' ) {
-					$output .= cpotheme_form_textarea( $field_name, $field_value, $field_args );
+					$output .= antreas_form_textarea( $field_name, $field_value, $field_args );
 
 				} elseif ( $field_type == 'select' ) {
-					$output .= cpotheme_form_select( $field_name, $field_value, $field_options, $field_args );
+					$output .= antreas_form_select( $field_name, $field_value, $field_options, $field_args );
 
 				} elseif ( $field_type == 'checkbox' ) {
-					$output .= cpotheme_form_checkbox( $field_name, $field_value, $field_args );
+					$output .= antreas_form_checkbox( $field_name, $field_value, $field_args );
 
 				} elseif ( $field_type == 'yesno' ) {
-					$output .= cpotheme_form_yesno( $field_name, $field_value, $field_args );
+					$output .= antreas_form_yesno( $field_name, $field_value, $field_args );
 
 				} elseif ( $field_type == 'color' ) {
-					$output .= cpotheme_form_color( $field_name, $field_value );
+					$output .= antreas_form_color( $field_name, $field_value );
 
 				} elseif ( $field_type == 'upload' ) {
-					$output .= cpotheme_form_upload( $field_name, $field_value, null, $post );
+					$output .= antreas_form_upload( $field_name, $field_value, null, $post );
 
 				} elseif ( $field_type == 'date' ) {
-					$output .= cpotheme_form_date( $field_name, $field_value, null );
+					$output .= antreas_form_date( $field_name, $field_value, null );
 				}
 
 				$output .= '</td>';
@@ -302,8 +302,8 @@ if ( ! function_exists( 'cpotheme_form_collection' ) ) {
 
 
 //Color Picker field
-if ( ! function_exists( 'cpotheme_form_color' ) ) {
-	function cpotheme_form_color( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_color' ) ) {
+	function antreas_form_color( $name, $value, $args = null ) {
 		if ( isset( $args['placeholder'] ) ) {
 			$field_placeholder = ' placeholder="' . $args['placeholder'] . '"';
 		} else {
@@ -320,8 +320,8 @@ if ( ! function_exists( 'cpotheme_form_color' ) ) {
 
 
 //Uploader using Media Library
-if ( ! function_exists( 'cpotheme_form_upload' ) ) {
-	function cpotheme_form_upload( $name, $value, $args = null, $post = null ) {
+if ( ! function_exists( 'antreas_form_upload' ) ) {
+	function antreas_form_upload( $name, $value, $args = null, $post = null ) {
 		if ( isset( $args['placeholder'] ) ) {
 			$field_placeholder = ' placeholder="' . $args['placeholder'] . '"';
 		} else {
@@ -329,8 +329,8 @@ if ( ! function_exists( 'cpotheme_form_upload' ) ) {
 		}
 		if ( stripslashes( $value ) != '' ) {
 			$image = stripslashes( $value );
-		} elseif ( defined( 'CPOTHEME_CORE_URL' ) ) {
-			$image = CPOTHEME_CORE_URL . '/images/noimage.jpg';
+		} elseif ( defined( 'ANTREAS_URL' ) ) {
+			$image = ANTREAS_URL . '/images/noimage.jpg';
 		} else {
 			$image = get_template_directory_uri() . '/core/images/noimage.jpg';
 		}
@@ -343,8 +343,8 @@ if ( ! function_exists( 'cpotheme_form_upload' ) ) {
 }
 
 //Font selector field
-if ( ! function_exists( 'cpotheme_form_font' ) ) {
-	function cpotheme_form_font( $name, $value, $list, $args = null ) {
+if ( ! function_exists( 'antreas_form_font' ) ) {
+	function antreas_form_font( $name, $value, $list, $args = null ) {
 		$font_name = '';
 		if ( isset( $list[ $value ] ) ) {
 			$font_name = $list[ $value ];
@@ -362,7 +362,7 @@ if ( ! function_exists( 'cpotheme_form_font' ) ) {
 		if ( strpos( $value, ':700' ) != false ) {
 			$weight = '700';
 		}
-		$output  = cpotheme_form_select( $name, $value, $list, array( 'class' => 'font_field' ) );
+		$output  = antreas_form_select( $name, $value, $list, array( 'class' => 'font_field' ) );
 		$output .= '<div class="font_file" id="' . $name . '-file">';
 		$output .= "<link href='http://fonts.googleapis.com/css?family=" . $value . "' rel='stylesheet' type='text/css'>";
 		$output .= '</div>';
@@ -372,8 +372,8 @@ if ( ! function_exists( 'cpotheme_form_font' ) ) {
 }
 
 //Date picker field
-if ( ! function_exists( 'cpotheme_form_date' ) ) {
-	function cpotheme_form_date( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_date' ) ) {
+	function antreas_form_date( $name, $value, $args = null ) {
 		if ( isset( $args['placeholder'] ) ) {
 			$field_placeholder = ' placeholder="' . $args['placeholder'] . '"';
 		} else {
@@ -391,8 +391,8 @@ if ( ! function_exists( 'cpotheme_form_date' ) ) {
 
 
 // Range slider control.
-if ( ! function_exists( 'cpotheme_form_range' ) ) {
-	function cpotheme_form_range( $name, $value, $args = null ) {
+if ( ! function_exists( 'antreas_form_range' ) ) {
+	function antreas_form_range( $name, $value, $args = null ) {
 
 		if ( ! $value ) {
 			$value = $args['std'];

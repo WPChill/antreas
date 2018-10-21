@@ -2,8 +2,8 @@
 
 //Print HTML for an icon
 //TODO: Icon value should be in the format 'fontawesome-\f001'
-if ( ! function_exists( 'cpotheme_icon' ) ) {
-	function cpotheme_icon( $value, $wrapper = '', $echo = true ) {
+if ( ! function_exists( 'antreas_icon' ) ) {
+	function antreas_icon( $value, $wrapper = '', $echo = true ) {
 		if ( $value === '0' || $value === 0 || $value === '' ) {
 			return;
 		}
@@ -21,7 +21,7 @@ if ( ! function_exists( 'cpotheme_icon' ) ) {
 		if ( $wrapper != '' ) {
 			$output .= '<div class="' . $wrapper . '">';
 		}
-		$output .= cpotheme_get_icon( $font_library, html_entity_decode( $font_value ) );
+		$output .= antreas_get_icon( $font_library, html_entity_decode( $font_value ) );
 		if ( $wrapper != '' ) {
 			$output .= '</div>';
 		}
@@ -35,14 +35,14 @@ if ( ! function_exists( 'cpotheme_icon' ) ) {
 }
 
 //Retrieve the correct library
-function cpotheme_get_icon( $library, $value ) {
+function antreas_get_icon( $library, $value ) {
 	$result = '';
 	switch ( $library ) {
 		case 'fontawesome':
-			$result = cpotheme_icon_library_fontawesome( $value );
+			$result = antreas_icon_library_fontawesome( $value );
 			break;
 		default:
-			$result = cpotheme_icon_library_fontawesome( $value );
+			$result = antreas_icon_library_fontawesome( $value );
 			break;
 	}
 	return $result;
@@ -50,7 +50,7 @@ function cpotheme_get_icon( $library, $value ) {
 
 
 //Icon library for fontawesome
-function cpotheme_icon_library_fontawesome( $value ) {
-	wp_enqueue_style( 'cpotheme-fontawesome' );
+function antreas_icon_library_fontawesome( $value ) {
+	wp_enqueue_style( 'antreas-fontawesome' );
 	return '<span style="font-family:\'fontawesome\'">' . $value . '</span>';
 }

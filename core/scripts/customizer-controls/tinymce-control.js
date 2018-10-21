@@ -1,6 +1,6 @@
 ( function( api ) {
 
-	api.CPOThemeTinymceControl = api.Control.extend( {
+	api.AntreasTinymceControl = api.Control.extend( {
 
 		ready: function() {
 			var control = this;
@@ -26,7 +26,7 @@
 	});
 
  	$.extend( api.controlConstructor, {
-		'cpotheme-tinymce-control': api.CPOThemeTinymceControl,
+		'antreas-tinymce-control': api.AntreasTinymceControl,
     });
 
 })( wp.customize );

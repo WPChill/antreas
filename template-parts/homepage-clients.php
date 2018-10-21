@@ -2,8 +2,8 @@
 <?php if ( $query->posts ) : ?>
 <div id="clients" class="section clients">
 	<div class="container-fluid">	
-		<?php cpotheme_section_heading( 'clients' ); ?>
-		<?php cpotheme_grid( $query->posts, 'element', 'client', 5, array( 'class' => 'column-fit' ) ); ?>
+		<?php antreas_section_heading( 'clients' ); ?>
+		<?php antreas_grid( $query->posts, 'element', 'client', 5, array( 'class' => 'column-fit' ) ); ?>
 	</div>
 </div>
 <?php wp_reset_postdata(); ?>

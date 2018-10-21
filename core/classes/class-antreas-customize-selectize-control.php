@@ -3,10 +3,10 @@ if ( ! class_exists( 'WP_Customize_Control' ) ) {
 	return null;
 }
 
-class CPOTheme_Customize_Selectize_Control extends WP_Customize_Control {
+class Antreas_Customize_Selectize_Control extends WP_Customize_Control {
 
 	public function enqueue() {
-		wp_enqueue_script( 'cpotheme-selectize-control', get_template_directory_uri() . '/core/scripts/customizer-controls/selectize-control.js', array( 'jquery', 'customize-controls', 'cpotheme-selectize' ), CPOTHEME_VERSION );
+		wp_enqueue_script( 'antreas-selectize-control', get_template_directory_uri() . '/core/scripts/customizer-controls/selectize-control.js', array( 'jquery', 'customize-controls', 'antreas-selectize' ), ANTREAS_VERSION );
 	}
 
 	public function to_json() {

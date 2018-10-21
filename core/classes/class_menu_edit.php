@@ -7,7 +7,7 @@
  * @since 3.0.0
  * @uses Walker_Nav_Menu
  */
-class Cpotheme_Menu_Edit_Walker extends Walker_Nav_Menu {
+class Antreas_Menu_Edit_Walker extends Walker_Nav_Menu {
 
 	/**
 	 * Starts the list before the elements are added.
@@ -191,15 +191,15 @@ class Cpotheme_Menu_Edit_Walker extends Walker_Nav_Menu {
 				<?php /* Custom fields */ ?>      
 				<p class="field-custom description description-thin">
 					<label for="edit-menu-item-icon-<?php echo $item_id; ?>">
-						<?php wp_enqueue_style( 'cpotheme-fontawesome' ); ?>
+						<?php wp_enqueue_style( 'antreas-fontawesome' ); ?>
 						<?php _e( 'Icon', 'antreas' ); ?><br />
-						<?php echo cpotheme_form_select( 'menu-item-icon[' . $item_id . ']', $item->icon, array_merge( array( '0' => ' ' ), cpotheme_metadata_fontawesome() ), array( 'class' => 'fontawesome widefat' ) ); ?>
+						<?php echo antreas_form_select( 'menu-item-icon[' . $item_id . ']', $item->icon, array_merge( array( '0' => ' ' ), antreas_metadata_fontawesome() ), array( 'class' => 'fontawesome widefat' ) ); ?>
 					</label>
 				</p>
 				<p class="field-custom description description-thin">
 					<label for="edit-menu-item-style-<?php echo $item_id; ?>">
 						<?php _e( 'Style', 'antreas' ); ?><br />
-						<?php echo cpotheme_form_select( 'menu-item-style[' . $item_id . ']', esc_attr( $item->style ), cpotheme_metadata_menu_style(), array( 'class' => 'widefat' ) ); ?>
+						<?php echo antreas_form_select( 'menu-item-style[' . $item_id . ']', esc_attr( $item->style ), antreas_metadata_menu_style(), array( 'class' => 'widefat' ) ); ?>
 					</label>
 				</p>
 				<?php /* End custom fields */ ?>

@@ -3,13 +3,13 @@
 }
 
 $theme = wp_get_theme();
-define( 'CPOTHEME_ID', 'antreas' );
-define( 'CPOTHEME_NAME', $theme['Name'] );
-define( 'CPOTHEME_VERSION', $theme['Version'] );
+define( 'ANTREAS_ID', 'antreas' );
+define( 'ANTREAS_NAME', $theme['Name'] );
+define( 'ANTREAS_VERSION', $theme['Version'] );
 
 
 //Other constants
-define( 'CPOTHEME_LOGO_WIDTH', '90' );
+define( 'ANTREAS_LOGO_WIDTH', '90' );
 define( 'CPOTHEME_USE_SLIDES', true );
 define( 'CPOTHEME_USE_TAGLINE', true );
 define( 'CPOTHEME_USE_FEATURES', true );
@@ -20,20 +20,20 @@ define( 'CPOTHEME_USE_TEAM', true );
 define( 'CPOTHEME_USE_CLIENTS', true );
 define( 'CPOTHEME_USE_CONTACT', true );
 define( 'CPOTHEME_USE_ABOUT', true );
-define( 'CPOTHEME_PREMIUM_NAME', 'Antreas Pro' );
-define( 'CPOTHEME_PREMIUM_URL', 'www.machothemes.com/theme/antreas' );
+define( 'ANTREAS_PREMIUM_NAME', 'Antreas Pro' );
+define( 'ANTREAS_PREMIUM_URL', 'www.machothemes.com/theme/antreas' );
 
 //Load Core; check existing core or load development core
 $core_path = get_template_directory() . '/core/';
-if ( defined( 'CPOTHEME_CORE' ) ) {
-	$core_path = CPOTHEME_CORE;
+if ( defined( 'ANTREAS_CORE' ) ) {
+	$core_path = ANTREAS_CORE;
 }
 require_once $core_path . 'init.php';
 $include_path = get_template_directory() . '/includes/';
 //Main components
 require_once( $include_path . 'setup.php' );
-if ( ! class_exists( 'CPO_Theme' ) ) {
-	require get_template_directory() . '/includes/class-cpo-theme.php';
+if ( ! class_exists( 'Antreas_Theme' ) ) {
+	require get_template_directory() . '/includes/class-antreas-theme.php';
 }
 
 if ( ! defined( 'SHORTPIXEL_AFFILIATE_CODE' ) ) {

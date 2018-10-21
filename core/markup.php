@@ -2,9 +2,9 @@
 
 
 //Displays the blog title and descripion in home or frontpage
-if ( ! function_exists( 'cpotheme_title' ) ) {
-	//add_filter('wp_title', 'cpotheme_title');
-	function cpotheme_title( $title ) {
+if ( ! function_exists( 'antreas_title' ) ) {
+	//add_filter('wp_title', 'antreas_title');
+	function antreas_title( $title ) {
 		global $page, $paged;
 
 		if ( is_feed() ) {
@@ -33,8 +33,8 @@ if ( ! function_exists( 'cpotheme_title' ) ) {
 
 
 //Displays the current page's title. Used in the main banner area.
-if ( ! function_exists( 'cpotheme_page_title' ) ) {
-	function cpotheme_page_title() {
+if ( ! function_exists( 'antreas_page_title' ) ) {
+	function antreas_page_title() {
 		global $post;
 		if ( isset( $post->ID ) ) {
 			$current_id = $post->ID;
@@ -67,9 +67,9 @@ if ( ! function_exists( 'cpotheme_page_title' ) ) {
 
 
 //Displays the current page's title. Used in the main banner area.
-if ( ! function_exists( 'cpotheme_header_image' ) ) {
-	function cpotheme_header_image() {
-		$url = apply_filters( 'cpotheme_header_image', get_header_image() );
+if ( ! function_exists( 'antreas_header_image' ) ) {
+	function antreas_header_image() {
+		$url = apply_filters( 'antreas_header_image', get_header_image() );
 		if ( $url != '' ) {
 			return $url;
 		} else {
@@ -80,13 +80,13 @@ if ( ! function_exists( 'cpotheme_header_image' ) ) {
 
 
 //Displays a Revolution Slider assigned to the current page.
-add_action( 'cpotheme_before_main', 'cpotheme_header_slider', 5 );
-if ( ! function_exists( 'cpotheme_header_slider' ) ) {
-	function cpotheme_header_slider() {
+add_action( 'antreas_before_main', 'antreas_header_slider', 5 );
+if ( ! function_exists( 'antreas_header_slider' ) ) {
+	function antreas_header_slider() {
 		if ( function_exists( 'putRevSlider' ) ) {
-			$current_id = cpotheme_current_id();
+			$current_id = antreas_current_id();
 			if ( is_tax() || is_category() || is_tag() ) {
-				$page_slider = cpotheme_tax_meta( $current_id, 'page_slider' );
+				$page_slider = antreas_tax_meta( $current_id, 'page_slider' );
 			} else {
 				$page_slider = get_post_meta( $current_id, 'page_slider', true );
 			}
@@ -102,10 +102,10 @@ if ( ! function_exists( 'cpotheme_header_slider' ) ) {
 
 
 //Display custom favicon
-if ( ! function_exists( 'cpotheme_favicon' ) ) {
-	add_action( 'wp_head', 'cpotheme_favicon' );
-	function cpotheme_favicon() {
-		$favicon_url = cpotheme_get_option( 'general_favicon' );
+if ( ! function_exists( 'antreas_favicon' ) ) {
+	add_action( 'wp_head', 'antreas_favicon' );
+	function antreas_favicon() {
+		$favicon_url = antreas_get_option( 'general_favicon' );
 		if ( $favicon_url != '' ) {
 			echo '<link type="image/x-icon" href="' . esc_url( $favicon_url ) . '" rel="icon" />';
 		}
@@ -114,13 +114,13 @@ if ( ! function_exists( 'cpotheme_favicon' ) ) {
 
 
 //Add theme-specific body classes
-add_filter( 'body_class', 'cpotheme_body_class' );
-function cpotheme_body_class( $body_classes = '' ) {
-	$current_id = cpotheme_current_id();
+add_filter( 'body_class', 'antreas_body_class' );
+function antreas_body_class( $body_classes = '' ) {
+	$current_id = antreas_current_id();
 	$classes    = '';
 
 	//Sidebar Layout
-	$classes .= ' sidebar-' . cpotheme_get_sidebar_position();
+	$classes .= ' sidebar-' . antreas_get_sidebar_position();
 
 	if ( has_post_thumbnail() ) {
 		$classes .= ' has-post-thumbnail';
@@ -133,18 +133,18 @@ function cpotheme_body_class( $body_classes = '' ) {
 
 
 //Display viewport tag
-if ( ! function_exists( 'cpotheme_viewport' ) ) {
-	add_action( 'wp_head', 'cpotheme_viewport' );
-	function cpotheme_viewport() {
+if ( ! function_exists( 'antreas_viewport' ) ) {
+	add_action( 'wp_head', 'antreas_viewport' );
+	function antreas_viewport() {
 		echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>' . "\n";
 	}
 }
 
 
 //Print pingback metatag
-if ( ! function_exists( 'cpotheme_pingback' ) ) {
-	add_action( 'wp_head', 'cpotheme_pingback' );
-	function cpotheme_pingback() {
+if ( ! function_exists( 'antreas_pingback' ) ) {
+	add_action( 'wp_head', 'antreas_pingback' );
+	function antreas_pingback() {
 		if ( get_option( 'default_ping_status' ) == 'open' ) {
 			echo '<link rel="pingback" href="' . get_bloginfo( 'pingback_url' ) . '"/>' . "\n";
 		}
@@ -153,35 +153,35 @@ if ( ! function_exists( 'cpotheme_pingback' ) ) {
 
 
 //Print charset metatag
-if ( ! function_exists( 'cpotheme_charset' ) ) {
-	add_action( 'wp_head', 'cpotheme_charset' );
-	function cpotheme_charset() {
+if ( ! function_exists( 'antreas_charset' ) ) {
+	add_action( 'wp_head', 'antreas_charset' );
+	function antreas_charset() {
 		echo '<meta charset="' . get_bloginfo( 'charset' ) . '"/>' . "\n";
 	}
 }
 
 
 //Display shortcut edit links for logged in users
-if ( ! function_exists( 'cpotheme_edit' ) ) {
-	function cpotheme_edit() {
+if ( ! function_exists( 'antreas_edit' ) ) {
+	function antreas_edit() {
 		edit_post_link( __( 'Edit', 'antreas' ) );
 	}
 }
 
 
 //Display the site's logo
-if ( ! function_exists( 'cpotheme_logo' ) ) {
-	function cpotheme_logo( $width = 0, $height = 0 ) {
+if ( ! function_exists( 'antreas_logo' ) ) {
+	function antreas_logo( $width = 0, $height = 0 ) {
 		$output = '<div id="logo" class="logo">';
-		if ( cpotheme_get_option( 'general_texttitle' ) == 0 ) {
-			if ( cpotheme_get_option( 'general_logo' ) == '' ) {
-				if ( defined( 'CPOTHEME_LOGO_WIDTH' ) ) {
-					$width = CPOTHEME_LOGO_WIDTH;
+		if ( antreas_get_option( 'general_texttitle' ) == 0 ) {
+			if ( antreas_get_option( 'general_logo' ) == '' ) {
+				if ( defined( 'ANTREAS_LOGO_WIDTH' ) ) {
+					$width = ANTREAS_LOGO_WIDTH;
 				}
 				$output .= '<a class="site-logo" href="' . home_url() . '"><img src="' . get_template_directory_uri() . '/images/logo.png" alt="' . get_bloginfo( 'name' ) . '" width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '"/></a>';
 			} else {
-				$logo_width = cpotheme_get_option( 'general_logo_width' );
-				$logo_url   = esc_url( cpotheme_get_option( 'general_logo' ) );
+				$logo_width = antreas_get_option( 'general_logo_width' );
+				$logo_url   = esc_url( antreas_get_option( 'general_logo' ) );
 				if ( $logo_width != '' ) {
 					$logo_width = ' style="width:' . esc_attr( $logo_width ) . 'px;"';
 				}
@@ -190,7 +190,7 @@ if ( ! function_exists( 'cpotheme_logo' ) ) {
 		}
 
 		$classes = '';
-		if ( cpotheme_get_option( 'general_texttitle' ) == 0 ) {
+		if ( antreas_get_option( 'general_texttitle' ) == 0 ) {
 			$classes = ' hidden';
 		}
 		if ( ! is_front_page() ) {
@@ -205,8 +205,8 @@ if ( ! function_exists( 'cpotheme_logo' ) ) {
 }
 
 //Prints speed, timeout and effect values for the homepage slider
-if ( ! function_exists( 'cpotheme_slider_data' ) ) {
-	function cpotheme_slider_data( $navigation = true, $pagination = true ) {
+if ( ! function_exists( 'antreas_slider_data' ) ) {
+	function antreas_slider_data( $navigation = true, $pagination = true ) {
 		$output = '';
 		$output .= ' data-cycle-pause-on-hover="false"';
 		$output .= ' data-cycle-slides=".slide"';
@@ -235,9 +235,9 @@ if ( ! function_exists( 'cpotheme_slider_data' ) ) {
 
 
 //Print an option content
-if ( ! function_exists( 'cpotheme_block' ) ) {
-	function cpotheme_block( $option, $wrapper = '', $subwrapper = '' ) {
-		$content = cpotheme_get_option( $option );
+if ( ! function_exists( 'antreas_block' ) ) {
+	function antreas_block( $option, $wrapper = '', $subwrapper = '' ) {
+		$content = antreas_get_option( $option );
 		if ( '' != trim( $content ) ) {
 			if ( '' != $wrapper ) {
 				$ids = explode( ' ', $wrapper );
@@ -249,7 +249,7 @@ if ( ! function_exists( 'cpotheme_block' ) ) {
 			if ( '' != $subwrapper ) {
 				echo '<div class="' . esc_attr( $subwrapper ) . '">';
 			}
-			echo do_shortcode( cpotheme_get_option( wp_kses_post( $option ) ) );
+			echo do_shortcode( antreas_get_option( wp_kses_post( $option ) ) );
 			if ( '' != $subwrapper ) {
 				echo '</div>';
 			}
@@ -262,10 +262,10 @@ if ( ! function_exists( 'cpotheme_block' ) ) {
 
 
 //Print an option content
-if ( ! function_exists( 'cpotheme_section_heading' ) ) {
-	function cpotheme_section_heading( $slug, $class = null ) {
+if ( ! function_exists( 'antreas_section_heading' ) ) {
+	function antreas_section_heading( $slug, $class = null ) {
 		$slug    = esc_attr( $slug );
-		$heading = cpotheme_get_option( 'home_' . $slug );
+		$heading = antreas_get_option( 'home_' . $slug );
 		if ( $heading ) {
 			echo '<div class="' . esc_attr( ! empty( $class ) ? $class : '' ) . ' section-heading ' . $slug . '-heading">';
 				echo '<div class="section-title ' . $slug . '-title heading">' . $heading . '</div>';
@@ -276,16 +276,16 @@ if ( ! function_exists( 'cpotheme_section_heading' ) ) {
 
 
 //Print 404 message
-if ( ! function_exists( 'cpotheme_404' ) ) {
-	function cpotheme_404() {
-		echo apply_filters( 'cpotheme_404', __( 'The requested page could not be found. It could have been deleted or changed location. Try searching for it using the search function.', 'antreas' ) );
+if ( ! function_exists( 'antreas_404' ) ) {
+	function antreas_404() {
+		echo apply_filters( 'antreas_404', __( 'The requested page could not be found. It could have been deleted or changed location. Try searching for it using the search function.', 'antreas' ) );
 	}
 }
 
 
 //Print subfooter sidebars
-if ( ! function_exists( 'cpotheme_subfooter' ) ) {
-	function cpotheme_subfooter( $class = '' ) {
+if ( ! function_exists( 'antreas_subfooter' ) ) {
+	function antreas_subfooter( $class = '' ) {
 		$footer_columns = 3;
 		echo '<div class="row">';
 		for ( $count = 1; $count <= $footer_columns; $count ++ ) {
@@ -304,8 +304,8 @@ if ( ! function_exists( 'cpotheme_subfooter' ) ) {
 
 
 //Print footer copyright line
-if ( ! function_exists( 'cpotheme_footer' ) ) {
-	function cpotheme_footer() {
+if ( ! function_exists( 'antreas_footer' ) ) {
+	function antreas_footer() {
 		echo '<div class="footer-content">';
 		echo '<span class="copyright">&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) . '. </span>';
 		echo '<span class="cpo-credit-link"> ';
@@ -316,22 +316,22 @@ if ( ! function_exists( 'cpotheme_footer' ) ) {
 }
 
 //Print submenu navigation
-if ( ! function_exists( 'cpotheme_submenu' ) ) {
-	function cpotheme_submenu() {
+if ( ! function_exists( 'antreas_submenu' ) ) {
+	function antreas_submenu() {
 		$ancestors = array_reverse( get_post_ancestors( get_the_ID() ) );
 		if ( empty( $ancestors[0] ) || $ancestors[0] == 0 ) {
 			$ancestors[0] = get_the_ID();
 		}
 		echo '<ul id="submenu" class="menu-sub">';
-		wp_list_pages( apply_filters( 'cpotheme_submenu_query', 'title_li=&child_of=' . $ancestors[0] ) );
+		wp_list_pages( apply_filters( 'antreas_submenu_query', 'title_li=&child_of=' . $ancestors[0] ) );
 		echo '</ul>';
 	}
 }
 
 
 //Print submenu navigation
-if ( ! function_exists( 'cpotheme_sitemap' ) ) {
-	function cpotheme_sitemap() {
+if ( ! function_exists( 'antreas_sitemap' ) ) {
+	function antreas_sitemap() {
 		//Print page list
 		echo '<div class="column col2">';
 		echo '<h3>' . __( 'Pages', 'antreas' ) . '</h3>';
@@ -352,19 +352,19 @@ if ( ! function_exists( 'cpotheme_sitemap' ) ) {
 
 
 //Enqueue custom font stylesheets from Google Fonts
-if ( ! function_exists( 'cpotheme_fonts' ) ) {
-	function cpotheme_fonts( $font_name, $load_variants = false ) {
+if ( ! function_exists( 'antreas_fonts' ) ) {
+	function antreas_fonts( $font_name, $load_variants = false ) {
 		$font_variants = $load_variants != false ? ':100,300,400,700' : '';
 		if ( is_array( $font_name ) ) {
 			foreach ( $font_name as $current_font ) {
 				if ( ! in_array( $current_font, array( 'Arial', 'Georgia', 'Times+New+Roman', 'Verdana' ) ) ) {
-					$font_id = 'cpotheme-font-' . strtolower( str_replace( '+', '-', $current_font ) );
+					$font_id = 'antreas-font-' . strtolower( str_replace( '+', '-', $current_font ) );
 					wp_enqueue_style( $font_id, '//fonts.googleapis.com/css?family=' . str_replace( '%2B', '+', rawurlencode( $current_font . $font_variants ) ) );
 				}
 			}
 		} else {
 			if ( ! in_array( $font_name, array( 'Arial', 'Georgia', 'Times+New+Roman', 'Verdana' ) ) ) {
-				$font_id = 'cpotheme-font-' . strtolower( str_replace( '+', '-', $font_name ) );
+				$font_id = 'antreas-font-' . strtolower( str_replace( '+', '-', $font_name ) );
 				wp_enqueue_style( $font_id, '//fonts.googleapis.com/css?family=' . str_replace( '%2B', '+', rawurlencode( $font_name . $font_variants ) ) );
 			}
 		}
@@ -373,21 +373,21 @@ if ( ! function_exists( 'cpotheme_fonts' ) ) {
 
 
 //Creates a grid of columns for display templated content, running the WordPress loop
-if ( ! function_exists( 'cpotheme_grid' ) ) {
-	function cpotheme_grid( $posts, $element, $template, $columns = 3, $args = null ) {
+if ( ! function_exists( 'antreas_grid' ) ) {
+	function antreas_grid( $posts, $element, $template, $columns = 3, $args = null ) {
 		if ( $posts == null ) {
-			cpotheme_grid_default( $element, $template, $columns, $args );
+			antreas_grid_default( $element, $template, $columns, $args );
 		} else {
 			global $post;
-			cpotheme_grid_custom( $posts, $element, $template, $columns, $args );
+			antreas_grid_custom( $posts, $element, $template, $columns, $args );
 		}
 	}
 }
 
 
 //Runs the grid using the default loop
-if ( ! function_exists( 'cpotheme_grid_default' ) ) {
-	function cpotheme_grid_default( $element, $template, $columns = 3, $args = null ) {
+if ( ! function_exists( 'antreas_grid_default' ) ) {
+	function antreas_grid_default( $element, $template, $columns = 3, $args = null ) {
 		$class = isset( $args['class'] ) ? $args['class'] : '';
 		if ( $columns == '' ) {
 			$columns = 3;
@@ -399,7 +399,7 @@ if ( ! function_exists( 'cpotheme_grid_default' ) ) {
 			the_post();
 			if ( $count % $columns == 0 && $count > 0 ) {
 				echo '</div>';
-				do_action( 'cpotheme_grid_' . $template );
+				do_action( 'antreas_grid_' . $template );
 				echo '<div class="row">';
 			}
 			$count ++;
@@ -413,8 +413,8 @@ if ( ! function_exists( 'cpotheme_grid_default' ) ) {
 
 
 //Runs the grid using a custom loop
-if ( ! function_exists( 'cpotheme_grid_custom' ) ) {
-	function cpotheme_grid_custom( $posts, $element, $template, $columns = 3, $args = null ) {
+if ( ! function_exists( 'antreas_grid_custom' ) ) {
+	function antreas_grid_custom( $posts, $element, $template, $columns = 3, $args = null ) {
 		global $post;
 		$class = isset( $args['class'] ) ? $args['class'] : '';
 		if ( $columns == '' ) {
@@ -427,7 +427,7 @@ if ( ! function_exists( 'cpotheme_grid_custom' ) ) {
 			setup_postdata( $post );
 			if ( $count % $columns == 0 && $count > 0 ) {
 				echo '</div>';
-				do_action( 'cpotheme_grid_' . $template );
+				do_action( 'antreas_grid_' . $template );
 				echo '<div class="row">';
 			}
 			$count ++;
@@ -441,10 +441,10 @@ if ( ! function_exists( 'cpotheme_grid_custom' ) ) {
 
 
 //Adds custom analytics code in the footer
-if ( ! function_exists( 'cpotheme_layout_analytics' ) ) {
-	//add_action('wp_footer','cpotheme_layout_analytics');
-	function cpotheme_layout_analytics() {
-		$output = stripslashes( html_entity_decode( cpotheme_get_option( 'general_analytics' ), ENT_QUOTES ) );
+if ( ! function_exists( 'antreas_layout_analytics' ) ) {
+	//add_action('wp_footer','antreas_layout_analytics');
+	function antreas_layout_analytics() {
+		$output = stripslashes( html_entity_decode( antreas_get_option( 'general_analytics' ), ENT_QUOTES ) );
 		//$output = stripslashes($output);
 		echo $output;
 	}
@@ -452,10 +452,10 @@ if ( ! function_exists( 'cpotheme_layout_analytics' ) ) {
 
 
 //Adds custom css code in the footer
-if ( ! function_exists( 'cpotheme_layout_css' ) ) {
-	add_action( 'wp_head', 'cpotheme_layout_css', 25 );
-	function cpotheme_layout_css() {
-		$output = cpotheme_get_option( 'general_css' );
+if ( ! function_exists( 'antreas_layout_css' ) ) {
+	add_action( 'wp_head', 'antreas_layout_css', 25 );
+	function antreas_layout_css() {
+		$output = antreas_get_option( 'general_css' );
 		if ( $output != '' ) {
 			$output = '<style type="text/css">' . wp_strip_all_tags( $output ) . '</style>';
 			echo $output;
@@ -464,8 +464,8 @@ if ( ! function_exists( 'cpotheme_layout_css' ) ) {
 }
 
 // Generates breadcrumb navigation
-if ( ! function_exists( 'cpotheme_breadcrumb' ) ) {
-	function cpotheme_breadcrumb( $display = false ) {
+if ( ! function_exists( 'antreas_breadcrumb' ) ) {
+	function antreas_breadcrumb( $display = false ) {
 
 		if ( ! is_home() && ! is_front_page() && ( $display || true ) ) {
 
@@ -539,9 +539,9 @@ if ( ! function_exists( 'cpotheme_breadcrumb' ) ) {
 
 
 //Displays the search form on search pages
-add_action( 'cpotheme_before_content', 'cpotheme_search_form' );
-if ( ! function_exists( 'cpotheme_search_form' ) ) {
-	function cpotheme_search_form() {
+add_action( 'antreas_before_content', 'antreas_search_form' );
+if ( ! function_exists( 'antreas_search_form' ) ) {
+	function antreas_search_form() {
 		if ( is_search() ) {
 			$search_query = '';
 			if ( isset( $_GET['s'] ) ) {
@@ -564,8 +564,8 @@ if ( ! function_exists( 'cpotheme_search_form' ) ) {
 
 
 //Displays the post image on listings and blog posts
-if ( ! function_exists( 'cpotheme_postpage_image' ) ) {
-	function cpotheme_postpage_image( $size = 'portfolio' ) {
+if ( ! function_exists( 'antreas_postpage_image' ) ) {
+	function antreas_postpage_image( $size = 'portfolio' ) {
 		if ( has_post_thumbnail() ) {
 			if ( ! is_singular( 'post' ) ) {
 				echo '<a href="' . get_permalink( get_the_ID() ) . '" title="' . sprintf( esc_attr__( 'Go to %s', 'antreas' ), the_title_attribute( 'echo=0' ) ) . '" rel="bookmark">';
@@ -580,8 +580,8 @@ if ( ! function_exists( 'cpotheme_postpage_image' ) ) {
 
 
 //Displays the post title on listings
-if ( ! function_exists( 'cpotheme_postpage_title' ) ) {
-	function cpotheme_postpage_title() {
+if ( ! function_exists( 'antreas_postpage_title' ) ) {
+	function antreas_postpage_title() {
 		if ( ! is_singular( 'post' ) ) {
 			echo '<h2 class="post-title">';
 			echo '<a href="' . get_permalink( get_the_ID() ) . '" title="' . sprintf( esc_attr__( 'Go to %s', 'antreas' ), the_title_attribute( 'echo=0' ) ) . '" rel="bookmark">';
@@ -594,15 +594,15 @@ if ( ! function_exists( 'cpotheme_postpage_title' ) ) {
 
 
 //Displays the post content
-if ( ! function_exists( 'cpotheme_postpage_content' ) ) {
-	function cpotheme_postpage_content() {
-		$preview = cpotheme_get_option( 'postpage_preview' );
+if ( ! function_exists( 'antreas_postpage_content' ) ) {
+	function antreas_postpage_content() {
+		$preview = antreas_get_option( 'postpage_preview' );
 
 		if ( $preview === true || $preview == 'full' || is_singular( 'post' ) ) {
-			do_action( 'cpotheme_before_post_content' );
+			do_action( 'antreas_before_post_content' );
 			the_content();
-			cpotheme_post_pagination();
-			do_action( 'cpotheme_after_post_content' );
+			antreas_post_pagination();
+			do_action( 'antreas_after_post_content' );
 		} elseif ( $preview != 'none' ) {
 			the_excerpt();
 		}
@@ -610,8 +610,8 @@ if ( ! function_exists( 'cpotheme_postpage_content' ) ) {
 }
 
 //Displays the post date
-if ( ! function_exists( 'cpotheme_postpage_date' ) ) {
-	function cpotheme_postpage_date( $display = false, $date_format = '', $format_text = '' ) {
+if ( ! function_exists( 'antreas_postpage_date' ) ) {
+	function antreas_postpage_date( $display = false, $date_format = '', $format_text = '' ) {
 		if ( $date_format != '' ) {
 			$date_string = get_the_date( $date_format );
 		} else {
@@ -626,8 +626,8 @@ if ( ! function_exists( 'cpotheme_postpage_date' ) ) {
 }
 
 //Displays the author link
-if ( ! function_exists( 'cpotheme_postpage_author' ) ) {
-	function cpotheme_postpage_author( $display = false, $format_text = '' ) {
+if ( ! function_exists( 'antreas_postpage_author' ) ) {
+	function antreas_postpage_author( $display = false, $format_text = '' ) {
 		$author_alt = sprintf( esc_attr__( 'View all posts by %s', 'antreas' ), get_the_author() );
 		$author     = sprintf( '<a href="%1$s" title="%2$s">%3$s</a>', get_author_posts_url( get_the_author_meta( 'ID' ) ), $author_alt, get_the_author() );
 		if ( $format_text != '' ) {
@@ -638,8 +638,8 @@ if ( ! function_exists( 'cpotheme_postpage_author' ) ) {
 }
 
 //Displays the category list for the current post
-if ( ! function_exists( 'cpotheme_postpage_categories' ) ) {
-	function cpotheme_postpage_categories( $display = false, $format_text = '' ) {
+if ( ! function_exists( 'antreas_postpage_categories' ) ) {
+	function antreas_postpage_categories( $display = false, $format_text = '' ) {
 		if ( $display || true ) {
 			$category_list = get_the_category_list( ', ' );
 			if ( $format_text != '' ) {
@@ -651,8 +651,8 @@ if ( ! function_exists( 'cpotheme_postpage_categories' ) ) {
 }
 
 //Displays the number of comments for the post
-if ( ! function_exists( 'cpotheme_postpage_comments' ) ) {
-	function cpotheme_postpage_comments( $display_always = false, $format_text = '' ) {
+if ( ! function_exists( 'antreas_postpage_comments' ) ) {
+	function antreas_postpage_comments( $display_always = false, $format_text = '' ) {
 		if ( $display_always || true ) {
 			$comments_num = get_comments_number();
 
@@ -676,8 +676,8 @@ if ( ! function_exists( 'cpotheme_postpage_comments' ) ) {
 }
 
 //Displays the post tags
-if ( ! function_exists( 'cpotheme_postpage_tags' ) ) {
-	function cpotheme_postpage_tags( $display = false, $before = '', $separator = ', ', $after = '' ) {
+if ( ! function_exists( 'antreas_postpage_tags' ) ) {
+	function antreas_postpage_tags( $display = false, $before = '', $separator = ', ', $after = '' ) {
 		if ( $display || true ) {
 			echo '<div class="post-tags">';
 			the_tags( $before, $separator, $after );
@@ -688,11 +688,11 @@ if ( ! function_exists( 'cpotheme_postpage_tags' ) ) {
 
 
 //Display Read More link for post excerpts
-if ( ! function_exists( 'cpotheme_postpage_readmore' ) ) {
-	function cpotheme_postpage_readmore( $classes = '' ) {
+if ( ! function_exists( 'antreas_postpage_readmore' ) ) {
+	function antreas_postpage_readmore( $classes = '' ) {
 		if ( ! is_singular( 'post' ) ) {
 			echo '<a class="post-readmore ' . esc_attr( $classes ) . '" href="' . get_permalink( get_the_ID() ) . '">';
-			echo apply_filters( 'cpotheme_readmore', __( 'Read More', 'antreas' ) );
+			echo apply_filters( 'antreas_readmore', __( 'Read More', 'antreas' ) );
 			echo '</a>';
 		}
 	}
@@ -700,8 +700,8 @@ if ( ! function_exists( 'cpotheme_postpage_readmore' ) ) {
 
 
 //Displays the author box
-if ( ! function_exists( 'cpotheme_author' ) ) {
-	function cpotheme_author() {
+if ( ! function_exists( 'antreas_author' ) ) {
+	function antreas_author() {
 		if ( get_the_author_meta( 'description' ) ) {
 			if ( function_exists( 'ts_fab_add_author_box' ) ) {
 				echo ts_fab_add_author_box( '' );
@@ -738,7 +738,7 @@ if ( ! function_exists( 'cpotheme_author' ) ) {
 				if ( $user_meta != '' ) {
 					echo '<a target="_blank" rel="nofollow" class="author-linkedin" href="' . esc_attr( $user_meta ) . '">' . __( 'LinkedIn', 'antreas' ) . '</a>';
 				}
-				do_action( 'cpotheme_author_links' );
+				do_action( 'antreas_author_links' );
 				echo '</div>';
 				echo '</div>';
 				echo '</div>';
@@ -752,8 +752,8 @@ if ( ! function_exists( 'cpotheme_author' ) ) {
 
 
 //Displays visual media of a particular post
-if ( ! function_exists( 'cpotheme_get_media' ) ) {
-	function cpotheme_get_media( $url ) {
+if ( ! function_exists( 'antreas_get_media' ) ) {
+	function antreas_get_media( $url ) {
 		if ( $url != '' ) {
 			$media = wp_oembed_get( $url );
 			if ( $media !== false ) {
@@ -766,8 +766,8 @@ if ( ! function_exists( 'cpotheme_get_media' ) ) {
 }
 
 //Displays visual media of a particular post
-if ( ! function_exists( 'cpotheme_post_media' ) ) {
-	function cpotheme_post_media( $post_id, $media_type, $video = '', $options = null ) {
+if ( ! function_exists( 'antreas_post_media' ) ) {
+	function antreas_post_media( $post_id, $media_type, $video = '', $options = null ) {
 
 		switch ( $media_type ) {
 			case 'none':
@@ -784,8 +784,8 @@ if ( ! function_exists( 'cpotheme_post_media' ) ) {
 
 
 //Paginates a single post's content by using a numbered list
-if ( ! function_exists( 'cpotheme_pagination' ) ) {
-	function cpotheme_pagination() {
+if ( ! function_exists( 'antreas_pagination' ) ) {
+	function antreas_pagination() {
 		$query        = $GLOBALS['wp_query'];
 		$current_page = max( 1, absint( $query->get( 'paged' ) ) );
 		$total_pages  = max( 1, absint( $query->max_num_pages ) );
@@ -849,8 +849,8 @@ if ( ! function_exists( 'cpotheme_pagination' ) ) {
 
 
 //Paginates a list of posts, such as the blog or portfolio
-if ( ! function_exists( 'cpotheme_numbered_pagination' ) ) {
-	function cpotheme_numbered_pagination( $query = '' ) {
+if ( ! function_exists( 'antreas_numbered_pagination' ) ) {
+	function antreas_numbered_pagination( $query = '' ) {
 		global $wp_query;
 		if ( $query != '' ) {
 			$total_pages = $query->max_num_pages;
@@ -879,8 +879,8 @@ if ( ! function_exists( 'cpotheme_numbered_pagination' ) ) {
 
 
 //Paginates a single post by using a numbered list
-if ( ! function_exists( 'cpotheme_post_pagination' ) ) {
-	function cpotheme_post_pagination() {
+if ( ! function_exists( 'antreas_post_pagination' ) ) {
+	function antreas_post_pagination() {
 		wp_link_pages(
 			array(
 				'before'    => '<div class="postpagination">',
@@ -894,11 +894,11 @@ if ( ! function_exists( 'cpotheme_post_pagination' ) ) {
 
 
 //Prints the main navigation menu
-if ( ! function_exists( 'cpotheme_menu' ) ) {
-	function cpotheme_menu( $options = null ) {
+if ( ! function_exists( 'antreas_menu' ) ) {
+	function antreas_menu( $options = null ) {
 		if ( has_nav_menu( 'main_menu' ) ) {
 			if ( isset( $options['toggle'] ) && $options['toggle'] == true ) {
-				cpotheme_menu_toggle();
+				antreas_menu_toggle();
 			}
 			wp_nav_menu(
 				array(
@@ -907,6 +907,7 @@ if ( ! function_exists( 'cpotheme_menu' ) ) {
 					'theme_location' => 'main_menu',
 					'depth'          => '4',
 					'container'      => false,
+					'walker'         => new Antreas_Menu_Walker(),
 				)
 			);
 		}	
@@ -915,9 +916,9 @@ if ( ! function_exists( 'cpotheme_menu' ) ) {
 
 
 //Prints the mobile navigation menu
-if ( ! function_exists( 'cpotheme_mobile_menu' ) ) {
-	add_action( 'wp_footer', 'cpotheme_mobile_menu' );
-	function cpotheme_mobile_menu( $options = null ) {
+if ( ! function_exists( 'antreas_mobile_menu' ) ) {
+	add_action( 'wp_footer', 'antreas_mobile_menu' );
+	function antreas_mobile_menu( $options = null ) {
 		//Use mobile menu if set, or fall back to the main menu
 		if ( has_nav_menu( 'mobile_menu' ) ) {
 			echo '<div id="menu-mobile-close" class="menu-mobile-close menu-mobile-toggle"></div>';
@@ -928,6 +929,7 @@ if ( ! function_exists( 'cpotheme_mobile_menu' ) ) {
 					'theme_location' => 'mobile_menu',
 					'depth'          => '4',
 					'container'      => false,
+					'walker'         => new Antreas_Menu_Walker(),
 				)
 			);
 		} elseif ( has_nav_menu( 'main_menu' ) ) {
@@ -939,6 +941,7 @@ if ( ! function_exists( 'cpotheme_mobile_menu' ) ) {
 					'theme_location' => 'main_menu',
 					'depth'          => '4',
 					'container'      => false,
+					'walker'         => new Antreas_Menu_Walker(),
 				)
 			);
 		}
@@ -947,8 +950,8 @@ if ( ! function_exists( 'cpotheme_mobile_menu' ) ) {
 
 
 //Prints the main navigation menu
-if ( ! function_exists( 'cpotheme_menu_toggle' ) ) {
-	function cpotheme_menu_toggle() {
+if ( ! function_exists( 'antreas_menu_toggle' ) ) {
+	function antreas_menu_toggle() {
 		if ( has_nav_menu( 'main_menu' ) ) {
 			echo '<div id="menu-mobile-open" class=" menu-mobile-open menu-mobile-toggle"></div>';
 		}
@@ -957,8 +960,8 @@ if ( ! function_exists( 'cpotheme_menu_toggle' ) ) {
 
 
 //Prints the footer navigation menu
-if ( ! function_exists( 'cpotheme_top_menu' ) ) {
-	function cpotheme_top_menu() {
+if ( ! function_exists( 'antreas_top_menu' ) ) {
+	function antreas_top_menu() {
 		if ( has_nav_menu( 'top_menu' ) ) {
 			echo '<div id="topmenu" class="topmenu">';
 			wp_nav_menu(
@@ -967,7 +970,7 @@ if ( ! function_exists( 'cpotheme_top_menu' ) ) {
 					'theme_location' => 'top_menu',
 					'depth'          => 0,
 					'fallback_cb'    => null,
-					'walker'         => new Cpotheme_Menu_Walker(),
+					'walker'         => new Antreas_Menu_Walker(),
 				)
 			);
 			echo '</div>';
@@ -977,8 +980,8 @@ if ( ! function_exists( 'cpotheme_top_menu' ) ) {
 
 
 //Prints the footer navigation menu
-if ( ! function_exists( 'cpotheme_footer_menu' ) ) {
-	function cpotheme_footer_menu() {
+if ( ! function_exists( 'antreas_footer_menu' ) ) {
+	function antreas_footer_menu() {
 		if ( has_nav_menu( 'footer_menu' ) ) {
 			echo '<div id="footermenu" class="footermenu">';
 			wp_nav_menu(
@@ -987,7 +990,7 @@ if ( ! function_exists( 'cpotheme_footer_menu' ) ) {
 					'theme_location' => 'footer_menu',
 					'depth'          => 1,
 					'fallback_cb'    => false,
-					'walker'         => new Cpotheme_Menu_Walker(),
+					'walker'         => new Antreas_Menu_Walker(),
 				)
 			);
 			echo '</div>';
@@ -997,12 +1000,12 @@ if ( ! function_exists( 'cpotheme_footer_menu' ) ) {
 
 
 //Prints a custom navigation menu based around a single taxonomy
-if ( ! function_exists( 'cpotheme_secondary_menu' ) ) {
-	function cpotheme_secondary_menu( $taxonomy = 'cpo_portfolio_category', $class ) {
+if ( ! function_exists( 'antreas_secondary_menu' ) ) {
+	function antreas_secondary_menu( $taxonomy = 'cpo_portfolio_category', $class ) {
 		if ( taxonomy_exists( $taxonomy ) ) {
 			$feature_posts = get_terms( $taxonomy, 'order=ASC&orderby=name' );
 			if ( sizeof( $feature_posts ) > 0 ) {
-				$current_id = cpotheme_current_id();
+				$current_id = antreas_current_id();
 				echo '<div id="menu-secondary ' . $class . '" class="menu-secondary ' . $class . '">';
 				foreach ( $feature_posts as $current_item ) {
 					$active_item = '';
@@ -1021,8 +1024,8 @@ if ( ! function_exists( 'cpotheme_secondary_menu' ) ) {
 
 
 //TODO: Print a default navigation menu when there is none, using the theme markup
-if ( ! function_exists( 'cpotheme_default_menu' ) ) {
-	function cpotheme_default_menu() {
+if ( ! function_exists( 'antreas_default_menu' ) ) {
+	function antreas_default_menu() {
 		$args  = array( 'sort_column' => 'menu_order, post_title' );
 		$pages = get_pages( $args );
 
@@ -1050,8 +1053,8 @@ if ( ! function_exists( 'cpotheme_default_menu' ) ) {
 
 
 //Print comment protected message
-if ( ! function_exists( 'cpotheme_comments_protected' ) ) {
-	function cpotheme_comments_protected() {
+if ( ! function_exists( 'antreas_comments_protected' ) ) {
+	function antreas_comments_protected() {
 		if ( post_password_required() ) {
 			echo '<p class="comments-protected">';
 			_e( 'This page is protected. Please type the password to be able to read its contents.', 'antreas' );
@@ -1066,8 +1069,8 @@ if ( ! function_exists( 'cpotheme_comments_protected' ) ) {
 
 
 //Print comment list title
-if ( ! function_exists( 'cpotheme_comments_title' ) ) {
-	function cpotheme_comments_title() {
+if ( ! function_exists( 'antreas_comments_title' ) ) {
+	function antreas_comments_title() {
 		echo '<h3 id="comments-title" class="comments-title">';
 		if ( get_comments_number() == 1 ) {
 			_e( 'One comment', 'antreas' );
@@ -1080,8 +1083,8 @@ if ( ! function_exists( 'cpotheme_comments_title' ) ) {
 
 
 //Print comment markup
-if ( ! function_exists( 'cpotheme_comment' ) ) {
-	function cpotheme_comment( $comment, $args, $depth ) {
+if ( ! function_exists( 'antreas_comment' ) ) {
+	function antreas_comment( $comment, $args, $depth ) {
 		$GLOBALS['comment'] = $comment;
 
 		//Normal Comments
@@ -1143,8 +1146,8 @@ if ( ! function_exists( 'cpotheme_comment' ) ) {
 }
 
 //Print comment list pagination
-if ( ! function_exists( 'cpotheme_comments_pagination' ) ) {
-	function cpotheme_comments_pagination() {
+if ( ! function_exists( 'antreas_comments_pagination' ) ) {
+	function antreas_comments_pagination() {
 		if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) {
 			echo '<div class="comments-navigation">';
 			echo '<div class="comments-previous">';
@@ -1160,9 +1163,9 @@ if ( ! function_exists( 'cpotheme_comments_pagination' ) ) {
 
 
 //Print Tagline title
-if ( ! function_exists( 'cpotheme_tagline_title' ) ) {
-	function cpotheme_tagline_title() {
-		$tagline = cpotheme_get_option( 'home_tagline' );
+if ( ! function_exists( 'antreas_tagline_title' ) ) {
+	function antreas_tagline_title() {
+		$tagline = antreas_get_option( 'home_tagline' );
 		if ( $tagline != '' ) {
 			echo '<div class="tagline-title">';
 			echo $tagline;
@@ -1174,9 +1177,9 @@ if ( ! function_exists( 'cpotheme_tagline_title' ) ) {
 
 
 //Print Tagline content
-if ( ! function_exists( 'cpotheme_tagline_content' ) ) {
-	function cpotheme_tagline_content() {
-		$tagline = cpotheme_get_option( 'home_tagline_content' );
+if ( ! function_exists( 'antreas_tagline_content' ) ) {
+	function antreas_tagline_content() {
+		$tagline = antreas_get_option( 'home_tagline_content' );
 		if ( $tagline != '' ) {
 			echo '<div class="tagline-content">';
 			echo $tagline;

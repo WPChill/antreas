@@ -1,6 +1,6 @@
 ( function( api ) {
 
- 	api.CPOThemeSelectizeControl = api.Control.extend( {
+ 	api.AntreasSelectizeControl = api.Control.extend( {
 
 		ready: function() {
 			var control = this;
@@ -38,7 +38,7 @@
 	});
 
 	$.extend( api.controlConstructor, {
-		'cpotheme-selectize-control': api.CPOThemeSelectizeControl,
+		'antreas-selectize-control': api.AntreasSelectizeControl,
     });
 
 })( wp.customize );

@@ -2,8 +2,8 @@
 <?php if ( $query->posts ) : ?>
 	<div id="team" class="section team">
 		<div class="container">
-			<?php cpotheme_section_heading( 'team' ); ?>
-			<?php cpotheme_grid( $query->posts, 'element', 'team', 4, array( 'class' => 'column-narrow' ) ); ?>
+			<?php antreas_section_heading( 'team' ); ?>
+			<?php antreas_grid( $query->posts, 'element', 'team', 4, array( 'class' => 'column-narrow' ) ); ?>
 		</div>
 	</div>
 	<?php wp_reset_postdata(); ?>
