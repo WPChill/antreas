@@ -1906,6 +1906,12 @@ img.alignleft, img.alignright, img.aligncenter {
   line-height: 1.2;
   font-size: 2.5em; }
 
+.about .about__image {
+  margin-bottom: 20px; }
+
+.about .about__title a {
+  color: inherit; }
+
 .clients {
   display: block;
   position: relative;

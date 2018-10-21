@@ -22,7 +22,7 @@ if ( ! function_exists( 'cpotheme_setup' ) ) {
 		if ( ! defined( 'CPOTHEME_CORE_URL' ) ) {
 			define( 'CPOTHEME_CORE_URL', get_template_directory_uri() . '/core' );
 		}
-		
+
 		//Add custom image size
 		$thumbnail_sizes  = get_option( 'cpotheme_thumbnail', '' );
 		$thumbnail_width  = isset( $thumbnail_sizes['width'] ) && $thumbnail_sizes['width'] != '' ? $thumbnail_sizes['width'] : CPOTHEME_THUMBNAIL_WIDTH;
@@ -123,7 +123,7 @@ if ( ! function_exists( 'cpotheme_scripts_front' ) ) {
 		// Register custom scripts for later enqueuing.
 		wp_register_script( 'cpotheme_cycle', $scripts_path . 'jquery-cycle2.js', array( 'jquery' ), CPOTHEME_VERSION, true );
 		wp_register_script( 'cpotheme-magnific', $scripts_path . 'jquery-magnific.js', array( 'jquery' ), CPOTHEME_VERSION, true );
-	
+
 		wp_enqueue_script( 'cpotheme_core', $scripts_path . 'core.js', array(), CPOTHEME_VERSION, true );
 	}
 }
@@ -145,6 +145,7 @@ if ( ! function_exists( 'cpotheme_scripts_back' ) ) {
 	}
 }
 
+
 if ( ! function_exists( 'cpotheme_scripts_customizer' ) ) {
 	add_action( 'customize_controls_enqueue_scripts', 'cpotheme_scripts_customizer' );
 	function cpotheme_scripts_customizer() {
@@ -155,18 +156,27 @@ if ( ! function_exists( 'cpotheme_scripts_customizer' ) ) {
 			$scripts_path = CPOTHEME_CORE_URL . '/scripts/';
 		}
 
-		// Common scripts.
-		wp_enqueue_script( 'cpotheme_script_customizer', $scripts_path . 'customizer-init.js', array( 'jquery' ), CPOTHEME_VERSION, true );
+		wp_register_script( 'cpotheme-selectize', $scripts_path . 'selectize.js', array( 'jquery' ), CPOTHEME_VERSION );
+		wp_enqueue_script( 'cpotheme-customizer-controls', $scripts_path . 'customizer-controls.js', array( 'jquery' ), CPOTHEME_VERSION, true );
 	}
 }
 
-if ( ! function_exists( 'cpotheme_scripts_customizer_live_preview' ) ) {
-	add_action( 'customize_preview_init', 'cpotheme_scripts_customizer_live_preview' );
-	function cpotheme_scripts_customizer_live_preview() {
-		wp_enqueue_script( 'cpotheme_jquery.scrollTo', get_template_directory_uri() . '/core/scripts/jquery.scrollTo.js', array(), CPOTHEME_VERSION, true );
+
+if ( ! function_exists( 'cpotheme_scripts_customizer_preview' ) ) {
+	add_action( 'customize_preview_init', 'cpotheme_scripts_customizer_preview' );
+	function cpotheme_scripts_customizer_preview() {
 		wp_enqueue_script( 'cpotheme_customizer-preview', get_template_directory_uri() . '/core/scripts/customizer-preview.js', array( 'customize-preview' ), CPOTHEME_VERSION, true );
 	}
 }
+
+
+if ( ! function_exists( 'cpotheme_styles_customizer_preview' ) ) {
+	add_action( 'customize_preview_init', 'cpotheme_styles_customizer_preview' );
+	function cpotheme_styles_customizer_preview() {
+		wp_enqueue_style( 'cpotheme-customizer-preview', get_template_directory_uri() . '/core/css/customizer-preview.css', array(), CPOTHEME_VERSION );
+	}
+}
+
 
 //Add public stylesheets
 if ( ! function_exists( 'cpotheme_add_styles' ) ) {
@@ -202,6 +212,8 @@ if ( ! function_exists( 'cpotheme_add_admin_styles' ) ) {
 			wp_enqueue_style( 'cpotheme_admin', $stylesheets_path . 'admin.css', array(), CPOTHEME_VERSION );
 			wp_enqueue_style( 'cpotheme-fontawesome', $stylesheets_path . 'icon-fontawesome.css', array(), CPOTHEME_VERSION );
 		}
+
+		wp_enqueue_style( 'cpotheme-selectize-css', $stylesheets_path . 'selectize.css', array(), CPOTHEME_VERSION );
 	}
 }
 
@@ -213,30 +225,31 @@ if ( defined( 'CPOTHEME_CORE' ) ) {
 }
 
 // Classes.
-require_once( $core_path . 'classes/class_menu_edit.php' );
-require_once( $core_path . 'classes/class_menu.php' );
-require_once( $core_path . 'classes/class_customizer.php' );
-require_once( $core_path . 'classes/class_cpo_customize_contact_control.php' );
-require_once( $core_path . 'classes/class_cpo_customize_tinymce_control.php' );
+require_once $core_path . 'classes/class_menu_edit.php';
+require_once $core_path . 'classes/class_menu.php';
+require_once $core_path . 'classes/class_customizer.php';
+require_once $core_path . 'classes/class-cpotheme-customize-contactform-control.php';
+require_once $core_path . 'classes/class-cpotheme-customize-tinymce-control.php';
+require_once $core_path . 'classes/class-cpotheme-customize-selectize-control.php';
 
 // Main Components.
-require_once( $core_path . 'functions.php' );
-require_once( $core_path . 'markup.php' );
-require_once( $core_path . 'filters.php' );
-require_once( $core_path . 'meta.php' );
-require_once( $core_path . 'metaboxes.php' );
-require_once( $core_path . 'forms.php' );
-require_once( $core_path . 'sections.php' );
-require_once( $core_path . 'taxonomy.php' );
-require_once( $core_path . 'icons.php' );
-require_once( $core_path . 'layout.php' );
-require_once( $core_path . 'menus.php' );
-require_once( $core_path . 'customizer.php' );
-require_once( $core_path . 'gutenberg.php' );
+require_once $core_path . 'functions.php';
+require_once $core_path . 'markup.php';
+require_once $core_path . 'filters.php';
+require_once $core_path . 'meta.php';
+require_once $core_path . 'metaboxes.php';
+require_once $core_path . 'forms.php';
+require_once $core_path . 'sections.php';
+require_once $core_path . 'taxonomy.php';
+require_once $core_path . 'icons.php';
+require_once $core_path . 'layout.php';
+require_once $core_path . 'menus.php';
+require_once $core_path . 'customizer.php';
+require_once $core_path . 'gutenberg.php';
 
 // Metadata.
-require_once( $core_path . 'metadata/data_general.php' );
-require_once( $core_path . 'metadata/data_icons.php' );
-require_once( $core_path . 'metadata/data_metaboxes.php' );
-require_once( $core_path . 'metadata/data_customizer.php' );
+require_once $core_path . 'metadata/data_general.php';
+require_once $core_path . 'metadata/data_icons.php';
+require_once $core_path . 'metadata/data_metaboxes.php';
+require_once $core_path . 'metadata/data_customizer.php';
 

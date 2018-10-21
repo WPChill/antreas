@@ -3,16 +3,11 @@ if ( ! class_exists( 'WP_Customize_Control' ) ) {
 	return null;
 }
 
-class CPO_Customize_Contact_Control extends WP_Customize_Control {
+class CPOTheme_Customize_ContactForm_Control extends WP_Customize_Control {
 
-	/**
-	 * The type of customize control being rendered.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @var    string
-	 */
-	public $type = 'cpo_contact_control';
+	public function enqueue() {
+		wp_enqueue_script( 'cpotheme-contactform-control', get_template_directory_uri() . '/core/scripts/customizer-controls/contactform-control.js', array( 'jquery', 'customize-controls' ), CPOTHEME_VERSION );
+	}
 
 	public function is_cf7_active() {
 		if ( class_exists( 'WPCF7' ) ) {
@@ -80,7 +75,7 @@ class CPO_Customize_Contact_Control extends WP_Customize_Control {
 			<p><?php _e('There are no contact form plugins activated. Please activate WPForms or Contact Form 7', 'antreas'); ?></p>
 		<?php } ?>
 
-		<?php if ( $this->is_wpforms_active() ) { ?>	
+		<?php if ( $this->is_wpforms_active() ) { ?>
 			<div class="cpotheme_contact_control__wpforms">
 				<?php $forms = $this->get_wpforms(); ?>
 				<?php if ( ! empty( $forms ) ) { ?>
@@ -89,15 +84,15 @@ class CPO_Customize_Contact_Control extends WP_Customize_Control {
 						<option>...</option>
 						<?php foreach ( $forms as $id => $form_title ) { ?>
 							<option value="<?php echo $id; ?>" <?php echo $form_id == $id ? 'selected' : ''; ?>><?php echo $form_title; ?></option>
-						<?php } ?> 	
+						<?php } ?>
 					</select>
 				<?php } else { ?>
 					<?php printf( __( '<p>%s <a href="' . admin_url( 'admin.php?page=wpforms-builder' ) . '">%s</a></p>', 'antreas' ), 'please add a', 'new form' );  ?>
 				<?php } ?>
 			</div>
-		<?php } ?>	
+		<?php } ?>
 
-		<?php if ( $this->is_cf7_active() ) { ?>	
+		<?php if ( $this->is_cf7_active() ) { ?>
 			<div class="cpotheme_contact_control__cf7forms">
 				<?php $forms = $this->get_cf7_forms(); ?>
 				<?php if ( ! empty( $forms ) ) { ?>
@@ -106,13 +101,13 @@ class CPO_Customize_Contact_Control extends WP_Customize_Control {
 						<option>...</option>
 						<?php foreach ( $forms as $id => $form_title ) { ?>
 							<option value="<?php echo $id; ?>" <?php echo $form_id == $id ? 'selected' : ''; ?>><?php echo $form_title; ?></option>
-						<?php } ?> 	
+						<?php } ?>
 					</select>
 				<?php } else { ?>
 					<?php printf( __( '<p>%s <a href="' . admin_url( 'admin.php?page=wpcf7-new' ) . '">%s</a></p>', 'antreas' ), 'please add a', 'new form' );  ?>
 				<?php } ?>
 			</div>
-		<?php } ?>		
+		<?php } ?>
 
 		<?php
 	}

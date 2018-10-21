@@ -1,7 +1,7 @@
 ( function( $ ) {
 
 	var headerHeight = $('#header').innerHeight();
-	
+
 	wp.customize.bind('preview-ready', function () {
 
 	 	wp.customize.preview.bind( 'section-highlight', function( data ) {
@@ -29,13 +29,9 @@
 			// When the section is expanded, show and scroll to the content placeholders, exposing the edit links.
 			if ( true === data.expanded && $( selectors[ data.section ] ).length > 0 ) {
 				var offset = $(window).scrollTop() === 0 ? -headerHeight*2 : -headerHeight;
-				
-				$.scrollTo( $( selectors[ data.section ] ), {
-					offset: offset,
-					duration: 600,
-				});
+				jQuery( 'html, body' ).animate( { scrollTop: $( selectors[ data.section ] ).offset().top + offset  }, 1000, 'swing' );
 			}
-		}); 
+		});
 
 	});
 
