@@ -1,38 +1,38 @@
 <?php
 
 //Define customizer sections
-if ( ! function_exists( 'cpotheme_metadata_panels' ) ) {
-	function cpotheme_metadata_panels() {
+if ( ! function_exists( 'antreas_metadata_panels' ) ) {
+	function antreas_metadata_panels() {
 		$data = array();
 
-		$data['cpotheme_management'] = array(
+		$data['antreas_management'] = array(
 			'title'       => __( 'General Theme Options', 'antreas' ),
 			'description' => __( 'Options that help you manage your theme better.', 'antreas' ),
 			'capability'  => 'edit_theme_options',
 			'priority'    => 15,
 		);
 
-		$data['cpotheme_layout'] = array(
+		$data['antreas_layout'] = array(
 			'title'       => __( 'Layout', 'antreas' ),
 			'description' => __( 'Here you can find settings that control the structure and positioning of specific elements within your website.', 'antreas' ),
 			'priority'    => 25,
 		);
 
-		$data['cpotheme_content'] = array(
+		$data['antreas_content'] = array(
 			'title'       => __( 'Content Areas', 'antreas' ),
 			'description' => __( 'This theme includes a few areas where you can insert cutom content.', 'antreas' ),
 			'capability'  => 'edit_theme_options',
 			'priority'    => 26,
 		);
 
-		return apply_filters( 'cpotheme_customizer_panels', $data );
+		return apply_filters( 'antreas_customizer_panels', $data );
 	}
 }
 
 
 //Define customizer sections
-if ( ! function_exists( 'cpotheme_metadata_sections' ) ) {
-	function cpotheme_metadata_sections() {
+if ( ! function_exists( 'antreas_metadata_sections' ) ) {
+	function antreas_metadata_sections() {
 		$data = array();
 
 		$data['epsilon-section-pro'] = array(
@@ -43,145 +43,145 @@ if ( ! function_exists( 'cpotheme_metadata_sections' ) ) {
 			'priority'    => 0,
 		);
 
-		$data['cpotheme_layout_general'] = array(
+		$data['antreas_layout_general'] = array(
 			'title'       => __( 'Site Wide Structure', 'antreas' ),
 			'capability'  => 'edit_theme_options',
-			'panel'       => 'cpotheme_layout',
+			'panel'       => 'antreas_layout',
 			'priority'    => 25,
 		);
 
-		$data['cpotheme_layout_home'] = array(
+		$data['antreas_layout_home'] = array(
 			'title'       => __( 'Homepage', 'antreas' ),
 			'capability'  => 'edit_theme_options',
-			'panel'       => 'cpotheme_layout',
+			'panel'       => 'antreas_layout',
 			'priority'    => 50,
 		);
 
 		if ( defined( 'CPOTHEME_USE_SLIDES' ) && CPOTHEME_USE_SLIDES == true ) {
-			$data['cpotheme_layout_slider'] = array(
+			$data['antreas_layout_slider'] = array(
 				'title'       => __( 'Slider', 'antreas' ),
 				'description' => __( 'Customize the appearance and behavior of the slider.', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_TAGLINE' ) && CPOTHEME_USE_TAGLINE == true ) {
-			$data['cpotheme_layout_tagline'] = array(
+			$data['antreas_layout_tagline'] = array(
 				'title'       => __( 'Tagline', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_FEATURES' ) && CPOTHEME_USE_FEATURES == true ) {
-			$data['cpotheme_layout_features'] = array(
+			$data['antreas_layout_features'] = array(
 				'title'       => __( 'Features', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_PORTFOLIO' ) && CPOTHEME_USE_PORTFOLIO == true ) {
-			$data['cpotheme_layout_portfolio'] = array(
+			$data['antreas_layout_portfolio'] = array(
 				'title'       => __( 'Portfolio', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_SERVICES' ) && CPOTHEME_USE_SERVICES == true ) {
-			$data['cpotheme_layout_services'] = array(
+			$data['antreas_layout_services'] = array(
 				'title'       => __( 'Services', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_ABOUT' ) && CPOTHEME_USE_ABOUT == true ) {
-			$data['cpotheme_layout_about'] = array(
+			$data['antreas_layout_about'] = array(
 				'title'       => __( 'About', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_TEAM' ) && CPOTHEME_USE_TEAM == true ) {
-			$data['cpotheme_layout_team'] = array(
+			$data['antreas_layout_team'] = array(
 				'title'       => __( 'Team Members', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_TESTIMONIALS' ) && CPOTHEME_USE_TESTIMONIALS == true ) {
-			$data['cpotheme_layout_testimonials'] = array(
+			$data['antreas_layout_testimonials'] = array(
 				'title'       => __( 'Testimonials', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_CLIENTS' ) && CPOTHEME_USE_CLIENTS == true ) {
-			$data['cpotheme_layout_clients'] = array(
+			$data['antreas_layout_clients'] = array(
 				'title'       => __( 'Clients', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
 		if ( defined( 'CPOTHEME_USE_CONTACT' ) && CPOTHEME_USE_CONTACT == true ) {
-			$data['cpotheme_layout_contact'] = array(
+			$data['antreas_layout_contact'] = array(
 				'title'       => __( 'Contact', 'antreas' ),
 				'capability'  => 'edit_theme_options',
-				'panel'       => 'cpotheme_layout',
+				'panel'       => 'antreas_layout',
 				'priority'    => 50,
 			);
 		}
 
-		$data['cpotheme_typography'] = array(
+		$data['antreas_typography'] = array(
 			'title'       => __( 'Typography', 'antreas' ),
 			'capability'  => 'edit_theme_options',
 			'priority'    => 45,
 		);
 
-		$data['cpotheme_layout_posts'] = array(
+		$data['antreas_layout_posts'] = array(
 			'title'       => __( 'Blog Posts', 'antreas' ),
 			'capability'  => 'edit_theme_options',
-			'panel'       => 'cpotheme_layout',
+			'panel'       => 'antreas_layout',
 			'priority'    => 50,
 		);
 
-		$data['cpotheme_content_general'] = array(
+		$data['antreas_content_general'] = array(
 			'title'       => __( 'Site Wide Content', 'antreas' ),
 			'capability'  => 'edit_theme_options',
-			'panel'       => 'cpotheme_content',
+			'panel'       => 'antreas_content',
 			'priority'    => 50,
 		);
 
-		$data['cpotheme_content_home'] = array(
+		$data['antreas_content_home'] = array(
 			'title'       => __( 'Homepage', 'antreas' ),
 			'capability'  => 'edit_theme_options',
-			'panel'       => 'cpotheme_content',
+			'panel'       => 'antreas_content',
 			'priority'    => 50,
 		);
 
-		return apply_filters( 'cpotheme_customizer_sections', $data );
+		return apply_filters( 'antreas_customizer_sections', $data );
 	}
 }
 
 
-if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
-	function cpotheme_metadata_customizer( $std = null ) {
+if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
+	function antreas_metadata_customizer( $std = null ) {
 		$data = array();
 
 		$data['general_logo'] = array(
@@ -216,12 +216,12 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			'description' => __( 'Activate this to display the site title as text.', 'antreas' ),
 			'section'     => 'title_tagline',
 			'type'        => 'checkbox',
-			'sanitize'    => 'cpotheme_sanitize_bool',
+			'sanitize'    => 'antreas_sanitize_bool',
 			'std'         => false,
 		);
 
 		$data['general_upsell'] = array(
-			'section'            => 'cpotheme_layout_general',
+			'section'            => 'antreas_layout_general',
 			'type'               => 'epsilon-upsell',
 			'options'            => array(
 				esc_html__( 'Footer Columns', 'antreas' ),
@@ -249,7 +249,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			),
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-			'second_button_url'  => cpotheme_upgrade_link(),
+			'second_button_url'  => antreas_upgrade_link(),
 			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 			'separator'          => '- or -',
 		);
@@ -257,15 +257,15 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		$data['sidebar_position'] = array(
 			'label'       => __( 'Default Sidebar Position', 'antreas' ),
 			'description' => __( 'This option can be overridden in individual pages.', 'antreas' ),
-			'section'     => 'cpotheme_layout_general',
+			'section'     => 'antreas_layout_general',
 			'type'        => 'select',
-			'choices'     => cpotheme_metadata_sidebarposition_text(),
+			'choices'     => antreas_metadata_sidebarposition_text(),
 			'default'     => 'right',
 		);
 
 		//Homepage
 		$data['home_upsell']  = array(
-			'section'            => 'cpotheme_layout_home',
+			'section'            => 'antreas_layout_home',
 			'type'               => 'epsilon-upsell',
 			'options'            => array(
 				esc_html__( 'Reorder Sections', 'antreas' ),
@@ -277,7 +277,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			),
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-			'second_button_url'  => cpotheme_upgrade_link(),
+			'second_button_url'  => antreas_upgrade_link(),
 			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 			'separator'          => '- or -',
 		);
@@ -285,16 +285,16 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		$data['sidebar_position_home'] = array(
 			'label'       => __( 'Sidebar Position in Homepage', 'antreas' ),
 			'description' => __( 'If you set a static page to serve as the homepage, this option will be overridden by that page\'s settings.', 'antreas' ),
-			'section'     => 'cpotheme_layout_home',
+			'section'     => 'antreas_layout_home',
 			'type'        => 'select',
-			'choices'     => cpotheme_metadata_sidebarposition_text(),
+			'choices'     => antreas_metadata_sidebarposition_text(),
 			'default'     => 'none',
 		);
 
 		// Homepage Tagline
 		if ( defined( 'CPOTHEME_USE_TAGLINE' ) && CPOTHEME_USE_TAGLINE == true ) {
 			$data['tagline_upsell'] = array(
-				'section'            => 'cpotheme_layout_tagline',
+				'section'            => 'antreas_layout_tagline',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Extend the Tagline Section', 'antreas' ),
@@ -306,14 +306,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_tagline'] = array(
 				'label'        => __( 'Tagline Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_tagline',
+				'section'      => 'antreas_layout_tagline',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'Antreas is a theme with great potential', 'antreas' ),
@@ -324,7 +324,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 
 			$data['home_tagline_content'] = array(
 				'label'        => __( 'Tagline Content', 'antreas' ),
-				'section'      => 'cpotheme_layout_tagline',
+				'section'      => 'antreas_layout_tagline',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'this tagline can be easily added anywhere on your site', 'antreas' ),
@@ -338,7 +338,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		if ( defined( 'CPOTHEME_USE_FEATURES' ) && CPOTHEME_USE_FEATURES == true ) {
 
 			$data['features_upsell'] = array(
-				'section'            => 'cpotheme_layout_features',
+				'section'            => 'antreas_layout_features',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -350,18 +350,18 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 					esc_html__( 'You can select on how many Columns you want to show your features.', 'antreas' ),
 					esc_html__( 'More icon libraries to choose from.', 'antreas' ),
 				),
-				'button_url'         => cpotheme_upgrade_link(),
+				'button_url'         => antreas_upgrade_link(),
 				'button_text'        => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_features'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_features',
+				'section'      => 'antreas_layout_features',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'Why choose us', 'antreas' ),
@@ -375,7 +375,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		if ( defined( 'CPOTHEME_USE_PORTFOLIO' ) && CPOTHEME_USE_PORTFOLIO == true ) {
 
 			$data['portfolio_upsell'] = array(
-				'section'            => 'cpotheme_layout_portfolio',
+				'section'            => 'antreas_layout_portfolio',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -389,14 +389,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_portfolio'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_portfolio',
+				'section'      => 'antreas_layout_portfolio',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'See our Online Portfolio', 'antreas' ),
@@ -409,7 +409,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		//Services layout
 		if ( defined( 'CPOTHEME_USE_SERVICES' ) && CPOTHEME_USE_SERVICES == true ) {
 			$data['services_upsell'] = array(
-				'section'            => 'cpotheme_layout_services',
+				'section'            => 'antreas_layout_services',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -423,14 +423,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_services'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_services',
+				'section'      => 'antreas_layout_services',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'What we can do for you', 'antreas' ),
@@ -444,7 +444,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		if ( defined( 'CPOTHEME_USE_ABOUT' ) && CPOTHEME_USE_ABOUT == true ) {
 
 			$data['about_upsell'] = array(
-				'section'            => 'cpotheme_layout_about',
+				'section'            => 'antreas_layout_about',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -454,14 +454,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_about'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_about',
+				'section'      => 'antreas_layout_about',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'About us', 'antreas' ),
@@ -473,7 +473,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			$data['about_pages'] = array(
 				'label'        => __( 'About Pages', 'antreas' ),
 				'description'  => __( 'Select the pages that will be displayed as columns', 'antreas' ),
-				'section'      => 'cpotheme_layout_about',
+				'section'      => 'antreas_layout_about',
 				'type'         => 'selectize',
 				'choices' => 'pages',
 				'input_attrs' => array(
@@ -487,7 +487,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		//Team layout
 		if ( defined( 'CPOTHEME_USE_TEAM' ) && CPOTHEME_USE_TEAM == true ) {
 			$data['team_upsell'] = array(
-				'section'            => 'cpotheme_layout_team',
+				'section'            => 'antreas_layout_team',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -499,14 +499,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_team'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_team',
+				'section'      => 'antreas_layout_team',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'Meet our team', 'antreas' ),
@@ -519,7 +519,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		//Testimonials
 		if ( defined( 'CPOTHEME_USE_TESTIMONIALS' ) && CPOTHEME_USE_TESTIMONIALS == true ) {
 			$data['testimonials_upsell'] = array(
-				'section'            => 'cpotheme_layout_testimonials',
+				'section'            => 'antreas_layout_testimonials',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -531,14 +531,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_testimonials'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_testimonials',
+				'section'      => 'antreas_layout_testimonials',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'What people say about us', 'antreas' ),
@@ -551,7 +551,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		//Clients
 		if ( defined( 'CPOTHEME_USE_CLIENTS' ) && CPOTHEME_USE_CLIENTS == true ) {
 			$data['clients_upsell'] = array(
-				'section'            => 'cpotheme_layout_clients',
+				'section'            => 'antreas_layout_clients',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -563,14 +563,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_clients'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_clients',
+				'section'      => 'antreas_layout_clients',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'Some of our best clients', 'antreas' ),
@@ -583,7 +583,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 		//Contact
 		if ( defined( 'CPOTHEME_USE_CONTACT' ) && CPOTHEME_USE_CONTACT == true ) {
 			$data['contact_upsell'] = array(
-				'section'            => 'cpotheme_layout_contact',
+				'section'            => 'antreas_layout_contact',
 				'type'               => 'epsilon-upsell',
 				'options'            => array(
 					esc_html__( 'Section Description', 'antreas' ),
@@ -595,14 +595,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 				),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-				'second_button_url'  => cpotheme_upgrade_link(),
+				'second_button_url'  => antreas_upgrade_link(),
 				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
 			$data['home_contact'] = array(
 				'label'        => __( 'Section Title', 'antreas' ),
-				'section'      => 'cpotheme_layout_contact',
+				'section'      => 'antreas_layout_contact',
 				'empty'        => true,
 				'multilingual' => true,
 				'default'      => __( 'Contact us', 'antreas' ),
@@ -612,14 +612,14 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			);
 
 			$data['home_contact_custom_control']   = array(
-				'section'  => 'cpotheme_layout_contact',
+				'section'  => 'antreas_layout_contact',
 				'type'     => 'contactform',
 			);
 		}
 
 		//Blog Posts
 		$data['blog_upsell'] = array(
-			'section'            => 'cpotheme_layout_posts',
+			'section'            => 'antreas_layout_posts',
 			'type'               => 'epsilon-upsell',
 			'options'            => array(
 				esc_html__( 'Section Description', 'antreas' ),
@@ -633,7 +633,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			),
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-			'second_button_url'  => cpotheme_upgrade_link(),
+			'second_button_url'  => antreas_upgrade_link(),
 			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 			'separator'          => '- or -',
 		);
@@ -641,15 +641,15 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 
 		$data['home_posts'] = array(
 			'label'    => __( 'Enable Posts On Homepage', 'antreas' ),
-			'section'  => 'cpotheme_layout_posts',
+			'section'  => 'antreas_layout_posts',
 			'type'     => 'checkbox',
-			'sanitize' => 'cpotheme_sanitize_bool',
+			'sanitize' => 'antreas_sanitize_bool',
 			'default'  => true,
 		);
 
 		$data['home_blog'] = array(
 			'label'        => __( 'Section Title', 'antreas' ),
-			'section'      => 'cpotheme_layout_posts',
+			'section'      => 'antreas_layout_posts',
 			'empty'        => true,
 			'multilingual' => true,
 			'default'      => __( 'Recent blog posts', 'antreas' ),
@@ -660,15 +660,15 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 
 		$data['postpage_preview'] = array(
 			'label'   => __( 'Content In Post Listings', 'antreas' ),
-			'section' => 'cpotheme_layout_posts',
+			'section' => 'antreas_layout_posts',
 			'type'    => 'select',
-			'choices' => cpotheme_metadata_post_preview(),
+			'choices' => antreas_metadata_post_preview(),
 			'default' => 'excerpt',
 		);
 
 		//Typography
 		$data['typography_upsell']  = array(
-			'section'            => 'cpotheme_typography',
+			'section'            => 'antreas_typography',
 			'type'               => 'epsilon-upsell',
 			'priority'           => 0,
 			'options'            => array(
@@ -679,7 +679,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			),
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-			'second_button_url'  => cpotheme_upgrade_link(),
+			'second_button_url'  => antreas_upgrade_link(),
 			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 			'separator'          => '- or -',
 		);
@@ -697,7 +697,7 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			),
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
-			'second_button_url'  => cpotheme_upgrade_link(),
+			'second_button_url'  => antreas_upgrade_link(),
 			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 			'separator'          => '- or -',
 		);
@@ -709,6 +709,6 @@ if ( ! function_exists( 'cpotheme_metadata_customizer' ) ) {
 			'type'        => 'label',
 		);
 
-		return apply_filters( 'cpotheme_customizer_controls', $data );
+		return apply_filters( 'antreas_customizer_controls', $data );
 	}
 }

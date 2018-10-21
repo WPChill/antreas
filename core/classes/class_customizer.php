@@ -6,7 +6,7 @@ if ( ! class_exists( 'WP_Customize_Control' ) ) {
 /**
  * Class to create a custom layout control
  */
-class CPO_Customize_Imagelist_Control extends WP_Customize_Control {
+class Antreas_Customize_Imagelist_Control extends WP_Customize_Control {
 
 	public function render_content() {
 		if ( empty( $this->choices ) ) {
@@ -41,7 +41,7 @@ foreach ( $this->choices as $list_key => $list_value ) {
 }
 
 
-class CPO_Customize_Collection_Control extends WP_Customize_Control {
+class Antreas_Customize_Collection_Control extends WP_Customize_Control {
 
 	public function render_content() {
 		if ( empty( $this->choices ) ) {

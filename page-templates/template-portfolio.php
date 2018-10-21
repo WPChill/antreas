@@ -4,7 +4,7 @@
 <div id="main" class="main">
 	<div class="container">
 		<section id="content" class="content">
-			<?php do_action( 'cpotheme_before_content' ); ?>
+			<?php do_action( 'antreas_before_content' ); ?>
 
 			<?php if ( have_posts() ) : ?>
 				<?php while ( have_posts() ) : ?>
@@ -17,7 +17,7 @@
 				<?php endwhile; ?>
 			<?php endif; ?>
 
-			<?php cpotheme_secondary_menu( 'cpo_portfolio_category', 'menu-portfolio' ); ?>
+			<?php antreas_secondary_menu( 'cpo_portfolio_category', 'menu-portfolio' ); ?>
 
 			<?php $current_page = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1; ?>
 			<?php $columns      = 5; ?>
@@ -27,13 +27,13 @@
 			<?php if ( $query->posts ) : ?>
 				<?php $feature_count = 0; ?>
 				<section id="portfolio" class="portfolio">
-					<?php cpotheme_grid( $query->posts, 'element', 'portfolio', $columns, array( 'class' => 'column-fit' ) ); ?>
+					<?php antreas_grid( $query->posts, 'element', 'portfolio', $columns, array( 'class' => 'column-fit' ) ); ?>
 				</section>
-				<?php cpotheme_numbered_pagination( $query ); ?>
+				<?php antreas_numbered_pagination( $query ); ?>
 				<?php wp_reset_postdata(); ?>
 			<?php endif; ?>
 
-			<?php do_action( 'cpotheme_after_content' ); ?>
+			<?php do_action( 'antreas_after_content' ); ?>
 		</section>
 		<?php get_sidebar(); ?>
 		<div class="clear"></div>

@@ -5,6 +5,6 @@
 		<div class="team-member-content">
 			<?php the_content(); ?>
 		</div>
-		<?php cpotheme_edit(); ?>
+		<?php antreas_edit(); ?>
 	</div>
 </div>

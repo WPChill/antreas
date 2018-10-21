@@ -3,10 +3,10 @@ if ( ! class_exists( 'WP_Customize_Control' ) ) {
 	return null;
 }
 
-class CPOTheme_Customize_ContactForm_Control extends WP_Customize_Control {
+class Antreas_Customize_ContactForm_Control extends WP_Customize_Control {
 
 	public function enqueue() {
-		wp_enqueue_script( 'cpotheme-contactform-control', get_template_directory_uri() . '/core/scripts/customizer-controls/contactform-control.js', array( 'jquery', 'customize-controls' ), CPOTHEME_VERSION );
+		wp_enqueue_script( 'antreas-contactform-control', get_template_directory_uri() . '/core/scripts/customizer-controls/contactform-control.js', array( 'jquery', 'customize-controls' ), ANTREAS_VERSION );
 	}
 
 	public function is_cf7_active() {
@@ -59,8 +59,8 @@ class CPOTheme_Customize_ContactForm_Control extends WP_Customize_Control {
 
 	public function render_content() {
 
-		$plugin_select = cpotheme_get_option( 'plugin_select' );
-		$form_id = cpotheme_get_option( 'form_id' );
+		$plugin_select = antreas_get_option( 'plugin_select' );
+		$form_id = antreas_get_option( 'form_id' );
 		?>
 
 		<?php if ( $this->is_wpforms_active() && $this->is_cf7_active() ) { ?>

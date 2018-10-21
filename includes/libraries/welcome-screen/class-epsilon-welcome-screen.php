@@ -354,7 +354,7 @@ class Epsilon_Welcome_Screen {
 			return;
 		}
 
-		if ( CPOTheme_Notify_System::check_content_import() ) {
+		if ( Antreas_Notify_System::check_content_import() ) {
 			return;
 		}
 
@@ -567,8 +567,8 @@ class Epsilon_Welcome_Screen {
 	 */
 	private function check_plugin( $slug = '' ) {
 		$arr = array(
-			'installed' => CPOTheme_Notify_System::check_plugin_is_installed( $slug ),
-			'active'    => CPOTheme_Notify_System::check_plugin_is_active( $slug ),
+			'installed' => Antreas_Notify_System::check_plugin_is_installed( $slug ),
+			'active'    => Antreas_Notify_System::check_plugin_is_active( $slug ),
 			'needs'     => 'install',
 			'class'     => 'install-now button',
 			'label'     => __( 'Install and Activate', 'epsilon-framework' ),
@@ -623,7 +623,7 @@ class Epsilon_Welcome_Screen {
 					add_query_arg(
 						array(
 							'action' => 'install-plugin',
-							'plugin' => CPOTheme_Notify_System::_get_plugin_basename_from_slug( $slug ),
+							'plugin' => Antreas_Notify_System::_get_plugin_basename_from_slug( $slug ),
 						),
 						network_admin_url( 'update.php' )
 					),
@@ -634,10 +634,10 @@ class Epsilon_Welcome_Screen {
 				$string = add_query_arg(
 					array(
 						'action'        => 'deactivate',
-						'plugin'        => rawurlencode( CPOTheme_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
+						'plugin'        => rawurlencode( Antreas_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
 						'plugin_status' => 'all',
 						'paged'         => '1',
-						'_wpnonce'      => wp_create_nonce( 'deactivate-plugin_' . CPOTheme_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
+						'_wpnonce'      => wp_create_nonce( 'deactivate-plugin_' . Antreas_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
 					),
 					admin_url( 'plugins.php' )
 				);
@@ -646,10 +646,10 @@ class Epsilon_Welcome_Screen {
 				$string = add_query_arg(
 					array(
 						'action'        => 'activate',
-						'plugin'        => rawurlencode( CPOTheme_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
+						'plugin'        => rawurlencode( Antreas_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
 						'plugin_status' => 'all',
 						'paged'         => '1',
-						'_wpnonce'      => wp_create_nonce( 'activate-plugin_' . CPOTheme_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
+						'_wpnonce'      => wp_create_nonce( 'activate-plugin_' . Antreas_Notify_System::_get_plugin_basename_from_slug( $slug ) ),
 					),
 					admin_url( 'plugins.php' )
 				);

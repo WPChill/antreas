@@ -164,7 +164,7 @@ jQuery(document).ready(function () {
       e.preventDefault()
       var current_element = jQuery(this)
       var row = current_element.parent().prev('.cpotheme-collection-row')
-      var new_row = cpotheme_collection_add(row)
+      var new_row = antreas_collection_add(row)
       new_row.insertAfter(row)
     })
 
@@ -219,7 +219,7 @@ function collection_add_row (row) {
   return new_row
 }
 
-function cpotheme_collection_add (row) {
+function antreas_collection_add (row) {
   // Retrieve the highest current field index
   var key = highest = 1
   row.parent().find('.cpotheme-collection-row').each(function () {

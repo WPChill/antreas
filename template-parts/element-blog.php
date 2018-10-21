@@ -2,25 +2,25 @@
 	
 	<?php if ( ! is_single() ) : ?>
 		<div class="post-image">
-			<?php cpotheme_postpage_image(); ?>		
+			<?php antreas_postpage_image(); ?>		
 		</div>	
 	<?php endif;?>
 	<div class="post-body">
-		<?php cpotheme_postpage_title(); ?>
+		<?php antreas_postpage_title(); ?>
 		<div class="post-byline">
-			<?php cpotheme_postpage_date(); ?>
-			<?php cpotheme_postpage_author(); ?>
-			<?php cpotheme_postpage_categories(); ?>
-			<?php cpotheme_edit(); ?>
+			<?php antreas_postpage_date(); ?>
+			<?php antreas_postpage_author(); ?>
+			<?php antreas_postpage_categories(); ?>
+			<?php antreas_edit(); ?>
 		</div>
 		<div class="post-content">
-			<?php cpotheme_postpage_content(); ?>
+			<?php antreas_postpage_content(); ?>
 		</div>
-		<?php cpotheme_postpage_comments( false, '%s' ); ?>
+		<?php antreas_postpage_comments( false, '%s' ); ?>
 		<?php if ( is_singular( 'post' ) ) : ?>
-			<?php cpotheme_postpage_tags( false, '', '', '' ); ?>
+			<?php antreas_postpage_tags( false, '', '', '' ); ?>
 		<?php endif; ?>
-		<?php cpotheme_postpage_readmore( 'button' ); ?>
+		<?php antreas_postpage_readmore( 'button' ); ?>
 		<div class="clear"></div>
 	</div>
 </article>

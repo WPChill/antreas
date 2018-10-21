@@ -2,8 +2,8 @@
 <?php if ( $query->posts ) : ?>
 <div id="features" class="section features">
 	<div class="container">	
-		<?php cpotheme_section_heading( 'features' ); ?>
-		<?php cpotheme_grid( $query->posts, 'element', 'feature', 4 ); ?>
+		<?php antreas_section_heading( 'features' ); ?>
+		<?php antreas_grid( $query->posts, 'element', 'feature', 4 ); ?>
 	</div>
 </div>
 <?php wp_reset_postdata(); ?>

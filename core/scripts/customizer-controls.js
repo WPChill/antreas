@@ -1,19 +1,19 @@
 ( function( api ) {
 	var sections = [
-		'cpotheme_layout_home',
-		'cpotheme_layout_slider',
-		'cpotheme_layout_features',
-		'cpotheme_layout_about',
-		'cpotheme_layout_portfolio',
-		'cpotheme_layout_products',
-		'cpotheme_layout_tagline',
-		'cpotheme_layout_services',
-		'cpotheme_layout_team',
-		'cpotheme_layout_testimonials',
-		'cpotheme_layout_clients',
-		'cpotheme_layout_contact',
-		'cpotheme_layout_shortcode',
-		'cpotheme_layout_posts'
+		'antreas_layout_home',
+		'antreas_layout_slider',
+		'antreas_layout_features',
+		'antreas_layout_about',
+		'antreas_layout_portfolio',
+		'antreas_layout_products',
+		'antreas_layout_tagline',
+		'antreas_layout_services',
+		'antreas_layout_team',
+		'antreas_layout_testimonials',
+		'antreas_layout_clients',
+		'antreas_layout_contact',
+		'antreas_layout_shortcode',
+		'antreas_layout_posts'
 	];
 
     // Detect when the front page sections section is expanded (or closed) so we can adjust the preview accordingly.

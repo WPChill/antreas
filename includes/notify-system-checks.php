@@ -1,10 +1,10 @@
 <?php
 
-if ( ! class_exists( 'CPOTheme_Notify_System' ) ) {
+if ( ! class_exists( 'Antreas_Notify_System' ) ) {
 	/**
-	 * Class CPOTheme_Notify_System
+	 * Class Antreas_Notify_System
 	 */
-	class CPOTheme_Notify_System extends Epsilon_Notify_System {
+	class Antreas_Notify_System extends Epsilon_Notify_System {
 
 		public static $plugins;
 

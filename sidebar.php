@@ -1,4 +1,4 @@
-<?php $sidebar_config = cpotheme_get_sidebar_position(); ?>
+<?php $sidebar_config = antreas_get_sidebar_position(); ?>
 <?php if ( $sidebar_config !== 'none' ) : ?>
 
 	<aside id="sidebar" class="sidebar sidebar-primary">

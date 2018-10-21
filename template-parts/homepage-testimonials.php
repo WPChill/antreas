@@ -2,8 +2,8 @@
 <?php if ( $query->posts ) : ?>
 <div id="testimonials" class="section testimonials">
 	<div class="container">
-		<?php cpotheme_section_heading( 'testimonials' ); ?>
-		<?php cpotheme_grid( $query->posts, 'element', 'testimonial', 3 ); ?>
+		<?php antreas_section_heading( 'testimonials' ); ?>
+		<?php antreas_grid( $query->posts, 'element', 'testimonial', 3 ); ?>
 	</div>
 </div>
 <?php wp_reset_postdata(); ?>

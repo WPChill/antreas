@@ -1,7 +1,7 @@
 <?php
 
-add_filter( 'cpotheme_background_args', 'cpotheme_background_args' );
-function cpotheme_background_args( $data ) {
+add_filter( 'antreas_background_args', 'antreas_background_args' );
+function antreas_background_args( $data ) {
 	$data = array(
 		'default-color'      => 'eeeeee',
 		'default-image'      => get_template_directory_uri() . '/images/background.jpg',

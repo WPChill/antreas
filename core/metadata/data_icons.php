@@ -1,20 +1,20 @@
 <?php
 
-if ( ! function_exists( 'cpotheme_metadata_icons' ) ) {
-	function cpotheme_metadata_icons() {
-		$cpotheme_data = array(
+if ( ! function_exists( 'antreas_metadata_icons' ) ) {
+	function antreas_metadata_icons() {
+		$icons_packs = array(
 			'fontawesome' => array(
 				'name'  => 'Font Awesome',
-				'icons' => cpotheme_metadata_fontawesome(),
+				'icons' => antreas_metadata_fontawesome(),
 			),
 		);
-		return apply_filters( 'cpotheme_metadata_icons', $cpotheme_data );
+		return apply_filters( 'antreas_metadata_icons', $icons_packs );
 	}
 }
 
 
-if ( ! function_exists( 'cpotheme_metadata_fontawesome' ) ) {
-	function cpotheme_metadata_fontawesome() {
+if ( ! function_exists( 'antreas_metadata_fontawesome' ) ) {
+	function antreas_metadata_fontawesome() {
 		$data = array(
 			'&#xf000' => '&#xf000',
 			'&#xf001' => '&#xf001',

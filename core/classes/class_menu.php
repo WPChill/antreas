@@ -1,8 +1,8 @@
 <?php
 
 //Walker for displaying dropdown icons on the main menu
-if ( ! class_exists( 'Cpotheme_Menu_Walker' ) ) {
-	class Cpotheme_Menu_Walker extends Walker_Nav_Menu {
+if ( ! class_exists( 'Antreas_Menu_Walker' ) ) {
+	class Antreas_Menu_Walker extends Walker_Nav_Menu {
 
 		function start_el( &$output, $item, $depth = 0, $args = array(), $current_object_id = 0 ) {
 			global $wp_query;
@@ -30,8 +30,8 @@ if ( ! class_exists( 'Cpotheme_Menu_Walker' ) ) {
 			$description = ! empty( $item->description ) ? '<span class="menu-description">' . do_shortcode( $item->description ) . '</span>' : '';
 			$icon        = '';
 			if ( ! empty( $item->icon ) ) {
-				wp_enqueue_style( 'cpotheme-fontawesome' );
-				$icon = '<span class="menu-icon">' . cpotheme_icon( $item->icon, '', false ) . '</span>';
+				wp_enqueue_style( 'antreas-fontawesome' );
+				$icon = '<span class="menu-icon">' . antreas_icon( $item->icon, '', false ) . '</span>';
 			}
 
 			$item_output  = $args->before;
@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cpotheme_Menu_Walker' ) ) {
 			$id_field = $this->db_fields['id'];
 			if ( ! empty( $children_elements[ $element->$id_field ] ) ) {
 				$element->classes[] = 'has_children has-children';
-				//wp_enqueue_style('cpotheme-fontawesome');
+				//wp_enqueue_style('antreas-fontawesome');
 			}
 			Walker_Nav_Menu::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
 		}

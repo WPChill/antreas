@@ -4,7 +4,7 @@ $service_icon = get_post_meta( get_the_ID(), 'service_icon', true );
 
 <div class="service">
 	<a href="<?php the_permalink(); ?>">
-		<?php cpotheme_icon( $service_icon, 'primary-color service-icon' ); ?>
+		<?php antreas_icon( $service_icon, 'primary-color service-icon' ); ?>
 	</a>
 
 	<div class="service-body">
@@ -15,6 +15,6 @@ $service_icon = get_post_meta( get_the_ID(), 'service_icon', true );
 		<div class="service-content">
 			<?php the_excerpt(); ?>
 		</div>
-		<?php cpotheme_edit(); ?>
+		<?php antreas_edit(); ?>
 	</div>
 </div>

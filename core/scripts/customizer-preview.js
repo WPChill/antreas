@@ -6,19 +6,19 @@
 
 	 	wp.customize.preview.bind( 'section-highlight', function( data ) {
 			var selectors = {
-				'cpotheme_layout_slider' : '#slider',
-				'cpotheme_layout_features' : '#features',
-				'cpotheme_layout_about' : '#about',
-				'cpotheme_layout_portfolio' : '#portfolio',
-				'cpotheme_layout_products' : '#products',
-				'cpotheme_layout_tagline' : '#tagline',
-				'cpotheme_layout_services' : '#services',
-				'cpotheme_layout_team' : '#team',
-				'cpotheme_layout_testimonials' : '#testimonials',
-				'cpotheme_layout_clients' : '#clients',
-				'cpotheme_layout_posts' : '#main',
-				'cpotheme_layout_contact' : '#contact',
-				'cpotheme_layout_shortcode' : '#shortcode'
+				'antreas_layout_slider' : '#slider',
+				'antreas_layout_features' : '#features',
+				'antreas_layout_about' : '#about',
+				'antreas_layout_portfolio' : '#portfolio',
+				'antreas_layout_products' : '#products',
+				'antreas_layout_tagline' : '#tagline',
+				'antreas_layout_services' : '#services',
+				'antreas_layout_team' : '#team',
+				'antreas_layout_testimonials' : '#testimonials',
+				'antreas_layout_clients' : '#clients',
+				'antreas_layout_posts' : '#main',
+				'antreas_layout_contact' : '#contact',
+				'antreas_layout_shortcode' : '#shortcode'
 			};
 
 			// Only on the front page.

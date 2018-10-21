@@ -1,7 +1,7 @@
 <?php $query = new WP_Query( 'post_type=cpo_slide&posts_per_page=-1&order=ASC&orderby=menu_order' ); ?>
 <?php if ( $query->posts ) : ?>
 	<div id="slider" class="slider">
-		<div class="slider-slides cycle-slideshow" <?php cpotheme_slider_data(); ?>>
+		<div class="slider-slides cycle-slideshow" <?php antreas_slider_data(); ?>>
 			<?php foreach ( $query->posts as $post ) : ?>
 				
 				<?php setup_postdata( $post ); ?>
@@ -21,7 +21,7 @@
 									<?php the_content(); ?>
 								</div>
 
-								<?php cpotheme_edit(); ?>
+								<?php antreas_edit(); ?>
 							</div>
 						</div>
 					</div>
@@ -29,7 +29,7 @@
 			<?php endforeach; ?>
 		</div>
 		<?php if ( count( $query->posts ) > 1 ) : ?>
-			<?php wp_enqueue_script( 'cpotheme_cycle' ); ?>
+			<?php wp_enqueue_script( 'antreas_cycle' ); ?>
 			<div class="slider-prev" data-cycle-cmd="pause"></div>
 			<div class="slider-next" data-cycle-cmd="pause"></div>
 			<div class="slider-pages" data-cycle-cmd="pause"></div>

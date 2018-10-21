@@ -1,15 +1,15 @@
 <?php
 
 //Enqueue Google fonts
-add_action( 'wp_head', 'cpotheme_styling_fonts', 20 );
-function cpotheme_styling_fonts() {
-	//cpotheme_fonts( apply_filters( 'cpotheme_font_body', cpotheme_get_option( 'type_body' ) ), cpotheme_get_option( 'type_body_variants' ) );
+add_action( 'wp_head', 'antreas_styling_fonts', 20 );
+function antreas_styling_fonts() {
+	//antreas_fonts( apply_filters( 'antreas_font_body', antreas_get_option( 'type_body' ) ), antreas_get_option( 'type_body_variants' ) );
 }
 
 
 // Registers all widget areas
-add_action( 'widgets_init', 'cpotheme_init_sidebar' );
-function cpotheme_init_sidebar() {
+add_action( 'widgets_init', 'antreas_init_sidebar' );
+function antreas_init_sidebar() {
 
 	register_sidebar(
 		array(
@@ -53,8 +53,8 @@ function cpotheme_init_sidebar() {
 
 
 //Registers all menu areas
-add_action( 'widgets_init', 'cpotheme_init_menu' );
-function cpotheme_init_menu() {
+add_action( 'widgets_init', 'antreas_init_menu' );
+function antreas_init_menu() {
 	register_nav_menus( array( 'top_menu' => __( 'Top Menu', 'antreas' ) ) );
 	register_nav_menus( array( 'main_menu' => __( 'Main Menu', 'antreas' ) ) );
 	register_nav_menus( array( 'footer_menu' => __( 'Footer Menu', 'antreas' ) ) );

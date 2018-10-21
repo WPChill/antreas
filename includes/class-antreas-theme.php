@@ -1,6 +1,6 @@
 <?php
 
-class CPO_Theme {
+class Antreas_Theme {
 
 	private $path;
 	private $plugins;
@@ -25,20 +25,20 @@ class CPO_Theme {
 				'title'       => esc_html__( 'Import Demo Content', 'antreas' ),
 				'description' => esc_html__( 'Clicking the button below will add content, widgets and set static front page to your WordPress installation. Click advanced to customize the import process. This procces might take up to 2 min. Please don\'t close the window.', 'antreas' ),
 				'help'        => $this->generate_action_html(),
-				'check'       => CPOTheme_Notify_System::check_content_import(),
+				'check'       => Antreas_Notify_System::check_content_import(),
 			),
 			array(
 				'id'          => 'antreas-req-ac-install-cpo-companion',
-				'title'       => CPOTheme_Notify_System::create_plugin_requirement_title( __( 'Install: CPO Companion', 'antreas' ), __( 'Activate: CPO Companion', 'antreas' ), 'cpo-companion' ),
+				'title'       => Antreas_Notify_System::create_plugin_requirement_title( __( 'Install: CPO Companion', 'antreas' ), __( 'Activate: CPO Companion', 'antreas' ), 'cpo-companion' ),
 				'description' => __( 'It is highly recommended that you install the CPO Content Types plugin. It will help you manage all the special content types that this theme supports.', 'antreas' ),
-				'check'       => CPOTheme_Notify_System::has_plugin( 'cpo-companion' ),
+				'check'       => Antreas_Notify_System::has_plugin( 'cpo-companion' ),
 				'plugin_slug' => 'cpo-companion',
 			),
 			array(
 				'id'          => 'antreas-req-ac-install-modula',
-				'title'       => CPOTheme_Notify_System::create_plugin_requirement_title( __( 'Install: Modula', 'antreas' ), __( 'Activate: Modula', 'antreas' ), 'modula-best-grid-gallery' ),
+				'title'       => Antreas_Notify_System::create_plugin_requirement_title( __( 'Install: Modula', 'antreas' ), __( 'Activate: Modula', 'antreas' ), 'modula-best-grid-gallery' ),
 				'description' => __( 'It is highly recommended that you install the Modula plugin.', 'antreas' ),
-				'check'       => CPOTheme_Notify_System::has_plugin( 'modula-best-grid-gallery' ),
+				'check'       => Antreas_Notify_System::has_plugin( 'modula-best-grid-gallery' ),
 				'plugin_slug' => 'modula-best-grid-gallery',
 			),
 		);
@@ -96,7 +96,7 @@ class CPO_Theme {
 		$wp_customize->add_section(
 			new Epsilon_Section_Recommended_Actions(
 				$wp_customize,
-				'cpo_recomended_section',
+				'antreas_recomended_section',
 				array(
 					'title'                        => esc_html__( 'Recomended Actions', 'antreas' ),
 					'social_text'                  => esc_html__( 'We are social', 'antreas' ),
@@ -138,7 +138,7 @@ class CPO_Theme {
 			$html .= '<div class="import-content-container" id="welcome-hidden-content">';
 
 			foreach ( $import_plugins as $id => $label ) {
-				if ( ! CPOTheme_Notify_System::has_plugin( $id ) ) {
+				if ( ! Antreas_Notify_System::has_plugin( $id ) ) {
 					$plugins_html .= $this->generate_checkbox( $id, $label, 'plugins', true );
 				}
 			}
@@ -187,4 +187,4 @@ class CPO_Theme {
 
 }
 
-new CPO_Theme();
+new Antreas_Theme();

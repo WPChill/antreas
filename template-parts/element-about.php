@@ -10,5 +10,5 @@
 		</a>
 	</h3>
 	<?php the_excerpt(); ?>
-	<?php cpotheme_edit(); ?>
+	<?php antreas_edit(); ?>
 </div>
