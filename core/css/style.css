@@ -336,10 +336,11 @@ html body input[type=submit] {
   background: #22c0e3;
   transition: 0.4s all; }
 
-.button:hover,
-input[type=submit]:hover {
+html body .button:hover,
+html body input[type=submit]:hover {
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  background: #121212; }
 
 .button:active,
 input[type=submit]:active {

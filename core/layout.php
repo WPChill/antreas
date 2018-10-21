@@ -1,15 +1,4 @@
 <?php
-//Generate dynamic CSS styling
-add_action( 'wp_head', 'cpotheme_styling_css', 19 );
-function cpotheme_styling_css() {
-
-	$portfolio_background = cpotheme_get_option( 'home_portfolio_background' );
-
-	?>
-
-<?php
-}
-
 
 //Enqueue Google fonts
 add_action( 'wp_head', 'cpotheme_styling_fonts', 20 );
