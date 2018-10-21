@@ -192,8 +192,6 @@ if ( ! function_exists( 'cpotheme_add_styles' ) ) {
 
 		// Common styles.
 		wp_enqueue_style( 'cpotheme-main', $stylesheets_path . 'style.css', array(), CPOTHEME_VERSION );
-		wp_add_inline_style( 'cpotheme-main', cpotheme_gutenberg_colors() );
-
 	}
 }
 
