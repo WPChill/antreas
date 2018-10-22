@@ -191,9 +191,9 @@ if ( defined( 'ANTREAS_CORE' ) ) {
 }
 
 // Classes.
-require_once $core_path . 'classes/class_menu_edit.php';
 require_once $core_path . 'classes/class_menu.php';
 require_once $core_path . 'classes/class_customizer.php';
+require_once $core_path . 'classes/class-antreas-menu-edit-walker.php';
 require_once $core_path . 'classes/class-antreas-customize-contactform-control.php';
 require_once $core_path . 'classes/class-antreas-customize-tinymce-control.php';
 require_once $core_path . 'classes/class-antreas-customize-selectize-control.php';
