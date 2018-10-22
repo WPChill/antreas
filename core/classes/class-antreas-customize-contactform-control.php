@@ -6,7 +6,7 @@ if ( ! class_exists( 'WP_Customize_Control' ) ) {
 class Antreas_Customize_ContactForm_Control extends WP_Customize_Control {
 
 	public function enqueue() {
-		wp_enqueue_script( 'antreas-contactform-control', get_template_directory_uri() . '/core/scripts/customizer-controls/contactform-control.js', array( 'jquery', 'customize-controls' ), ANTREAS_VERSION );
+		wp_enqueue_script( 'antreas-contactform-control', ANTREAS_ASSETS_JS . 'customizer-controls/contactform-control.js', array( 'jquery', 'customize-controls' ), ANTREAS_VERSION );
 	}
 
 	public function is_cf7_active() {

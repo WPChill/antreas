@@ -6,7 +6,9 @@ $theme = wp_get_theme();
 define( 'ANTREAS_ID', 'antreas' );
 define( 'ANTREAS_NAME', $theme['Name'] );
 define( 'ANTREAS_VERSION', $theme['Version'] );
-
+define( 'ANTREAS_ASSETS_CSS', get_template_directory_uri() . '/assets/css/' );
+define( 'ANTREAS_ASSETS_JS', get_template_directory_uri() . '/assets/js/' );
+define( 'ANTREAS_ASSETS_IMG', get_template_directory_uri() . '/assets/images/' );
 
 //Other constants
 define( 'ANTREAS_LOGO_WIDTH', '90' );

@@ -8,11 +8,11 @@ const CssEntryPlugin            = require('css-entry-webpack-plugin');
 const config = {
 	entry: {
 		//app: './src/js/app.js',
-		style: './src/scss/style.scss',	 
+		style: './src/scss/style.scss',
 	},
 	output: {
 		filename: 'scripts/[name].js',
-		path: path.resolve(__dirname, 'core')
+		path: path.resolve(__dirname, 'assets')
 	},
 	module: {
 		rules: [
