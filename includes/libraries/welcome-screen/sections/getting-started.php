@@ -16,7 +16,7 @@ $count          = $this->count_actions();
 			</p>
 		<?php } else { ?>
 			<p><span class="dashicons dashicons-no-alt"></span> <a href="<?php echo admin_url( 'themes.php?page=antreas-welcome&tab=recommended-actions' ); ?>"><?php esc_html_e( 'Check recommended actions', 'antreas' ); ?></a>
-			</p> 
+			</p>
 			<?php
 };
 		?>
@@ -27,7 +27,7 @@ $count          = $this->count_actions();
 		<p><?php esc_html_e( 'Even if you\'re a long-time WordPress user, we believe you should give our docs a read.', 'antreas' ); ?></p>
 		<p>
 			<a target="_blank"
-			   href="<?php echo esc_url( 'https://cpothemes.com/documentation?utm_source=antreas-pro&utm_medium=about-page&utm_campaign=docs-button' ); ?>"><?php esc_html_e( 'Full documentation', 'antreas' ); ?></a>
+			   href="<?php echo esc_url( 'https://docs.machothemes.com?utm_source=antreas&utm_medium=about-page&utm_campaign=docs-button' ); ?>"><?php esc_html_e( 'Full documentation', 'antreas' ); ?></a>
 		</p>
 	</div><!--/.col-->
 

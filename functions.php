@@ -6,12 +6,14 @@ $theme = wp_get_theme();
 define( 'ANTREAS_ID', 'antreas' );
 define( 'ANTREAS_NAME', $theme['Name'] );
 define( 'ANTREAS_VERSION', $theme['Version'] );
+define( 'ANTREAS_LOGO_WIDTH', '90' );
 define( 'ANTREAS_ASSETS_CSS', get_template_directory_uri() . '/assets/css/' );
 define( 'ANTREAS_ASSETS_JS', get_template_directory_uri() . '/assets/js/' );
 define( 'ANTREAS_ASSETS_IMG', get_template_directory_uri() . '/assets/images/' );
+define( 'ANTREAS_PREMIUM_NAME', 'Antreas Pro' );
+define( 'ANTREAS_PREMIUM_URL', 'www.machothemes.com/theme/antreas' );
 
 //Other constants
-define( 'ANTREAS_LOGO_WIDTH', '90' );
 define( 'CPOTHEME_USE_SLIDES', true );
 define( 'CPOTHEME_USE_TAGLINE', true );
 define( 'CPOTHEME_USE_FEATURES', true );
@@ -22,8 +24,6 @@ define( 'CPOTHEME_USE_TEAM', true );
 define( 'CPOTHEME_USE_CLIENTS', true );
 define( 'CPOTHEME_USE_CONTACT', true );
 define( 'CPOTHEME_USE_ABOUT', true );
-define( 'ANTREAS_PREMIUM_NAME', 'Antreas Pro' );
-define( 'ANTREAS_PREMIUM_URL', 'www.machothemes.com/theme/antreas' );
 
 //Load Core; check existing core or load development core
 $core_path = get_template_directory() . '/core/';
