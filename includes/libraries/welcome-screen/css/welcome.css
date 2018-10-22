@@ -16,7 +16,7 @@
 .epsilon-wrap i.dashicons {
     margin-right: 15px;
     position: relative;
-    top: 3px;
+    top: 0px;
 }
 
 .feature-section.action-required {
@@ -85,7 +85,8 @@
 
 }
 
-.about-wrap .feature-section.getting-started .col {
+.about-wrap .feature-section.getting-started .col,
+.about-wrap .feature-section.support .col {
  	text-align: center;
 	background-color: #fafafa;
 	border: 1px solid #dddddd;
