@@ -6,7 +6,7 @@ if ( ! class_exists( 'WP_Customize_Control' ) ) {
 class Antreas_Customize_Tinymce_Control extends WP_Customize_Control {
 
 	public function enqueue() {
-		wp_enqueue_script( 'antreas-tinymce-control', get_template_directory_uri() . '/core/scripts/customizer-controls/tinymce-control.js', array( 'jquery', 'customize-controls' ), ANTREAS_VERSION );
+		wp_enqueue_script( 'antreas-tinymce-control', ANTREAS_ASSETS_JS . 'customizer-controls/tinymce-control.js', array( 'jquery', 'customize-controls' ), ANTREAS_VERSION );
 	}
 
 	public function to_json() {

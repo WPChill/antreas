@@ -25,13 +25,10 @@ if ( ! function_exists( 'antreas_metadata_layoutstyle' ) ) {
 }
 
 function antreas_metadata_sidebarposition() {
-	$core_path = get_template_directory_uri() . '/core/';
-	if ( defined( 'ANTREAS_LITE_URL' ) ) {
-		$core_path = ANTREAS_LITE_URL;
-	}
+
 	$data = array(
-		'right' => $core_path . '/images/admin/sidebar_position_right.gif',
-		'none'  => $core_path . '/images/admin/sidebar_position_none.gif',
+		'right' => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_right.gif',
+		'none'  => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_none.gif',
 	);
 
 	return $data;
@@ -47,19 +44,16 @@ function antreas_metadata_sidebarposition_text() {
 }
 
 function antreas_metadata_sidebarposition_optional() {
-	$core_path = get_template_directory_uri() . '/core/';
-	if ( defined( 'ANTREAS_URL' ) ) {
-		$core_path = ANTREAS_URL;
-	}
+
 	$sidebar_positions = array(
-		'default'      => $core_path . '/images/admin/sidebar_position_default.gif',
-		'none'         => $core_path . '/images/admin/sidebar_position_none.gif',
-		'narrow'       => $core_path . '/images/admin/sidebar_position_narrow.gif',
-		'right'        => $core_path . '/images/admin/sidebar_position_right.gif',
-		'left'         => $core_path . '/images/admin/sidebar_position_left.gif',
-		'double'       => $core_path . '/images/admin/sidebar_position_double.gif',
-		'double-left'  => $core_path . '/images/admin/sidebar_position_dleft.gif',
-		'double-right' => $core_path . '/images/admin/sidebar_position_dright.gif',
+		'default'      => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_default.gif',
+		'none'         => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_none.gif',
+		'narrow'       => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_narrow.gif',
+		'right'        => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_right.gif',
+		'left'         => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_left.gif',
+		'double'       => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_double.gif',
+		'double-left'  => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_dleft.gif',
+		'double-right' => ANTREAS_ASSETS_IMG . 'backend/layouts/sidebar_position_dright.gif',
 	);
 
 	return $sidebar_positions;

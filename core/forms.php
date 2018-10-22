@@ -329,10 +329,8 @@ if ( ! function_exists( 'antreas_form_upload' ) ) {
 		}
 		if ( stripslashes( $value ) != '' ) {
 			$image = stripslashes( $value );
-		} elseif ( defined( 'ANTREAS_URL' ) ) {
-			$image = ANTREAS_URL . '/images/noimage.jpg';
 		} else {
-			$image = get_template_directory_uri() . '/core/images/noimage.jpg';
+			$image = ANTREAS_ASSETS_IMG . 'backend/noimage.jpg';
 		}
 
 		$output  = '<input class="upload_field" type="upload" value="' . stripslashes( $value ) . '" name="' . $name . '" id="' . $name . '-field"/>';
