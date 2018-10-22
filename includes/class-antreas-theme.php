@@ -21,7 +21,7 @@ class Antreas_Theme {
 		// Recomendeed Actions
 		$this->actions = array(
 			$actions[] = array(
-				'id'          => 'antreas-pro-req-ac-import-demo-content',
+				'id'          => 'antreas-req-ac-import-demo-content',
 				'title'       => esc_html__( 'Import Demo Content', 'antreas' ),
 				'description' => esc_html__( 'Clicking the button below will add content, widgets and set static front page to your WordPress installation. Click advanced to customize the import process. This procces might take up to 2 min. Please don\'t close the window.', 'antreas' ),
 				'help'        => $this->generate_action_html(),
