@@ -293,3 +293,17 @@ function antreas_upgrade_link( $medium = 'customizer' ) {
 	$url  = esc_url_raw( ANTREAS_PREMIUM_URL . '?utm_source=antreas&utm_medium=' . $medium . '&utm_campaign=upsell' );
 	return $url;
 }
+
+
+// Gets attachment url by slug from media library.
+function antreas_get_attachment_url_by_slug( $slug ) {
+	$args = array(
+		'post_type' => 'attachment',
+		'name' => sanitize_title( $slug ),
+		'posts_per_page' => 1,
+		'post_status' => 'inherit',
+	);
+	$_header = get_posts( $args );
+	$header = $_header ? array_pop( $_header ) : null;
+	return $header ? wp_get_attachment_url( $header->ID ) : '';
+}

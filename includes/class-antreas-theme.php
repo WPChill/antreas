@@ -49,9 +49,10 @@ class Antreas_Theme {
 		add_filter( 'cpo_companion_content', array( $this, 'content_path' ), 99 );
 		add_filter( 'cpo_companion_widgets', array( $this, 'widgets_path' ), 99 );
 		add_filter( 'cpo_companion_import_option', array( $this, 'import_option' ), 99 );
+		add_filter( 'cpo_companion_customizer_options', array( $this, 'customizer_options' ), 99 );
+		add_filter( 'cpo_companion_customizer_option_name', array( $this, 'option_name' ), 99 );
 
 		add_action( 'customize_register', array( $this, 'customizer' ) );
-
 	}
 
 	private function load_dependencies() {
@@ -120,6 +121,7 @@ class Antreas_Theme {
 		$import_actions = array(
 			'import_content' => esc_html__( 'Import Content', 'antreas' ),
 			'import_widgets' => esc_html__( 'Import Widgets', 'antreas' ),
+			'import_options' => esc_html__( 'Import Options', 'antreas' ),
 		);
 
 		$import_plugins = array(
@@ -183,6 +185,35 @@ class Antreas_Theme {
 
 	public function import_option() {
 		return 'antreas_content_imported';
+	}
+
+	public function customizer_options() {
+
+		$defaults = array(
+			'general_texttitle' => false,
+			'sidebar_position' => 'right',
+			'sidebar_position_home' => 'none',
+			'home_tagline' => __( 'Antreas is a theme with great potential', 'antreas' ),
+			'home_tagline_content' => __( 'this tagline can be easily added anywhere on your site', 'antreas' ),
+			'home_features' => __( 'Why choose us', 'antreas' ),
+			'home_portfolio' => __( 'See our Online Portfolio', 'antreas' ),
+			'home_services' => __( 'What we can do for you', 'antreas' ),
+			'home_about' => __( 'About us', 'antreas' ),
+			'about_pages' => array(),
+			'home_team' => __( 'Meet our team', 'antreas' ),
+			'home_testimonials' => __( 'What people say about us', 'antreas' ),
+			'home_clients' => __( 'Some of our best clients', 'antreas' ),
+			'home_contact' => __( 'Contact us', 'antreas' ),
+			'home_posts' => true,
+			'home_blog' => __( 'Recent blog posts', 'antreas' ),
+			'postpage_preview' => 'excerpt',
+		);
+
+		return $defaults;
+	}
+
+	public function option_name() {
+		return 'antreas_settings';
 	}
 
 }
