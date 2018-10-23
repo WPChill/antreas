@@ -178,7 +178,7 @@ if ( ! function_exists( 'antreas_logo' ) ) {
 				if ( defined( 'ANTREAS_LOGO_WIDTH' ) ) {
 					$width = ANTREAS_LOGO_WIDTH;
 				}
-				$output .= '<a class="site-logo" href="' . home_url() . '"><img src="' . get_template_directory_uri() . '/images/logo.png" alt="' . get_bloginfo( 'name' ) . '" width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '"/></a>';
+				$output .= '<a class="site-logo" href="' . home_url() . '"><img src="' . ANTREAS_ASSETS_IMG . 'logo.png" alt="' . get_bloginfo( 'name' ) . '" width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '"/></a>';
 			} else {
 				$logo_width = antreas_get_option( 'general_logo_width' );
 				$logo_url   = esc_url( antreas_get_option( 'general_logo' ) );
@@ -910,7 +910,7 @@ if ( ! function_exists( 'antreas_menu' ) ) {
 					'walker'         => new Antreas_Menu_Walker(),
 				)
 			);
-		}	
+		}
 	}
 }
 
@@ -1092,7 +1092,7 @@ if ( ! function_exists( 'antreas_comment' ) ) {
 			case '':
 				?>
                 <li <?php comment_class( 'comment' ); ?> id="comment-<?php comment_ID(); ?>">
-             
+
                 <div class="comment-body">
 					<div class="comment-avatar">
 						<?php echo get_avatar( $comment, 100 ); ?>

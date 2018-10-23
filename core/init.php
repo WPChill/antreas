@@ -38,7 +38,7 @@ if ( ! function_exists( 'antreas_setup' ) ) {
 				'flex-height' => true,
 			)
 		);
-		add_theme_support( 'custom-background', apply_filters( 'antreas_background_args', array( 'default-color' => 'ffffff' ) ) );
+		add_theme_support( 'custom-background', apply_filters( 'antreas_background_args', array() ) );
 		add_theme_support( 'automatic-feed-links' );
 
 		add_theme_support( 'woocommerce' );

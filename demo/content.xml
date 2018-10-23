@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-10-21 13:40" -->
+<!-- generator="WordPress/4.9.8" created="2018-10-23 08:42" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Antreas PRO</title>
-	<link>http://www.demos.machothemes.com/antreas-pro</link>
+	<link>http://www.demos.machothemes.com/antreas</link>
 	<description>Just another Macho Theme Demos site</description>
-	<pubDate>Sun, 21 Oct 2018 13:40:46 +0000</pubDate>
+	<pubDate>Tue, 23 Oct 2018 08:42:56 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://www.demos.machothemes.com/</wp:base_site_url>
-	<wp:base_blog_url>http://www.demos.machothemes.com/antreas-pro</wp:base_blog_url>
+	<wp:base_blog_url>http://www.demos.machothemes.com/antreas</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[0fjno]]></wp:author_login><wp:author_email><![CDATA[raibercristian@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 	<wp:author><wp:author_id>16</wp:author_id><wp:author_login><![CDATA[cristiecmecian]]></wp:author_login><wp:author_email><![CDATA[cristi.ecmecian@yahoo.com]]></wp:author_email><wp:author_display_name><![CDATA[cristy]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
@@ -206,7 +206,7 @@
 
 	<item>
 		<title>clients-1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/clients-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/clients-1/</link>
 		<pubDate>Fri, 12 Oct 2018 09:55:26 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-1.jpg</guid>
@@ -225,7 +225,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/clients-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/clients-1.jpg]]></wp:meta_value>
@@ -241,7 +241,7 @@
 	</item>
 	<item>
 		<title>clients-2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/clients-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/clients-2/</link>
 		<pubDate>Fri, 12 Oct 2018 09:55:28 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-2.jpg</guid>
@@ -260,7 +260,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/clients-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/clients-2.jpg]]></wp:meta_value>
@@ -276,7 +276,7 @@
 	</item>
 	<item>
 		<title>clients-3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/clients-3/</link>
+		<link>http://www.demos.machothemes.com/antreas/clients-3/</link>
 		<pubDate>Fri, 12 Oct 2018 09:55:28 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-3.jpg</guid>
@@ -295,7 +295,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/clients-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/clients-3.jpg]]></wp:meta_value>
@@ -311,7 +311,7 @@
 	</item>
 	<item>
 		<title>clients-4</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/clients-4/</link>
+		<link>http://www.demos.machothemes.com/antreas/clients-4/</link>
 		<pubDate>Fri, 12 Oct 2018 09:55:29 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-4.jpg</guid>
@@ -330,7 +330,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-4.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/clients-4.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/clients-4.jpg]]></wp:meta_value>
@@ -346,7 +346,7 @@
 	</item>
 	<item>
 		<title>clients-5</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/clients-5/</link>
+		<link>http://www.demos.machothemes.com/antreas/clients-5/</link>
 		<pubDate>Fri, 12 Oct 2018 09:55:30 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-5.jpg</guid>
@@ -365,7 +365,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/clients-5.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/clients-5.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/clients-5.jpg]]></wp:meta_value>
@@ -381,7 +381,7 @@
 	</item>
 	<item>
 		<title>portfolio-1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-1/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:08 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-1.jpg</guid>
@@ -400,7 +400,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-1.jpg]]></wp:meta_value>
@@ -416,7 +416,7 @@
 	</item>
 	<item>
 		<title>portfolio-2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-2/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:08 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-2.jpg</guid>
@@ -435,7 +435,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-2.jpg]]></wp:meta_value>
@@ -451,7 +451,7 @@
 	</item>
 	<item>
 		<title>portfolio-3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-3/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-3/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:09 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-3.jpg</guid>
@@ -470,7 +470,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-3.jpg]]></wp:meta_value>
@@ -486,7 +486,7 @@
 	</item>
 	<item>
 		<title>portfolio-4</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-4/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-4/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:10 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-4.jpg</guid>
@@ -505,7 +505,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-4.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-4.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-4.jpg]]></wp:meta_value>
@@ -521,7 +521,7 @@
 	</item>
 	<item>
 		<title>portfolio-5</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-5/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-5/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:11 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-5.jpg</guid>
@@ -540,7 +540,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-5.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-5.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-5.jpg]]></wp:meta_value>
@@ -556,7 +556,7 @@
 	</item>
 	<item>
 		<title>portfolio-6</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-6/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-6/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:14 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-6.jpg</guid>
@@ -575,7 +575,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-6.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-6.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-6.jpg]]></wp:meta_value>
@@ -591,7 +591,7 @@
 	</item>
 	<item>
 		<title>portfolio-7</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-7/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-7/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:16 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-7.jpg</guid>
@@ -610,7 +610,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-7.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-7.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-7.jpg]]></wp:meta_value>
@@ -626,7 +626,7 @@
 	</item>
 	<item>
 		<title>portfolio-8</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-8/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-8/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:17 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-8.jpg</guid>
@@ -645,7 +645,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-8.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-8.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-8.jpg]]></wp:meta_value>
@@ -661,7 +661,7 @@
 	</item>
 	<item>
 		<title>portfolio-9</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-9/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-9/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:18 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-9.jpg</guid>
@@ -680,7 +680,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-9.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-9.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-9.jpg]]></wp:meta_value>
@@ -696,7 +696,7 @@
 	</item>
 	<item>
 		<title>portfolio-10</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-10/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-10/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:18 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-10.jpg</guid>
@@ -715,7 +715,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-10.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-10.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-10.jpg]]></wp:meta_value>
@@ -731,7 +731,7 @@
 	</item>
 	<item>
 		<title>portfolio-11</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-11/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-11/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:19 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-11.jpg</guid>
@@ -750,7 +750,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/portfolio-11.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/portfolio-11.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/portfolio-11.jpg]]></wp:meta_value>
@@ -766,7 +766,7 @@
 	</item>
 	<item>
 		<title>products-1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/products-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/products-1/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:41 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-1.jpg</guid>
@@ -785,7 +785,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/products-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/products-1.jpg]]></wp:meta_value>
@@ -801,7 +801,7 @@
 	</item>
 	<item>
 		<title>products-2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/products-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/products-2/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:42 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-2.jpg</guid>
@@ -820,7 +820,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/products-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/products-2.jpg]]></wp:meta_value>
@@ -836,7 +836,7 @@
 	</item>
 	<item>
 		<title>products-3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/products-3/</link>
+		<link>http://www.demos.machothemes.com/antreas/products-3/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:43 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-3.jpg</guid>
@@ -855,7 +855,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/products-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/products-3.jpg]]></wp:meta_value>
@@ -871,7 +871,7 @@
 	</item>
 	<item>
 		<title>products-4</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/products-4/</link>
+		<link>http://www.demos.machothemes.com/antreas/products-4/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:43 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-4.jpg</guid>
@@ -890,7 +890,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-4.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/products-4.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/products-4.jpg]]></wp:meta_value>
@@ -906,7 +906,7 @@
 	</item>
 	<item>
 		<title>products-5</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/products-5/</link>
+		<link>http://www.demos.machothemes.com/antreas/products-5/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:44 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-5.jpg</guid>
@@ -925,7 +925,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-5.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/products-5.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/products-5.jpg]]></wp:meta_value>
@@ -941,7 +941,7 @@
 	</item>
 	<item>
 		<title>products-6</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/products-6/</link>
+		<link>http://www.demos.machothemes.com/antreas/products-6/</link>
 		<pubDate>Fri, 12 Oct 2018 09:56:45 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-6.jpg</guid>
@@ -960,7 +960,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/products-6.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/products-6.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/products-6.jpg]]></wp:meta_value>
@@ -976,7 +976,7 @@
 	</item>
 	<item>
 		<title>slider-1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/slider-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/slider-1/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:07 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/slider-1.jpg</guid>
@@ -995,7 +995,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/slider-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/slider-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/slider-1.jpg]]></wp:meta_value>
@@ -1011,7 +1011,7 @@
 	</item>
 	<item>
 		<title>slider-2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/slider-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/slider-2/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:08 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/slider-2.jpg</guid>
@@ -1030,7 +1030,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/slider-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/slider-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/slider-2.jpg]]></wp:meta_value>
@@ -1046,7 +1046,7 @@
 	</item>
 	<item>
 		<title>team member 1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/team-member-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/team-member-1/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:16 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-1.jpg</guid>
@@ -1065,7 +1065,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/team-member-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/team-member-1.jpg]]></wp:meta_value>
@@ -1081,7 +1081,7 @@
 	</item>
 	<item>
 		<title>team member 2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/team-member-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/team-member-2/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:17 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-2.jpg</guid>
@@ -1100,7 +1100,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/team-member-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/team-member-2.jpg]]></wp:meta_value>
@@ -1116,7 +1116,7 @@
 	</item>
 	<item>
 		<title>team member 3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/team-member-3/</link>
+		<link>http://www.demos.machothemes.com/antreas/team-member-3/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:18 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-3.jpg</guid>
@@ -1135,7 +1135,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/team-member-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/team-member-3.jpg]]></wp:meta_value>
@@ -1151,7 +1151,7 @@
 	</item>
 	<item>
 		<title>team member 4</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/team-member-4/</link>
+		<link>http://www.demos.machothemes.com/antreas/team-member-4/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:19 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-4.jpg</guid>
@@ -1170,7 +1170,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/team-member-4.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/team-member-4.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/team-member-4.jpg]]></wp:meta_value>
@@ -1186,7 +1186,7 @@
 	</item>
 	<item>
 		<title>testimonial-1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/testimonial-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/testimonial-1/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:27 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/testimonial-1.jpg</guid>
@@ -1205,7 +1205,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/testimonial-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/testimonial-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/testimonial-1.jpg]]></wp:meta_value>
@@ -1221,7 +1221,7 @@
 	</item>
 	<item>
 		<title>testimonial-2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/testimonial-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/testimonial-2/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:28 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/testimonial-2.jpg</guid>
@@ -1240,7 +1240,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/testimonial-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/testimonial-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/testimonial-2.jpg]]></wp:meta_value>
@@ -1256,7 +1256,7 @@
 	</item>
 	<item>
 		<title>testimonial-3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/testimonial-3/</link>
+		<link>http://www.demos.machothemes.com/antreas/testimonial-3/</link>
 		<pubDate>Fri, 12 Oct 2018 09:57:29 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/testimonial-3.jpg</guid>
@@ -1275,7 +1275,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/testimonial-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/testimonial-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/testimonial-3.jpg]]></wp:meta_value>
@@ -1291,7 +1291,7 @@
 	</item>
 	<item>
 		<title>blog-post-1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/blog-post-1-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/blog-post-1-2/</link>
 		<pubDate>Fri, 12 Oct 2018 18:27:09 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-1-1.jpg</guid>
@@ -1310,7 +1310,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-1-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/blog-post-1-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/blog-post-1-1.jpg]]></wp:meta_value>
@@ -1326,7 +1326,7 @@
 	</item>
 	<item>
 		<title>blog-post-2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/blog-post-2-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/blog-post-2-2/</link>
 		<pubDate>Fri, 12 Oct 2018 18:27:12 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-2-1.jpg</guid>
@@ -1345,7 +1345,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-2-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/blog-post-2-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/blog-post-2-1.jpg]]></wp:meta_value>
@@ -1361,7 +1361,7 @@
 	</item>
 	<item>
 		<title>blog-post-3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/blog-post-3-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/blog-post-3-2/</link>
 		<pubDate>Fri, 12 Oct 2018 18:27:13 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-3-1.jpg</guid>
@@ -1380,7 +1380,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-3-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/blog-post-3-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/blog-post-3-1.jpg]]></wp:meta_value>
@@ -1396,7 +1396,7 @@
 	</item>
 	<item>
 		<title>blog-post-4</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/blog-post-4-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/blog-post-4-2/</link>
 		<pubDate>Fri, 12 Oct 2018 18:27:15 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-4-1.jpg</guid>
@@ -1415,7 +1415,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-4-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/blog-post-4-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/blog-post-4-1.jpg]]></wp:meta_value>
@@ -1431,7 +1431,7 @@
 	</item>
 	<item>
 		<title>blog-post-5</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/blog-post-5/</link>
+		<link>http://www.demos.machothemes.com/antreas/blog-post-5/</link>
 		<pubDate>Fri, 12 Oct 2018 18:27:17 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-5.jpg</guid>
@@ -1450,7 +1450,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-5.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/blog-post-5.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/blog-post-5.jpg]]></wp:meta_value>
@@ -1466,7 +1466,7 @@
 	</item>
 	<item>
 		<title>blog-post-6</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/blog-post-6-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/blog-post-6-2/</link>
 		<pubDate>Fri, 12 Oct 2018 18:27:18 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-6-1.jpg</guid>
@@ -1485,7 +1485,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/blog-post-6-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/blog-post-6-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/blog-post-6-1.jpg]]></wp:meta_value>
@@ -1501,7 +1501,7 @@
 	</item>
 	<item>
 		<title>about-1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/about-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/about-1/</link>
 		<pubDate>Sun, 21 Oct 2018 13:05:59 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/about-1.jpg</guid>
@@ -1520,7 +1520,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/about-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/about-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/about-1.jpg]]></wp:meta_value>
@@ -1536,7 +1536,7 @@
 	</item>
 	<item>
 		<title>about-2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/about-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/about-2/</link>
 		<pubDate>Sun, 21 Oct 2018 13:06:02 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/about-2.jpg</guid>
@@ -1555,7 +1555,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/about-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/about-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/about-2.jpg]]></wp:meta_value>
@@ -1571,7 +1571,7 @@
 	</item>
 	<item>
 		<title>about-3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/about-3/</link>
+		<link>http://www.demos.machothemes.com/antreas/about-3/</link>
 		<pubDate>Sun, 21 Oct 2018 13:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/about-3.jpg</guid>
@@ -1590,7 +1590,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas-pro/wp-content/uploads/sites/22/2018/10/about-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/about-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/10/about-3.jpg]]></wp:meta_value>
@@ -1606,7 +1606,7 @@
 	</item>
 	<item>
 		<title>The Vault</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/the-vault/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/the-vault/</link>
 		<pubDate>Fri, 12 Oct 2018 10:10:17 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=62</guid>
@@ -1678,7 +1678,7 @@
 	</item>
 	<item>
 		<title>SH Jewellery</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/sh-jewellery/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/sh-jewellery/</link>
 		<pubDate>Fri, 12 Oct 2018 10:10:47 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=63</guid>
@@ -1750,7 +1750,7 @@
 	</item>
 	<item>
 		<title>Seafood &#038; Raw Bar</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/seafood-raw-bar/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/seafood-raw-bar/</link>
 		<pubDate>Fri, 12 Oct 2018 10:11:16 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=64</guid>
@@ -1822,7 +1822,7 @@
 	</item>
 	<item>
 		<title>The Descendants Beer</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/the-descendants-beer/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/the-descendants-beer/</link>
 		<pubDate>Fri, 12 Oct 2018 10:11:56 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=65</guid>
@@ -1894,7 +1894,7 @@
 	</item>
 	<item>
 		<title>Kinetic Osteo Health</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/kinetic-osteo-health/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/kinetic-osteo-health/</link>
 		<pubDate>Fri, 12 Oct 2018 10:12:51 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=66</guid>
@@ -1968,7 +1968,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Duvenage</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/duvenage/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/duvenage/</link>
 		<pubDate>Fri, 12 Oct 2018 10:13:41 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=67</guid>
@@ -2040,7 +2040,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>White Pages</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/white-pages/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/white-pages/</link>
 		<pubDate>Fri, 12 Oct 2018 10:14:10 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=68</guid>
@@ -2112,7 +2112,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Common Man Restaurant</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/common-man-restaurant/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/common-man-restaurant/</link>
 		<pubDate>Fri, 12 Oct 2018 10:14:52 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=69</guid>
@@ -2184,7 +2184,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Green Deer</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/green-deer/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/green-deer/</link>
 		<pubDate>Fri, 12 Oct 2018 10:15:29 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=70</guid>
@@ -2256,7 +2256,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Manifesto</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio-item/manifesto/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio-item/manifesto/</link>
 		<pubDate>Fri, 12 Oct 2018 10:16:07 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_portfolio&#038;p=71</guid>
@@ -2328,7 +2328,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Responsive Design</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_feature/responsive-design/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_feature/responsive-design/</link>
 		<pubDate>Fri, 12 Oct 2018 10:17:46 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_feature&#038;p=72</guid>
@@ -2358,7 +2358,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Highly Versatile</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_feature/highly-versatile/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_feature/highly-versatile/</link>
 		<pubDate>Fri, 12 Oct 2018 10:18:39 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_feature&#038;p=73</guid>
@@ -2388,7 +2388,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>For Small Businesses</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_feature/for-small-businesses/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_feature/for-small-businesses/</link>
 		<pubDate>Fri, 12 Oct 2018 10:19:10 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_feature&#038;p=74</guid>
@@ -2418,7 +2418,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Featured Homepage</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_feature/featured-homepage/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_feature/featured-homepage/</link>
 		<pubDate>Fri, 12 Oct 2018 10:20:05 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_feature&#038;p=75</guid>
@@ -2447,74 +2447,8 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Premium Consulting</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/service/premium-consulting/</link>
-		<pubDate>Fri, 12 Oct 2018 10:21:18 +0000</pubDate>
-		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_service&#038;p=76</guid>
-		<description></description>
-		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>76</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-12 10:21:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-12 10:21:18]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[premium-consulting]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[cpo_service]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[service_icon_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[fontawesome]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[service_icon]]></wp:meta_key>
-			<wp:meta_value><![CDATA[fontawesome-&amp;#xf05d]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[service_layout]]></wp:meta_key>
-			<wp:meta_value><![CDATA[image]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_gallery]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[service_featured]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Kinetic Osteo Health</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_client/kinetic-osteo-health/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_client/kinetic-osteo-health/</link>
 		<pubDate>Fri, 12 Oct 2018 10:28:05 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_client&#038;p=87</guid>
@@ -2544,7 +2478,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Project Solo</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_client/project-solo/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_client/project-solo/</link>
 		<pubDate>Fri, 12 Oct 2018 10:28:32 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_client&#038;p=88</guid>
@@ -2574,7 +2508,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Monti&#039;s</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_client/montis/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_client/montis/</link>
 		<pubDate>Fri, 12 Oct 2018 10:29:12 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_client&#038;p=89</guid>
@@ -2604,7 +2538,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Willi&#039;s seafood &#038; raw bar</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_client/willis-seafood-raw-bar/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_client/willis-seafood-raw-bar/</link>
 		<pubDate>Fri, 12 Oct 2018 10:29:28 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_client&#038;p=90</guid>
@@ -2634,7 +2568,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Common man</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_client/common-man/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_client/common-man/</link>
 		<pubDate>Fri, 12 Oct 2018 10:29:43 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_client&#038;p=91</guid>
@@ -2663,8 +2597,43 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>background</title>
+		<link>http://www.demos.machothemes.com/antreas/background/</link>
+		<pubDate>Tue, 23 Oct 2018 08:35:43 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/background.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>256</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-23 08:35:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-23 08:35:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[background]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://www.demos.machothemes.com/antreas/wp-content/uploads/sites/22/2018/10/background.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2018/10/background.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:7:{s:5:"width";i:1920;s:6:"height";i:1014;s:4:"file";s:22:"2018/10/background.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"background-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:22:"background-300x158.jpg";s:5:"width";i:300;s:6:"height";i:158;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:22:"background-768x406.jpg";s:5:"width";i:768;s:6:"height";i:406;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:23:"background-1024x541.jpg";s:5:"width";i:1024;s:6:"height";i:541;s:9:"mime-type";s:10:"image/jpeg";}s:9:"portfolio";a:4:{s:4:"file";s:22:"background-600x600.jpg";s:5:"width";i:600;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:21:"woocommerce_thumbnail";a:5:{s:4:"file";s:22:"background-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:9:"uncropped";b:1;}s:18:"woocommerce_single";a:4:{s:4:"file";s:22:"background-600x317.jpg";s:5:"width";i:600;s:6:"height";i:317;s:9:"mime-type";s:10:"image/jpeg";}s:29:"woocommerce_gallery_thumbnail";a:4:{s:4:"file";s:22:"background-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:22:"background-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:22:"background-600x317.jpg";s:5:"width";i:600;s:6:"height";i:317;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:22:"background-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:10:"ShortPixel";a:7:{s:4:"type";s:5:"lossy";s:8:"exifKept";s:1:"0";s:4:"date";s:19:"2018-10-23 08:36:08";s:9:"thumbsOpt";i:8;s:13:"thumbsOptList";a:8:{i:0;s:22:"background-150x150.jpg";i:1;s:22:"background-300x158.jpg";i:2;s:22:"background-768x406.jpg";i:3;s:23:"background-1024x541.jpg";i:4;s:22:"background-600x600.jpg";i:5;s:22:"background-300x300.jpg";i:6;s:22:"background-600x317.jpg";i:7;s:22:"background-100x100.jpg";}s:12:"excludeSizes";a:0:{}s:10:"retinasOpt";i:0;}s:21:"ShortPixelImprovement";s:5:"22.98";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_shortpixel_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Seamlessly Integrated Features</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_slide/seamlessly-integrated-features/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_slide/seamlessly-integrated-features/</link>
 		<pubDate>Fri, 12 Oct 2018 10:04:50 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_slide&#038;p=60</guid>
@@ -2726,7 +2695,7 @@ Phasellus in magna at quam dapibus congue vel ac mauris. Suspendisse potenti. Do
 	</item>
 	<item>
 		<title>Create A Fully Immersive Experience For Your Dream Audience</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_slide/create-a-fully-immersive-experience-for-your-dream-audience/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_slide/create-a-fully-immersive-experience-for-your-dream-audience/</link>
 		<pubDate>Fri, 12 Oct 2018 10:05:18 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_slide&#038;p=61</guid>
@@ -2804,8 +2773,74 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Premium Consulting</title>
+		<link>http://www.demos.machothemes.com/antreas/service/premium-consulting/</link>
+		<pubDate>Fri, 12 Oct 2018 10:21:18 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_service&#038;p=76</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>76</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-12 10:21:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-12 10:21:18]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[premium-consulting]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[cpo_service]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[service_icon_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[fontawesome]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[service_icon]]></wp:meta_key>
+			<wp:meta_value><![CDATA[fontawesome-&amp;#xf05d]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[service_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_gallery]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[service_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Web Development</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/service/web-development/</link>
+		<link>http://www.demos.machothemes.com/antreas/service/web-development/</link>
 		<pubDate>Fri, 12 Oct 2018 10:22:01 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_service&#038;p=77</guid>
@@ -2871,7 +2906,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>WordPress Acceleration</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/service/wordpress-acceleration/</link>
+		<link>http://www.demos.machothemes.com/antreas/service/wordpress-acceleration/</link>
 		<pubDate>Fri, 12 Oct 2018 10:23:10 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_service&#038;p=78</guid>
@@ -2937,7 +2972,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Performance Auditing</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/service/performance-auditing/</link>
+		<link>http://www.demos.machothemes.com/antreas/service/performance-auditing/</link>
 		<pubDate>Fri, 12 Oct 2018 10:24:09 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_service&#038;p=79</guid>
@@ -3003,7 +3038,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Patricia Wright</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_team/patricia-wright/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_team/patricia-wright/</link>
 		<pubDate>Fri, 12 Oct 2018 10:25:25 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_team&#038;p=80</guid>
@@ -3065,7 +3100,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Mark Atkinson</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_team/mark-atkinson/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_team/mark-atkinson/</link>
 		<pubDate>Fri, 12 Oct 2018 10:25:53 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_team&#038;p=81</guid>
@@ -3127,7 +3162,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Maria Rodriguez</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_team/maria-rodriguez/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_team/maria-rodriguez/</link>
 		<pubDate>Fri, 12 Oct 2018 10:26:21 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_team&#038;p=82</guid>
@@ -3189,7 +3224,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>David Smith</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_team/david-smith/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_team/david-smith/</link>
 		<pubDate>Fri, 12 Oct 2018 10:26:42 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_team&#038;p=83</guid>
@@ -3251,7 +3286,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Brian Dean</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_testimonial/brian-dean/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_testimonial/brian-dean/</link>
 		<pubDate>Fri, 12 Oct 2018 10:27:11 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_testimonial&#038;p=84</guid>
@@ -3285,7 +3320,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Ian Lewis</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_testimonial/ian-lewis/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_testimonial/ian-lewis/</link>
 		<pubDate>Fri, 12 Oct 2018 10:27:29 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_testimonial&#038;p=85</guid>
@@ -3319,7 +3354,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Jessica White</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cpo_testimonial/jessica-white/</link>
+		<link>http://www.demos.machothemes.com/antreas/cpo_testimonial/jessica-white/</link>
 		<pubDate>Fri, 12 Oct 2018 10:27:44 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=cpo_testimonial&#038;p=86</guid>
@@ -3353,7 +3388,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Features</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/features/</link>
+		<link>http://www.demos.machothemes.com/antreas/features/</link>
 		<pubDate>Fri, 12 Oct 2018 12:02:33 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=121</guid>
@@ -3416,7 +3451,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>About</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/about/</link>
+		<link>http://www.demos.machothemes.com/antreas/about/</link>
 		<pubDate>Fri, 12 Oct 2018 12:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=122</guid>
@@ -3479,7 +3514,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>About</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/?p=123</link>
+		<link>http://www.demos.machothemes.com/antreas/?p=123</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=123</guid>
@@ -3537,7 +3572,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Portfolio</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio/</link>
 		<pubDate>Fri, 12 Oct 2018 12:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=124</guid>
@@ -3600,7 +3635,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Services</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/services/</link>
+		<link>http://www.demos.machothemes.com/antreas/services/</link>
 		<pubDate>Fri, 12 Oct 2018 12:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=125</guid>
@@ -3663,7 +3698,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Testimonials</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/testimonials/</link>
+		<link>http://www.demos.machothemes.com/antreas/testimonials/</link>
 		<pubDate>Fri, 12 Oct 2018 12:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=126</guid>
@@ -3726,7 +3761,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Clients</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/clients/</link>
+		<link>http://www.demos.machothemes.com/antreas/clients/</link>
 		<pubDate>Fri, 12 Oct 2018 12:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=127</guid>
@@ -3788,8 +3823,58 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Antreas Pro Backup Settings</title>
+		<link>http://www.demos.machothemes.com/antreas/?page_id=4</link>
+		<pubDate>Sun, 21 Oct 2018 13:40:01 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=4</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-21 13:40:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-21 13:40:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[__trashed]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1540129201]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1540129207]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1540129210]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Team</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/team/</link>
+		<link>http://www.demos.machothemes.com/antreas/team/</link>
 		<pubDate>Fri, 12 Oct 2018 12:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=128</guid>
@@ -3851,58 +3936,8 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Antreas Pro Backup Settings</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/?page_id=4</link>
-		<pubDate>Sun, 21 Oct 2018 13:40:01 +0000</pubDate>
-		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=4</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-21 13:40:01]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-21 13:40:01]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[__trashed]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1540129201]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1540129207]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1540129210]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Contact</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/contact/</link>
+		<link>http://www.demos.machothemes.com/antreas/contact/</link>
 		<pubDate>Fri, 12 Oct 2018 12:06:04 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=129</guid>
@@ -3965,7 +4000,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Blog</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/blog/</link>
+		<link>http://www.demos.machothemes.com/antreas/blog/</link>
 		<pubDate>Fri, 12 Oct 2018 16:46:53 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=134</guid>
@@ -4023,7 +4058,7 @@ vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> v
 	</item>
 	<item>
 		<title>Shortcodes</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/shortcodes/</link>
+		<link>http://www.demos.machothemes.com/antreas/shortcodes/</link>
 		<pubDate>Tue, 16 Oct 2018 09:34:57 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=162</guid>
@@ -4231,7 +4266,7 @@ You can distribute content as you please by using the following column shortcode
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/171/</link>
+		<link>http://www.demos.machothemes.com/antreas/171/</link>
 		<pubDate>Wed, 17 Oct 2018 12:27:15 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=171</guid>
@@ -4294,7 +4329,7 @@ You can distribute content as you please by using the following column shortcode
 	</item>
 	<item>
 		<title>Contact</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/contact/</link>
+		<link>http://www.demos.machothemes.com/antreas/contact/</link>
 		<pubDate>Wed, 17 Oct 2018 12:51:01 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=177</guid>
@@ -4352,7 +4387,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/182/</link>
+		<link>http://www.demos.machothemes.com/antreas/182/</link>
 		<pubDate>Wed, 17 Oct 2018 12:55:27 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=182</guid>
@@ -4415,7 +4450,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title>Portfolio</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/portfolio/</link>
+		<link>http://www.demos.machothemes.com/antreas/portfolio/</link>
 		<pubDate>Wed, 17 Oct 2018 12:58:27 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=183</guid>
@@ -4465,7 +4500,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/185/</link>
+		<link>http://www.demos.machothemes.com/antreas/185/</link>
 		<pubDate>Wed, 17 Oct 2018 13:05:30 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=185</guid>
@@ -4528,7 +4563,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title>Sitemap</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/sitemap/</link>
+		<link>http://www.demos.machothemes.com/antreas/sitemap/</link>
 		<pubDate>Wed, 17 Oct 2018 13:06:08 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=186</guid>
@@ -4578,7 +4613,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title>Cart</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/cart/</link>
+		<link>http://www.demos.machothemes.com/antreas/cart/</link>
 		<pubDate>Wed, 17 Oct 2018 13:11:05 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=188</guid>
@@ -4632,7 +4667,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title>Checkout</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/checkout/</link>
+		<link>http://www.demos.machothemes.com/antreas/checkout/</link>
 		<pubDate>Wed, 17 Oct 2018 13:11:38 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=190</guid>
@@ -4685,58 +4720,8 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>My Account</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/my-account/</link>
-		<pubDate>Wed, 17 Oct 2018 13:12:14 +0000</pubDate>
-		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=193</guid>
-		<description></description>
-		<content:encoded><![CDATA[[woocommerce_my_account]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>193</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 13:12:14]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 13:12:14]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[my-account]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/229/</link>
+		<link>http://www.demos.machothemes.com/antreas/229/</link>
 		<pubDate>Wed, 17 Oct 2018 16:12:27 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/229/</guid>
@@ -4791,7 +4776,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/230/</link>
+		<link>http://www.demos.machothemes.com/antreas/230/</link>
 		<pubDate>Wed, 17 Oct 2018 16:12:27 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/230/</guid>
@@ -4846,7 +4831,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/231/</link>
+		<link>http://www.demos.machothemes.com/antreas/231/</link>
 		<pubDate>Wed, 17 Oct 2018 16:12:27 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/231/</guid>
@@ -4901,7 +4886,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/232/</link>
+		<link>http://www.demos.machothemes.com/antreas/232/</link>
 		<pubDate>Wed, 17 Oct 2018 16:12:27 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/232/</guid>
@@ -4956,7 +4941,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/233/</link>
+		<link>http://www.demos.machothemes.com/antreas/233/</link>
 		<pubDate>Wed, 17 Oct 2018 16:12:27 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/233/</guid>
@@ -5011,7 +4996,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/234/</link>
+		<link>http://www.demos.machothemes.com/antreas/234/</link>
 		<pubDate>Wed, 17 Oct 2018 16:12:27 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/234/</guid>
@@ -5066,7 +5051,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title></title>
-		<link>http://www.demos.machothemes.com/antreas-pro/235/</link>
+		<link>http://www.demos.machothemes.com/antreas/235/</link>
 		<pubDate>Wed, 17 Oct 2018 16:12:27 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/235/</guid>
@@ -5121,7 +5106,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	</item>
 	<item>
 		<title>Qualm Inspiration for Everybody</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/hello-world/</link>
+		<link>http://www.demos.machothemes.com/antreas/hello-world/</link>
 		<pubDate>Fri, 12 Oct 2018 09:16:52 +0000</pubDate>
 		<dc:creator><![CDATA[0fjno]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=1</guid>
@@ -5198,7 +5183,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 	</item>
 	<item>
 		<title>Bangkok&#039;s Hidden Foodstalls</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/bangkoks-hidden-foodstalls/</link>
+		<link>http://www.demos.machothemes.com/antreas/bangkoks-hidden-foodstalls/</link>
 		<pubDate>Fri, 12 Oct 2018 09:59:07 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=49</guid>
@@ -5259,7 +5244,7 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 	</item>
 	<item>
 		<title>The Rise of Moroccan Reggae</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/the-rise-of-moroccan-reggae/</link>
+		<link>http://www.demos.machothemes.com/antreas/the-rise-of-moroccan-reggae/</link>
 		<pubDate>Fri, 12 Oct 2018 09:59:45 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=51</guid>
@@ -5321,7 +5306,7 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 	</item>
 	<item>
 		<title>Stories from Landlocked Lands</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/stories-from-landlocked-lands/</link>
+		<link>http://www.demos.machothemes.com/antreas/stories-from-landlocked-lands/</link>
 		<pubDate>Fri, 12 Oct 2018 10:00:18 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=53</guid>
@@ -5386,7 +5371,7 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 	</item>
 	<item>
 		<title>China&#039;s Last Wild Animals</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/chinas-last-wild-bears/</link>
+		<link>http://www.demos.machothemes.com/antreas/chinas-last-wild-bears/</link>
 		<pubDate>Fri, 12 Oct 2018 10:00:43 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=55</guid>
@@ -5448,7 +5433,7 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 	</item>
 	<item>
 		<title>Travel Tips for South Africa</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/travel-tips-for-south-africa/</link>
+		<link>http://www.demos.machothemes.com/antreas/travel-tips-for-south-africa/</link>
 		<pubDate>Fri, 12 Oct 2018 10:01:46 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?p=58</guid>
@@ -5531,7 +5516,7 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 	</item>
 	<item>
 		<title>Branding Mockup #1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/product/branding-mockup-1/</link>
+		<link>http://www.demos.machothemes.com/antreas/product/branding-mockup-1/</link>
 		<pubDate>Mon, 15 Oct 2018 06:41:39 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=product&#038;p=145</guid>
@@ -5708,7 +5693,7 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 	</item>
 	<item>
 		<title>Branding Mockup #2</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/product/branding-mockup-2/</link>
+		<link>http://www.demos.machothemes.com/antreas/product/branding-mockup-2/</link>
 		<pubDate>Mon, 15 Oct 2018 06:42:36 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=product&#038;p=146</guid>
@@ -5884,8 +5869,831 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>My Account</title>
+		<link>http://www.demos.machothemes.com/antreas/my-account/</link>
+		<pubDate>Wed, 17 Oct 2018 13:12:14 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=193</guid>
+		<description></description>
+		<content:encoded><![CDATA[[woocommerce_my_account]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>193</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 13:12:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 13:12:14]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[my-account]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Shop</title>
+		<link>http://www.demos.machothemes.com/antreas/shop/</link>
+		<pubDate>Wed, 17 Oct 2018 13:23:48 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=195</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>195</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 13:23:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 13:23:48]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[shop]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Page Templates</title>
+		<link>http://www.demos.machothemes.com/antreas/page-templates/</link>
+		<pubDate>Wed, 17 Oct 2018 13:58:42 +0000</pubDate>
+		<dc:creator><![CDATA[0fjno]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=206</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>The theme allows you to have complete control over each of your pages. Need to create a legal page with no sidebar? Check. Have to build a landing page without a menu or footer. Done. You can change the layout of each page regardles of the rest of your site.</strong>
+<h2>Per Page Layouts</h2>
+You can have up to five different sidebar setups for each page: no sidebar, left sidebar, right sidebar, two sidebars to the left, two to the right, and two sidebars on opposite sides of your content.
+<h2>Useful Page Templates</h2>
+You can have access to a variety of page templates to create even more kickass content: add a sitemap, create a submenu navigation of all child pages, or add a dedicated blog page within your site.
+<h2>Customizable Header &amp; Footer</h2>
+In addition to changing the layout of a page, you can also control the appearance of the header, page title, and the footer. Choose between displaying the normal layout, a minimal version with less distractions, or to omit it completely.
+
+&nbsp;]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>206</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 13:58:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 13:58:42]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[page-templates]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[right]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Blank Page</title>
+		<link>http://www.demos.machothemes.com/antreas/page-templates/blank-page/</link>
+		<pubDate>Wed, 17 Oct 2018 13:59:40 +0000</pubDate>
+		<dc:creator><![CDATA[0fjno]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=208</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>Create pages without header, footer, or a title! This is a blank canvas that you can use to build anything you want. Perfect for landing pages and Maintenance.</strong>
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>208</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 13:59:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 13:59:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blank-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>206</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[none]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[none]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[none]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Double Sidebar</title>
+		<link>http://www.demos.machothemes.com/antreas/page-templates/double-sidebar/</link>
+		<pubDate>Wed, 17 Oct 2018 14:00:18 +0000</pubDate>
+		<dc:creator><![CDATA[0fjno]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=210</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>You can create layouts with two sidebars too. Place them to the left, right, or on opposite sides of your content.
+</strong>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis aliquet risus, sit amet mattis nulla facilisis sed. Ut imperdiet semper dui, quis molestie elit tincidunt id. Curabitur porta leo sit amet sodales fringilla. Praesent et nisl commodo, porta neque eu, rutrum nisi. Mauris euismod condimentum tellus ac adipiscing. Quisque eget mattis enim. Donec rhoncus odio at neque fermentum, vel elementum nibh consectetur. Vestibulum rhoncus sem metus, sodales vulputate est porta eget. Duis eget neque ullamcorper, elementum felis ac, scelerisque enim. Nam arcu nibh, consequat quis tincidunt eget, dictum at nisi. Ut eget augue varius magna aliquet hendrerit quis sit amet dolor. Quisque sit amet ante eu diam euismod tempus. Duis diam magna, egestas vitae risus in, scelerisque commodo massa.
+
+Etiam auctor venenatis urna ac consequat. Sed sagittis purus ut diam vestibulum ultrices. Cras in ante aliquet, tincidunt nisl at, tincidunt ante. Ut scelerisque elit risus, vitae sodales nibh adipiscing ut. Sed porttitor aliquet lectus, in lacinia nulla. Nullam dictum consectetur ante, a interdum est malesuada at. Curabitur ut urna mi. Morbi vel tincidunt neque. Suspendisse commodo urna in lacus ornare elementum. Proin lacus lectus, tincidunt tempus varius ut, pellentesque pulvinar eros. Donec bibendum, erat in imperdiet viverra, eros lorem egestas purus, non volutpat velit sapien a massa. Nullam id neque eu est egestas laoreet in sit amet justo. Pellentesque et ante et ipsum viverra iaculis. Vestibulum scelerisque, massa eu vestibulum mattis, elit odio lobortis nunc, a mollis tortor dolor nec nunc.
+
+Donec luctus ante a pretium semper. Integer interdum nibh eu elementum suscipit. Cras at leo justo. Morbi at dictum magna. Mauris tincidunt quis diam quis rutrum. Praesent magna nunc, cursus eu nunc nec, porta blandit ipsum. Nulla eget arcu rutrum, tincidunt elit sed, blandit neque. Fusce auctor feugiat nulla ut eleifend.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>210</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 14:00:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 14:00:18]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[double-sidebar]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>206</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[double]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Left Sidebar</title>
+		<link>http://www.demos.machothemes.com/antreas/page-templates/left-sidebar/</link>
+		<pubDate>Wed, 17 Oct 2018 14:00:36 +0000</pubDate>
+		<dc:creator><![CDATA[0fjno]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=212</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>Freely choose whether to put the sidebar on the left or the right side of your content.</strong>
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>212</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 14:00:36]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 14:00:36]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[left-sidebar]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>206</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[left]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Minimal Page</title>
+		<link>http://www.demos.machothemes.com/antreas/page-templates/minimal-page/</link>
+		<pubDate>Wed, 17 Oct 2018 14:01:12 +0000</pubDate>
+		<dc:creator><![CDATA[0fjno]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=214</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>Create a page that doesn't display the full header, footer widgets, o even the breadcrumb navigation. Perfect for laser-focusing your content.
+</strong>
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+<p style="text-align: center;"></p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>214</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 14:01:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 14:01:12]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[minimal-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>206</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[right]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[minimal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[minimal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[minimal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Page with Comments</title>
+		<link>http://www.demos.machothemes.com/antreas/page-templates/page-with-comments/</link>
+		<pubDate>Wed, 17 Oct 2018 14:01:42 +0000</pubDate>
+		<dc:creator><![CDATA[0fjno]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=216</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>You can activate comments in pages too! Create discussions on virtually any place within your site.
+</strong>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra, orci vitae euismod mattis, odio elit sagittis nibh, eu vehicula massa mauris sed elit. Cras libero ipsum, pulvinar eget vestibulum vitae, semper id ligula. Integer vitae felis magna, vitae mattis diam. Aenean ut eros vestibulum ipsum blandit pellentesque nec quis metus. Nam vehicula porttitor venenatis. Ut at nulla massa. Aliquam ante leo, cursus a semper vel, dapibus at enim.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>216</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 14:01:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 14:01:42]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[page-with-comments]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>206</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[none]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Wide Page</title>
+		<link>http://www.demos.machothemes.com/antreas/wide-page/</link>
+		<pubDate>Wed, 17 Oct 2018 14:02:23 +0000</pubDate>
+		<dc:creator><![CDATA[0fjno]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=218</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>Create pages with no sidebars at all, filling out the whole width of your site.</strong>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh quam, euismod vel libero vel, aliquet consectetur enim. Donec ac dolor at augue elementum egestas. Sed accumsan sed dui eget sagittis. In pharetra volutpat eros id aliquam. Curabitur eleifend lectus congue massa venenatis viverra. Phasellus eget neque dolor. Sed arcu magna, pharetra in pretium vitae, consequat id massa. Praesent a tempus ligula. Pellentesque vitae dolor sit amet turpis fringilla laoreet. Proin porta, velit vestibulum tristique mollis, enim leo placerat quam, sit amet blandit nibh risus non diam.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut venenatis ante non eleifend ornare. Ut ornare, tellus malesuada fringilla egestas, justo massa vulputate purus, molestie interdum justo enim in purus. Nulla dapibus lorem ac justo venenatis elementum. Suspendisse cursus libero in ipsum ornare, eu pharetra sapien rutrum. Phasellus aliquet euismod sapien, at feugiat mi placerat tempor. Sed sit amet leo ultrices, condimentum nunc et, ultricies tortor. Vivamus ultricies gravida convallis. Sed ultricies mauris sit amet sapien pellentesque, non varius augue posuere. Nulla accumsan condimentum lacus, sit amet consequat orci. Vestibulum lobortis lorem quam, rhoncus tincidunt nisl commodo cursus. Cras sit amet arcu ante. Vivamus at erat ipsum. Nunc vel tempor ante.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>218</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-17 14:02:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-17 14:02:23]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wide-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[none]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Our Story</title>
+		<link>http://www.demos.machothemes.com/antreas/our-story/</link>
+		<pubDate>Sun, 21 Oct 2018 13:11:58 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=245</guid>
+		<description></description>
+		<content:encoded><![CDATA[Vivamus molestie varius lacus vitae tristique. Phasellus ornare scelerisque mi, eu scelerisque ipsum pulvinar dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus nulla, facilisis quis lorem ullamcorper, porta sollicitudin orci. Nunc consequat gravida augue ut efficitur. Nulla sapien sapien, tempus nec maximus ut, pharetra et sapien. Nullam ultrices egestas magna ac ullamcorper. Nam faucibus leo eget mattis ullamcorper. Duis blandit vehicula neque sit amet aliquet. Duis sed eros erat. Donec vulputate pellentesque sapien at varius. Ut at tristique dui. Maecenas sed arcu vel lacus volutpat rhoncus. Nam vel interdum enim. Aenean placerat magna elit, nec mollis est consequat porttitor.
+
+Nulla at mauris a justo dignissim dapibus ac ultricies dolor. Praesent convallis diam convallis, porta dui eget, mattis lacus. Donec tincidunt ullamcorper vehicula. Vestibulum tristique nisi velit, sit amet ullamcorper justo laoreet vel. Donec ut quam enim. Nam libero ipsum, volutpat aliquet neque sit amet, convallis feugiat tortor. Duis malesuada felis quis justo aliquet, nec euismod urna bibendum. Maecenas egestas erat ac nisl gravida, vitae euismod ante eleifend. Nunc cursus ex in ultrices faucibus. Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></excerpt:encoded>
+		<wp:post_id>245</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-21 13:11:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-21 13:11:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[our-story]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[large]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narrow]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[242]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Our Mission</title>
+		<link>http://www.demos.machothemes.com/antreas/our-mission/</link>
+		<pubDate>Sun, 21 Oct 2018 13:13:14 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=247</guid>
+		<description></description>
+		<content:encoded><![CDATA[Vivamus molestie varius lacus vitae tristique. Phasellus ornare scelerisque mi, eu scelerisque ipsum pulvinar dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus nulla, facilisis quis lorem ullamcorper, porta sollicitudin orci. Nunc consequat gravida augue ut efficitur. Nulla sapien sapien, tempus nec maximus ut, pharetra et sapien. Nullam ultrices egestas magna ac ullamcorper. Nam faucibus leo eget mattis ullamcorper. Duis blandit vehicula neque sit amet aliquet. Duis sed eros erat. Donec vulputate pellentesque sapien at varius. Ut at tristique dui. Maecenas sed arcu vel lacus volutpat rhoncus. Nam vel interdum enim. Aenean placerat magna elit, nec mollis est consequat porttitor.
+
+Nulla at mauris a justo dignissim dapibus ac ultricies dolor. Praesent convallis diam convallis, porta dui eget, mattis lacus. Donec tincidunt ullamcorper vehicula. Vestibulum tristique nisi velit, sit amet ullamcorper justo laoreet vel. Donec ut quam enim. Nam libero ipsum, volutpat aliquet neque sit amet, convallis feugiat tortor. Duis malesuada felis quis justo aliquet, nec euismod urna bibendum. Maecenas egestas erat ac nisl gravida, vitae euismod ante eleifend. Nunc cursus ex in ultrices faucibus. Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></excerpt:encoded>
+		<wp:post_id>247</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-21 13:13:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-21 13:13:14]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[our-mission]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[243]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narrow]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[large]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Our Beliefs</title>
+		<link>http://www.demos.machothemes.com/antreas/our-beliefs/</link>
+		<pubDate>Sun, 21 Oct 2018 13:13:30 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=249</guid>
+		<description></description>
+		<content:encoded><![CDATA[Vivamus molestie varius lacus vitae tristique. Phasellus ornare scelerisque mi, eu scelerisque ipsum pulvinar dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus nulla, facilisis quis lorem ullamcorper, porta sollicitudin orci. Nunc consequat gravida augue ut efficitur. Nulla sapien sapien, tempus nec maximus ut, pharetra et sapien. Nullam ultrices egestas magna ac ullamcorper. Nam faucibus leo eget mattis ullamcorper. Duis blandit vehicula neque sit amet aliquet. Duis sed eros erat. Donec vulputate pellentesque sapien at varius. Ut at tristique dui. Maecenas sed arcu vel lacus volutpat rhoncus. Nam vel interdum enim. Aenean placerat magna elit, nec mollis est consequat porttitor.
+
+Nulla at mauris a justo dignissim dapibus ac ultricies dolor. Praesent convallis diam convallis, porta dui eget, mattis lacus. Donec tincidunt ullamcorper vehicula. Vestibulum tristique nisi velit, sit amet ullamcorper justo laoreet vel. Donec ut quam enim. Nam libero ipsum, volutpat aliquet neque sit amet, convallis feugiat tortor. Duis malesuada felis quis justo aliquet, nec euismod urna bibendum. Maecenas egestas erat ac nisl gravida, vitae euismod ante eleifend. Nunc cursus ex in ultrices faucibus. Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></excerpt:encoded>
+		<wp:post_id>249</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-21 13:13:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-21 13:13:30]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[our-beliefs]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[244]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[narrow]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
+			<wp:meta_value><![CDATA[large]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Contact form #1</title>
+		<link>http://www.demos.machothemes.com/antreas/?post_type=wpcf7_contact_form&#038;p=104</link>
+		<pubDate>Fri, 12 Oct 2018 11:37:19 +0000</pubDate>
+		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
+		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=wpcf7_contact_form&#038;p=104</guid>
+		<description></description>
+		<content:encoded><![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send message"]
+1
+Antreas PRO "[your-subject]"
+[your-name] 
+raibercristian@gmail.com
+From: [your-name] 
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)
+Reply-To: [your-email]
+
+
+
+
+Antreas PRO "[your-subject]"
+Antreas PRO 
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)
+Reply-To: raibercristian@gmail.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+Your entered code is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-12 11:37:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-12 11:37:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+			<wp:meta_value><![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send message"]]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:28:"Antreas PRO "[your-subject]"";s:6:"sender";s:45:"[your-name] <wordpress@demos.machothemes.com>";s:9:"recipient";s:24:"raibercristian@gmail.com";s:4:"body";s:194:"From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:28:"Antreas PRO "[your-subject]"";s:6:"sender";s:45:"Antreas PRO <wordpress@demos.machothemes.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:136:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)";s:18:"additional_headers";s:34:"Reply-To: raibercristian@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Branding Mockup #3</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/product/branding-mockup-3/</link>
+		<link>http://www.demos.machothemes.com/antreas/product/branding-mockup-3/</link>
 		<pubDate>Mon, 15 Oct 2018 06:43:11 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=product&#038;p=147</guid>
@@ -6061,781 +6869,8 @@ Phasellus sit amet nibh vel purus rutrum viverra vitae vitae mi. Etiam at erat i
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Shop</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/shop/</link>
-		<pubDate>Wed, 17 Oct 2018 13:23:48 +0000</pubDate>
-		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=195</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>195</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 13:23:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 13:23:48]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[shop]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Page Templates</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/page-templates/</link>
-		<pubDate>Wed, 17 Oct 2018 13:58:42 +0000</pubDate>
-		<dc:creator><![CDATA[0fjno]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=206</guid>
-		<description></description>
-		<content:encoded><![CDATA[<strong>The theme allows you to have complete control over each of your pages. Need to create a legal page with no sidebar? Check. Have to build a landing page without a menu or footer. Done. You can change the layout of each page regardles of the rest of your site.</strong>
-<h2>Per Page Layouts</h2>
-You can have up to five different sidebar setups for each page: no sidebar, left sidebar, right sidebar, two sidebars to the left, two to the right, and two sidebars on opposite sides of your content.
-<h2>Useful Page Templates</h2>
-You can have access to a variety of page templates to create even more kickass content: add a sitemap, create a submenu navigation of all child pages, or add a dedicated blog page within your site.
-<h2>Customizable Header &amp; Footer</h2>
-In addition to changing the layout of a page, you can also control the appearance of the header, page title, and the footer. Choose between displaying the normal layout, a minimal version with less distractions, or to omit it completely.
-
-&nbsp;]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>206</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 13:58:42]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 13:58:42]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[page-templates]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[right]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blank Page</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/page-templates/blank-page/</link>
-		<pubDate>Wed, 17 Oct 2018 13:59:40 +0000</pubDate>
-		<dc:creator><![CDATA[0fjno]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=208</guid>
-		<description></description>
-		<content:encoded><![CDATA[<strong>Create pages without header, footer, or a title! This is a blank canvas that you can use to build anything you want. Perfect for landing pages and Maintenance.</strong>
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>208</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 13:59:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 13:59:40]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blank-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>206</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[none]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[none]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[none]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Double Sidebar</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/page-templates/double-sidebar/</link>
-		<pubDate>Wed, 17 Oct 2018 14:00:18 +0000</pubDate>
-		<dc:creator><![CDATA[0fjno]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=210</guid>
-		<description></description>
-		<content:encoded><![CDATA[<strong>You can create layouts with two sidebars too. Place them to the left, right, or on opposite sides of your content.
-</strong>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis aliquet risus, sit amet mattis nulla facilisis sed. Ut imperdiet semper dui, quis molestie elit tincidunt id. Curabitur porta leo sit amet sodales fringilla. Praesent et nisl commodo, porta neque eu, rutrum nisi. Mauris euismod condimentum tellus ac adipiscing. Quisque eget mattis enim. Donec rhoncus odio at neque fermentum, vel elementum nibh consectetur. Vestibulum rhoncus sem metus, sodales vulputate est porta eget. Duis eget neque ullamcorper, elementum felis ac, scelerisque enim. Nam arcu nibh, consequat quis tincidunt eget, dictum at nisi. Ut eget augue varius magna aliquet hendrerit quis sit amet dolor. Quisque sit amet ante eu diam euismod tempus. Duis diam magna, egestas vitae risus in, scelerisque commodo massa.
-
-Etiam auctor venenatis urna ac consequat. Sed sagittis purus ut diam vestibulum ultrices. Cras in ante aliquet, tincidunt nisl at, tincidunt ante. Ut scelerisque elit risus, vitae sodales nibh adipiscing ut. Sed porttitor aliquet lectus, in lacinia nulla. Nullam dictum consectetur ante, a interdum est malesuada at. Curabitur ut urna mi. Morbi vel tincidunt neque. Suspendisse commodo urna in lacus ornare elementum. Proin lacus lectus, tincidunt tempus varius ut, pellentesque pulvinar eros. Donec bibendum, erat in imperdiet viverra, eros lorem egestas purus, non volutpat velit sapien a massa. Nullam id neque eu est egestas laoreet in sit amet justo. Pellentesque et ante et ipsum viverra iaculis. Vestibulum scelerisque, massa eu vestibulum mattis, elit odio lobortis nunc, a mollis tortor dolor nec nunc.
-
-Donec luctus ante a pretium semper. Integer interdum nibh eu elementum suscipit. Cras at leo justo. Morbi at dictum magna. Mauris tincidunt quis diam quis rutrum. Praesent magna nunc, cursus eu nunc nec, porta blandit ipsum. Nulla eget arcu rutrum, tincidunt elit sed, blandit neque. Fusce auctor feugiat nulla ut eleifend.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>210</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 14:00:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 14:00:18]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[double-sidebar]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>206</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[double]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Left Sidebar</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/page-templates/left-sidebar/</link>
-		<pubDate>Wed, 17 Oct 2018 14:00:36 +0000</pubDate>
-		<dc:creator><![CDATA[0fjno]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=212</guid>
-		<description></description>
-		<content:encoded><![CDATA[<strong>Freely choose whether to put the sidebar on the left or the right side of your content.</strong>
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>212</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 14:00:36]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 14:00:36]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[left-sidebar]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>206</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[left]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Minimal Page</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/page-templates/minimal-page/</link>
-		<pubDate>Wed, 17 Oct 2018 14:01:12 +0000</pubDate>
-		<dc:creator><![CDATA[0fjno]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=214</guid>
-		<description></description>
-		<content:encoded><![CDATA[<strong>Create a page that doesn't display the full header, footer widgets, o even the breadcrumb navigation. Perfect for laser-focusing your content.
-</strong>
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-<p style="text-align: center;"></p>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>214</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 14:01:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 14:01:12]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[minimal-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>206</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[right]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[minimal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[minimal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[minimal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Page with Comments</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/page-templates/page-with-comments/</link>
-		<pubDate>Wed, 17 Oct 2018 14:01:42 +0000</pubDate>
-		<dc:creator><![CDATA[0fjno]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=216</guid>
-		<description></description>
-		<content:encoded><![CDATA[<strong>You can activate comments in pages too! Create discussions on virtually any place within your site.
-</strong>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra, orci vitae euismod mattis, odio elit sagittis nibh, eu vehicula massa mauris sed elit. Cras libero ipsum, pulvinar eget vestibulum vitae, semper id ligula. Integer vitae felis magna, vitae mattis diam. Aenean ut eros vestibulum ipsum blandit pellentesque nec quis metus. Nam vehicula porttitor venenatis. Ut at nulla massa. Aliquam ante leo, cursus a semper vel, dapibus at enim.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>216</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 14:01:42]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 14:01:42]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[page-with-comments]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>206</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[none]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Wide Page</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/wide-page/</link>
-		<pubDate>Wed, 17 Oct 2018 14:02:23 +0000</pubDate>
-		<dc:creator><![CDATA[0fjno]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=218</guid>
-		<description></description>
-		<content:encoded><![CDATA[<strong>Create pages with no sidebars at all, filling out the whole width of your site.</strong>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh quam, euismod vel libero vel, aliquet consectetur enim. Donec ac dolor at augue elementum egestas. Sed accumsan sed dui eget sagittis. In pharetra volutpat eros id aliquam. Curabitur eleifend lectus congue massa venenatis viverra. Phasellus eget neque dolor. Sed arcu magna, pharetra in pretium vitae, consequat id massa. Praesent a tempus ligula. Pellentesque vitae dolor sit amet turpis fringilla laoreet. Proin porta, velit vestibulum tristique mollis, enim leo placerat quam, sit amet blandit nibh risus non diam.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut venenatis ante non eleifend ornare. Ut ornare, tellus malesuada fringilla egestas, justo massa vulputate purus, molestie interdum justo enim in purus. Nulla dapibus lorem ac justo venenatis elementum. Suspendisse cursus libero in ipsum ornare, eu pharetra sapien rutrum. Phasellus aliquet euismod sapien, at feugiat mi placerat tempor. Sed sit amet leo ultrices, condimentum nunc et, ultricies tortor. Vivamus ultricies gravida convallis. Sed ultricies mauris sit amet sapien pellentesque, non varius augue posuere. Nulla accumsan condimentum lacus, sit amet consequat orci. Vestibulum lobortis lorem quam, rhoncus tincidunt nisl commodo cursus. Cras sit amet arcu ante. Vivamus at erat ipsum. Nunc vel tempor ante.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>218</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-17 14:02:23]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-17 14:02:23]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[wide-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[none]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Our Story</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/our-story/</link>
-		<pubDate>Sun, 21 Oct 2018 13:11:58 +0000</pubDate>
-		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=245</guid>
-		<description></description>
-		<content:encoded><![CDATA[Vivamus molestie varius lacus vitae tristique. Phasellus ornare scelerisque mi, eu scelerisque ipsum pulvinar dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus nulla, facilisis quis lorem ullamcorper, porta sollicitudin orci. Nunc consequat gravida augue ut efficitur. Nulla sapien sapien, tempus nec maximus ut, pharetra et sapien. Nullam ultrices egestas magna ac ullamcorper. Nam faucibus leo eget mattis ullamcorper. Duis blandit vehicula neque sit amet aliquet. Duis sed eros erat. Donec vulputate pellentesque sapien at varius. Ut at tristique dui. Maecenas sed arcu vel lacus volutpat rhoncus. Nam vel interdum enim. Aenean placerat magna elit, nec mollis est consequat porttitor.
-
-Nulla at mauris a justo dignissim dapibus ac ultricies dolor. Praesent convallis diam convallis, porta dui eget, mattis lacus. Donec tincidunt ullamcorper vehicula. Vestibulum tristique nisi velit, sit amet ullamcorper justo laoreet vel. Donec ut quam enim. Nam libero ipsum, volutpat aliquet neque sit amet, convallis feugiat tortor. Duis malesuada felis quis justo aliquet, nec euismod urna bibendum. Maecenas egestas erat ac nisl gravida, vitae euismod ante eleifend. Nunc cursus ex in ultrices faucibus. Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></content:encoded>
-		<excerpt:encoded><![CDATA[Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></excerpt:encoded>
-		<wp:post_id>245</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-21 13:11:58]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-21 13:11:58]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[our-story]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[large]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[narrow]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[242]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Our Mission</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/our-mission/</link>
-		<pubDate>Sun, 21 Oct 2018 13:13:14 +0000</pubDate>
-		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=247</guid>
-		<description></description>
-		<content:encoded><![CDATA[Vivamus molestie varius lacus vitae tristique. Phasellus ornare scelerisque mi, eu scelerisque ipsum pulvinar dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus nulla, facilisis quis lorem ullamcorper, porta sollicitudin orci. Nunc consequat gravida augue ut efficitur. Nulla sapien sapien, tempus nec maximus ut, pharetra et sapien. Nullam ultrices egestas magna ac ullamcorper. Nam faucibus leo eget mattis ullamcorper. Duis blandit vehicula neque sit amet aliquet. Duis sed eros erat. Donec vulputate pellentesque sapien at varius. Ut at tristique dui. Maecenas sed arcu vel lacus volutpat rhoncus. Nam vel interdum enim. Aenean placerat magna elit, nec mollis est consequat porttitor.
-
-Nulla at mauris a justo dignissim dapibus ac ultricies dolor. Praesent convallis diam convallis, porta dui eget, mattis lacus. Donec tincidunt ullamcorper vehicula. Vestibulum tristique nisi velit, sit amet ullamcorper justo laoreet vel. Donec ut quam enim. Nam libero ipsum, volutpat aliquet neque sit amet, convallis feugiat tortor. Duis malesuada felis quis justo aliquet, nec euismod urna bibendum. Maecenas egestas erat ac nisl gravida, vitae euismod ante eleifend. Nunc cursus ex in ultrices faucibus. Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></content:encoded>
-		<excerpt:encoded><![CDATA[Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></excerpt:encoded>
-		<wp:post_id>247</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-21 13:13:14]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-21 13:13:14]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[our-mission]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[243]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[narrow]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[large]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Our Beliefs</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/our-beliefs/</link>
-		<pubDate>Sun, 21 Oct 2018 13:13:30 +0000</pubDate>
-		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?page_id=249</guid>
-		<description></description>
-		<content:encoded><![CDATA[Vivamus molestie varius lacus vitae tristique. Phasellus ornare scelerisque mi, eu scelerisque ipsum pulvinar dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus nulla, facilisis quis lorem ullamcorper, porta sollicitudin orci. Nunc consequat gravida augue ut efficitur. Nulla sapien sapien, tempus nec maximus ut, pharetra et sapien. Nullam ultrices egestas magna ac ullamcorper. Nam faucibus leo eget mattis ullamcorper. Duis blandit vehicula neque sit amet aliquet. Duis sed eros erat. Donec vulputate pellentesque sapien at varius. Ut at tristique dui. Maecenas sed arcu vel lacus volutpat rhoncus. Nam vel interdum enim. Aenean placerat magna elit, nec mollis est consequat porttitor.
-
-Nulla at mauris a justo dignissim dapibus ac ultricies dolor. Praesent convallis diam convallis, porta dui eget, mattis lacus. Donec tincidunt ullamcorper vehicula. Vestibulum tristique nisi velit, sit amet ullamcorper justo laoreet vel. Donec ut quam enim. Nam libero ipsum, volutpat aliquet neque sit amet, convallis feugiat tortor. Duis malesuada felis quis justo aliquet, nec euismod urna bibendum. Maecenas egestas erat ac nisl gravida, vitae euismod ante eleifend. Nunc cursus ex in ultrices faucibus. Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></content:encoded>
-		<excerpt:encoded><![CDATA[Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.]]></excerpt:encoded>
-		<wp:post_id>249</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-21 13:13:30]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-21 13:13:30]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[our-beliefs]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[244]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout_sidebar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[narrow]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_title_area]]></wp:meta_key>
-			<wp:meta_value><![CDATA[large]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[title_area_overlay_opacity]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0.4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_footer]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Contact form #1</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/?post_type=wpcf7_contact_form&#038;p=104</link>
-		<pubDate>Fri, 12 Oct 2018 11:37:19 +0000</pubDate>
-		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
-		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=wpcf7_contact_form&#038;p=104</guid>
-		<description></description>
-		<content:encoded><![CDATA[<label> Your Name (required)
-    [text* your-name] </label>
-
-<label> Your Email (required)
-    [email* your-email] </label>
-
-<label> Your Message
-    [textarea your-message] </label>
-
-[submit "Send message"]
-1
-Antreas PRO "[your-subject]"
-[your-name] 
-raibercristian@gmail.com
-From: [your-name] 
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)
-Reply-To: [your-email]
-
-
-
-
-Antreas PRO "[your-subject]"
-Antreas PRO 
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)
-Reply-To: raibercristian@gmail.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>104</wp:post_id>
-		<wp:post_date><![CDATA[2018-10-12 11:37:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-10-12 11:37:19]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<label> Your Name (required)
-    [text* your-name] </label>
-
-<label> Your Email (required)
-    [email* your-email] </label>
-
-<label> Your Message
-    [textarea your-message] </label>
-
-[submit "Send message"]]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:28:"Antreas PRO "[your-subject]"";s:6:"sender";s:45:"[your-name] <wordpress@demos.machothemes.com>";s:9:"recipient";s:24:"raibercristian@gmail.com";s:4:"body";s:194:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:28:"Antreas PRO "[your-subject]"";s:6:"sender";s:45:"Antreas PRO <wordpress@demos.machothemes.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:136:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machothemes.com/antreas-pro)";s:18:"additional_headers";s:34:"Reply-To: raibercristian@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Branding Mockup #4</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/product/branding-mockup-4/</link>
+		<link>http://www.demos.machothemes.com/antreas/product/branding-mockup-4/</link>
 		<pubDate>Mon, 15 Oct 2018 06:43:30 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=product&#038;p=148</guid>
@@ -7012,7 +7047,7 @@ This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machot
 	</item>
 	<item>
 		<title>Branding Mockup #5</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/product/branding-mockup-5/</link>
+		<link>http://www.demos.machothemes.com/antreas/product/branding-mockup-5/</link>
 		<pubDate>Mon, 15 Oct 2018 06:44:02 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=product&#038;p=149</guid>
@@ -7188,7 +7223,7 @@ This e-mail was sent from a contact form on Antreas PRO (http://www.demos.machot
 	</item>
 	<item>
 		<title>Branding Mockup #6</title>
-		<link>http://www.demos.machothemes.com/antreas-pro/product/branding-mockup-6/</link>
+		<link>http://www.demos.machothemes.com/antreas/product/branding-mockup-6/</link>
 		<pubDate>Mon, 15 Oct 2018 06:44:20 +0000</pubDate>
 		<dc:creator><![CDATA[cristiecmecian]]></dc:creator>
 		<guid isPermaLink="false">http://www.demos.machothemes.com/antreas-pro/?post_type=product&#038;p=150</guid>
