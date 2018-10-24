@@ -677,9 +677,9 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 		$data['colors_upsell']  = array(
 			'section'            => 'colors',
 			'type'               => 'epsilon-upsell',
-			'priority'           => 0,
+			'priority'           => -1,
 			'options'            => array(
-				esc_html__( 'Custom Colors', 'antreas' ),
+				esc_html__( 'Change colors of text, headings, navigation, primary and secondary accent colors, as well as various elements on your site.', 'antreas' ),
 			),
 			'requirements'       => array(
 				esc_html__( 'You can change your site\'s colors directly from Customizer. Changes happen in real time.', 'antreas' ),
@@ -689,13 +689,6 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 			'second_button_url'  => antreas_upgrade_link(),
 			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
 			'separator'          => '- or -',
-		);
-
-		$data['color_settings'] = array(
-			'label'       => __( 'Color Options', 'antreas' ),
-			'description' => __( 'Customize the colors of primary and secondary elements, as well as headings, navigation, and text.', 'antreas' ),
-			'section'     => 'colors',
-			'type'        => 'label',
 		);
 
 		return apply_filters( 'antreas_customizer_controls', $data );
