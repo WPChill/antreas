@@ -35,3 +35,7 @@ Copyright: Stephane Caron
 Selectize - https://github.com/selectize/selectize.js
 License: http://www.apache.org/licenses/LICENSE-2.0
 Copyright: Brian Reavis & Contributors
+
+Theme Screenshot Image
+Photo by Joel Filipe
+https://unsplash.com/@joelfilip
