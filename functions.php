@@ -3,7 +3,9 @@
 }
 
 $theme = wp_get_theme();
-define( 'ANTREAS_ID', 'antreas' );
+define( 'ANTREAS_SLUG', 'antreas' );
+define( 'ANTREAS_PRO_SLUG', 'antreas-pro' );
+define( 'ANTREAS_PREFIX', 'antreas' );
 define( 'ANTREAS_NAME', $theme['Name'] );
 define( 'ANTREAS_VERSION', $theme['Version'] );
 define( 'ANTREAS_LOGO_WIDTH', '90' );
