@@ -34,4 +34,19 @@ function antreas_import_done() {
 		$about_pages[] = $page->ID;
 	}
 	antreas_update_option( 'about_pages', $about_pages );
+
+	// Sets the imported menus to their locations.
+	$nav_menu_locations = get_theme_mod( 'nav_menu_locations' );
+	$menu_object = wp_get_nav_menu_object( 'main-menu-navigation' );
+	if ( $menu_object ) {
+		$nav_menu_locations['main_menu'] = $menu_object->term_id;
+		$nav_menu_locations['mobile_menu'] = $menu_object->term_id;
+	}
+
+	$menu_object = wp_get_nav_menu_object( 'top-menu-navigation' );
+	if ( $menu_object ) {
+		$nav_menu_locations['top_menu'] = $menu_object->term_id;
+		$nav_menu_locations['footer_menu'] = $menu_object->term_id;
+	}
+	set_theme_mod( 'nav_menu_locations', $nav_menu_locations );
 }
