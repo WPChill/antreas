@@ -4,9 +4,6 @@ if ( ! function_exists( 'antreas_setup' ) ) {
 	add_action( 'after_setup_theme', 'antreas_setup' );
 	function antreas_setup() {
 		//Set core variables
-		if ( ! defined( 'ANTREAS_ID' ) ) {
-			define( 'ANTREAS_ID', 'core' );
-		}
 		if ( ! defined( 'ANTREAS_THUMBNAIL_WIDTH' ) ) {
 			define( 'ANTREAS_THUMBNAIL_WIDTH', '600' );
 		}
@@ -82,14 +79,14 @@ if ( ! function_exists( 'antreas_setup' ) ) {
 		// Backward compatibility for epsilon framework.
 		$epsilon = get_option( 'epsilon_framework_update' );
 		if ( ! $epsilon ) {
-			$req_plugins         = get_option( 'antreas_show_recommended_plugins' );
+			$req_plugins         = get_option( ANTREAS_PREFIX . '_show_recommended_plugins' );
 			$updated_req_plugins = array();
 
 			if ( is_array( $req_plugins ) ) {
 				foreach ( $req_plugins as $key => $value ) {
 					$updated_req_plugins[ $key ] = $value ? false : true;
 				}
-				update_option( 'antreas_show_recommended_plugins', $updated_req_plugins );
+				update_option( ANTREAS_PREFIX . '_show_recommended_plugins', $updated_req_plugins );
 			}
 
 			add_option( 'epsilon_framework_update', true );

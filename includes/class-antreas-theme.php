@@ -11,31 +11,31 @@ class Antreas_Theme {
 		$this->path = get_template_directory() . '/includes/';
 		$this->load_dependencies();
 
-		// Recomended Plugins
+		// Recommended Plugins
 		$this->plugins = array(
 			'wpforms-lite'               => array( 'recommended' => true ),
 			'shortpixel-image-optimiser' => array( 'recommended' => true ),
 			'simple-author-box'          => array( 'recommended' => true ),
 		);
 
-		// Recomendeed Actions
+		// Recommended Actions
 		$this->actions = array(
 			$actions[] = array(
-				'id'          => 'antreas-req-ac-import-demo-content',
+				'id'          => ANTREAS_SLUG . '-req-ac-import-demo-content',
 				'title'       => esc_html__( 'Import Demo Content', 'antreas' ),
 				'description' => esc_html__( 'Clicking the button below will add content, widgets and set static front page to your WordPress installation. Click advanced to customize the import process. This procces might take up to 2 min. Please don\'t close the window.', 'antreas' ),
 				'help'        => $this->generate_action_html(),
 				'check'       => Antreas_Notify_System::check_content_import(),
 			),
 			array(
-				'id'          => 'antreas-req-ac-install-cpo-companion',
+				'id'          => ANTREAS_SLUG . '-req-ac-install-cpo-companion',
 				'title'       => Antreas_Notify_System::create_plugin_requirement_title( __( 'Install: CPO Companion', 'antreas' ), __( 'Activate: CPO Companion', 'antreas' ), 'cpo-companion' ),
 				'description' => __( 'It is highly recommended that you install the CPO Content Types plugin. It will help you manage all the special content types that this theme supports.', 'antreas' ),
 				'check'       => Antreas_Notify_System::has_plugin( 'cpo-companion' ),
 				'plugin_slug' => 'cpo-companion',
 			),
 			array(
-				'id'          => 'antreas-req-ac-install-modula',
+				'id'          => ANTREAS_SLUG . '-req-ac-install-modula',
 				'title'       => Antreas_Notify_System::create_plugin_requirement_title( __( 'Install: Modula', 'antreas' ), __( 'Activate: Modula', 'antreas' ), 'modula-best-grid-gallery' ),
 				'description' => __( 'It is highly recommended that you install the Modula plugin.', 'antreas' ),
 				'check'       => Antreas_Notify_System::has_plugin( 'modula-best-grid-gallery' ),
@@ -81,8 +81,8 @@ class Antreas_Theme {
 
 		Epsilon_Welcome_Screen::get_instance(
 			$config = array(
-				'theme-name'  => 'Antreas',
-				'theme-slug'  => 'antreas',
+				'theme-name'  => ANTREAS_NAME,
+				'theme-slug'  => ANTREAS_SLUG,
 				'actions'     => $this->actions,
 				'plugins'     => $this->plugins,
 				'edd'         => true,
@@ -104,8 +104,8 @@ class Antreas_Theme {
 					'plugin_text'                  => esc_html__( 'Recomended Plugins', 'antreas' ),
 					'actions'                      => $this->actions,
 					'plugins'                      => $this->plugins,
-					'theme_specific_option'        => 'antreas_show_required_actions',
-					'theme_specific_plugin_option' => 'antreas_show_recommended_plugins',
+					'theme_specific_option'        => ANTREAS_PREFIX . '_show_required_actions',
+					'theme_specific_plugin_option' => ANTREAS_PREFIX . '_show_recommended_plugins',
 					'facebook'                     => 'https://www.facebook.com/cpothemes',
 					'twitter'                      => 'https://twitter.com/cpothemes',
 					'wp_review'                    => false,
@@ -133,7 +133,7 @@ class Antreas_Theme {
 
 		if ( is_customize_preview() ) {
 			$url  = 'themes.php?page=%1$s-welcome&tab=%2$s';
-			$html = '<a class="button button-primary" id="" href="' . esc_url( admin_url( sprintf( $url, 'antreas', 'recommended-actions' ) ) ) . '">' . __( 'Import Demo Content', 'antreas' ) . '</a>';
+			$html = '<a class="button button-primary" id="" href="' . esc_url( admin_url( sprintf( $url, ANTREAS_SLUG, 'recommended-actions' ) ) ) . '">' . __( 'Import Demo Content', 'antreas' ) . '</a>';
 		} else {
 			$html  = '<p><a class="button button-primary cpo-import-button epsilon-ajax-button" data-action="import_demo" id="add_default_sections" href="#">' . __( 'Import Demo Content', 'antreas' ) . '</a>';
 			$html .= '<a class="button epsilon-hidden-content-toggler" href="#welcome-hidden-content">' . __( 'Advanced', 'antreas' ) . '</a></p>';
@@ -184,7 +184,7 @@ class Antreas_Theme {
 	}
 
 	public function import_option() {
-		return 'antreas_content_imported';
+		return ANTREAS_PREFIX . '_content_imported';
 	}
 
 	public function customizer_options() {
@@ -213,7 +213,7 @@ class Antreas_Theme {
 	}
 
 	public function option_name() {
-		return 'antreas_settings';
+		return ANTREAS_SLUG . '_settings';
 	}
 
 }
