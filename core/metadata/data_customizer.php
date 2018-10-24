@@ -250,7 +250,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 			'second_button_url'  => antreas_upgrade_link(),
-			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+			'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 			'separator'          => '- or -',
 		);
 
@@ -278,7 +278,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 			'second_button_url'  => antreas_upgrade_link(),
-			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+			'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 			'separator'          => '- or -',
 		);
 
@@ -307,7 +307,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -348,12 +348,10 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 					esc_html__( 'You can select on how many Columns you want to show your features.', 'antreas' ),
 					esc_html__( 'More icon libraries to choose from.', 'antreas' ),
 				),
-				'button_url'         => antreas_upgrade_link(),
-				'button_text'        => esc_html__( 'Get the PRO version!', 'antreas' ),
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -387,7 +385,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -420,7 +418,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -450,7 +448,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -494,7 +492,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -525,7 +523,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -556,7 +554,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -587,7 +585,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 				'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 				'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 				'second_button_url'  => antreas_upgrade_link(),
-				'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+				'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 				'separator'          => '- or -',
 			);
 
@@ -624,7 +622,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 			'second_button_url'  => antreas_upgrade_link(),
-			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+			'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 			'separator'          => '- or -',
 		);
 
@@ -669,7 +667,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 			'second_button_url'  => antreas_upgrade_link(),
-			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+			'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 			'separator'          => '- or -',
 		);
 
@@ -687,7 +685,7 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 			'button_url'         => esc_url_raw( get_admin_url() . 'themes.php?page=antreas-welcome&tab=features' ),
 			'button_text'        => esc_html__( 'See PRO vs Lite', 'antreas' ),
 			'second_button_url'  => antreas_upgrade_link(),
-			'second_button_text' => esc_html__( 'Get the PRO version!', 'antreas' ),
+			'second_button_text' => esc_html__( 'Get PRO!', 'antreas' ),
 			'separator'          => '- or -',
 		);
 
