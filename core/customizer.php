@@ -99,7 +99,9 @@ function antreas_customizer( $customize ) {
 
 			//Define control metadata
 			$args['settings'] = $option_array . '[' . $setting_id . ']';
-			$args['priority'] = 10;
+			if ( ! isset( $args['priority'] ) ) {
+				$args['priority'] = 10;
+			}
 			if ( ! isset( $args['type'] ) ) {
 				$args['type'] = 'text';
 			}
