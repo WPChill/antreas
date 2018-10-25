@@ -161,10 +161,41 @@ if ( ! function_exists( 'antreas_charset' ) ) {
 }
 
 
-//Display shortcut edit links for logged in users
+// Display shortcut edit links for logged in users.
 if ( ! function_exists( 'antreas_edit' ) ) {
-	function antreas_edit() {
-		edit_post_link( __( 'Edit', 'antreas' ) );
+	function antreas_edit( $id = 0, $context = 'display' ) {
+
+		$post = get_post( $id );
+		if ( ! $post ) {
+			return;
+		}
+
+		if ( 'revision' === $post->post_type ) {
+			$action = '';
+		} elseif ( 'display' == $context ) {
+			$action = '&amp;action=edit';
+		} else {
+			$action = '&action=edit';
+		}
+
+		$post_type_object = get_post_type_object( $post->post_type );
+		if ( ! $post_type_object ) {
+			return;
+		}
+
+		if ( ! current_user_can( 'edit_post', $post->ID ) ) {
+			return;
+		}
+
+		if ( $post_type_object->_edit_link ) {
+			$link = admin_url( sprintf( $post_type_object->_edit_link . $action, $post->ID ) );
+		} else {
+			$link = '';
+		}
+
+		if ( $link ) {
+			echo '<a target="_blank" title="' . esc_attr__( 'Edit', 'antreas' ) . '" class="post-edit-link" href="' . esc_url( $link ) . '">' . esc_html__( 'Edit', 'antreas' ) . '</a>';
+		}
 	}
 }
 
