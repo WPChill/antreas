@@ -30,3 +30,7 @@
 .footer-content .copyright > span {
 	left: -5px;
 }
+
+a.customize-unpreviewable.post-edit-link {
+	cursor: pointer !important;
+}

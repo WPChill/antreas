@@ -130,7 +130,7 @@ if ( ! function_exists( 'antreas_scripts_customizer' ) ) {
 	add_action( 'customize_controls_enqueue_scripts', 'antreas_scripts_customizer' );
 	function antreas_scripts_customizer() {
 		wp_register_script( 'antreas-selectize', ANTREAS_ASSETS_JS . 'selectize.js', array( 'jquery' ), ANTREAS_VERSION );
-		wp_enqueue_script( 'antreas-customizer-controls', ANTREAS_ASSETS_JS . 'customizer-controls.js', array( 'jquery' ), ANTREAS_VERSION, true );
+		wp_enqueue_script( 'antreas-customizer-controls', ANTREAS_ASSETS_JS . 'customizer-controls.js', array( 'jquery', 'customize-controls' ), ANTREAS_VERSION, true );
 	}
 }
 

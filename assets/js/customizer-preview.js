@@ -2,6 +2,12 @@
 
 	var headerHeight = $('#header').innerHeight();
 
+	// overwrite default link functionality in the customizer preview for the edit links.
+	$( 'a.post-edit-link' ).on( 'click', function(e) {
+		e.preventDefault();
+		window.open( $( this ).attr('href'), '_blank' );
+	});
+
 	wp.customize.bind('preview-ready', function () {
 
 	 	wp.customize.preview.bind( 'section-highlight', function( data ) {
@@ -29,7 +35,7 @@
 			// When the section is expanded, show and scroll to the content placeholders, exposing the edit links.
 			if ( true === data.expanded && $( selectors[ data.section ] ).length > 0 ) {
 				var offset = $(window).scrollTop() === 0 ? -headerHeight*2 : -headerHeight;
-				jQuery( 'html, body' ).animate( { scrollTop: $( selectors[ data.section ] ).offset().top + offset  }, 1000, 'swing' );
+				$( 'html, body' ).animate( { scrollTop: $( selectors[ data.section ] ).offset().top + offset  }, 1000, 'swing' );
 			}
 		});
 
