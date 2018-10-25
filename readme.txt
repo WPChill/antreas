@@ -37,5 +37,5 @@ License: http://www.apache.org/licenses/LICENSE-2.0
 Copyright: Brian Reavis & Contributors
 
 Theme Screenshot Image
-Photo by Joel Filipe
-https://unsplash.com/@joelfilip
+Photo by Michael Gaida
+https://pixabay.com/fr/l-architecture-moderne-b%C3%A2timent-1048092/
