@@ -33,18 +33,13 @@
     color: #a00;
 }
 
-.action-required-box:last-of-type {
-    border-bottom: none;
-}
-
 .action-required-box {
     display: block;
-    border-left: 3px solid #f8800c;
-    padding: 10px 25px 5px;
-    background: #FFFFFF;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 15px 25px 15px;
+	background-color: #fafafa;
     margin-bottom: 15px;
-    position: relative;
+	position: relative;
+	border: 1px solid #dddddd;
 }
 
 .about-wrap .action-required-box h4 {
