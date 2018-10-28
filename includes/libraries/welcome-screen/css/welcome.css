@@ -42,6 +42,15 @@
 	border: 1px solid #dddddd;
 }
 
+.action-required-box .loading-bar {
+	background-color: #0073aa;
+	height: 4px;
+	width: 0%;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+
 .about-wrap .action-required-box h4 {
     display: block;
     margin-top: 0;
