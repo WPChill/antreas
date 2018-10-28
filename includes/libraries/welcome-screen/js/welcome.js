@@ -13,10 +13,15 @@ var welcomeScreenFunctions = {
             'options': []
           };
 
-      e.preventDefault();
+	  e.preventDefault();
 
       jQuery( this ).addClass( 'updating' );
-      jQuery( this ).attr( 'disabled', 'disabled' );
+	  jQuery( this ).attr( 'disabled', 'disabled' );
+
+	  // add a loading bar to this action required box.
+	  var $loadingBar = jQuery("<div class='loading-bar'></div>");
+	  container.append( $loadingBar );
+	  $loadingBar.animate({ width: '100%' }, 1.5 * 60 * 1000, 'linear' );
 
       jQuery.each( checkboxes, function( k, item ) {
 
@@ -62,7 +67,7 @@ var welcomeScreenFunctions = {
       url: ajaxurl,
       success: function( json ) {
         if ( container.length ) {
-          container.html( '<h3>Demo content was imported successfully! </h3>' );
+		  container.html( '<h3>Demo content was imported successfully! </h3>' );
 
           window.setTimeout( function() {
             container.slideUp( 300, function() {

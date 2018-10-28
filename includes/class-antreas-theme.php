@@ -23,7 +23,7 @@ class Antreas_Theme {
 			$actions[] = array(
 				'id'          => ANTREAS_SLUG . '-req-ac-import-demo-content',
 				'title'       => esc_html__( 'Import Demo Content', 'antreas' ),
-				'description' => esc_html__( 'Clicking the button below will add content, widgets and set static front page to your WordPress installation. Click advanced to customize the import process. This procces might take up to 2 min. Please don\'t close the window.', 'antreas' ),
+				'description' => $this->import_action_description(),
 				'help'        => $this->generate_action_html(),
 				'check'       => Antreas_Notify_System::check_content_import(),
 			),
@@ -46,13 +46,19 @@ class Antreas_Theme {
 		$this->init_epsilon();
 		$this->init_welcome_screen();
 
+		add_action( 'customize_register', array( $this, 'customizer' ) );
+
+		// filters for cpo companion.
 		add_filter( 'cpo_companion_content', array( $this, 'content_path' ), 99 );
 		add_filter( 'cpo_companion_widgets', array( $this, 'widgets_path' ), 99 );
-		add_filter( 'cpo_companion_import_option', array( $this, 'import_option' ), 99 );
-		add_filter( 'cpo_companion_customizer_options', array( $this, 'customizer_options' ), 99 );
-		add_filter( 'cpo_companion_customizer_option_name', array( $this, 'option_name' ), 99 );
+		add_filter( 'cpo_companion_theme_settings', array( $this, 'theme_settings' ), 99 );
 
-		add_action( 'customize_register', array( $this, 'customizer' ) );
+		add_filter( 'cpo_companion_import_content_option_name', array( $this, 'import_content_option_name' ), 99 );
+		add_filter( 'cpo_companion_import_widgets_option_name', array( $this, 'import_widgets_option_name' ), 99 );
+		add_filter( 'cpo_companion_import_settings_option_name', array( $this, 'import_settings_option_name' ), 99 );
+
+		add_filter( 'cpo_companion_theme_settings_option_name', array( $this, 'theme_settings_option_name' ), 99 );
+		add_filter( 'cpo_companion_import_option', array( $this, 'import_all_option_name' ), 99 );
 	}
 
 	private function load_dependencies() {
@@ -116,13 +122,50 @@ class Antreas_Theme {
 
 	}
 
+	private function import_action_description() {
+
+		$imported = array();
+		$not_imported = array();
+
+		if ( 1 == get_option( self::import_content_option_name() ) ) {
+			$imported[] = 'content';
+		} else {
+			$not_imported[] = 'content';
+		}
+
+		if ( 1 == get_option( self::import_widgets_option_name() ) ) {
+			$imported[] = 'widgets';
+		} else {
+			$not_imported[] = 'widgets';
+		}
+
+		if ( 1 == get_option( self::import_settings_option_name() ) ) {
+			$imported[] = 'settings';
+		} else {
+			$not_imported[] = 'settings';
+		}
+
+		$description = '';
+		if ( $imported ) {
+			$description .= sprintf( __( 'Looks like you already imported demo %s.<br/>', 'antreas' ), implode( ', ', $imported ) );
+		}
+		$description .= sprintf( __( 'Clicking the button below will add %s to your WordPress installation. Click advanced to customize the import process. This procces might take up to 2 min. Please don\'t close the window.', 'antreas' ), implode( ', ', $not_imported ) );
+
+		return $description;
+	}
+
 	private function generate_action_html() {
 
-		$import_actions = array(
-			'import_content' => esc_html__( 'Import Content', 'antreas' ),
-			'import_widgets' => esc_html__( 'Import Widgets', 'antreas' ),
-			'import_options' => esc_html__( 'Import Options', 'antreas' ),
-		);
+		$import_actions = array();
+		if ( 1 != get_option( self::import_content_option_name() ) ) {
+			$import_actions['import_content'] = esc_html__( 'Import Content', 'antreas' );
+		}
+		if ( 1 != get_option( self::import_widgets_option_name() ) ) {
+			$import_actions['import_widgets'] = esc_html__( 'Import Widgets', 'antreas' );
+		}
+		if ( 1 != get_option( self::import_settings_option_name() ) ) {
+			$import_actions['import_settings'] = esc_html__( 'Import Settings', 'antreas' );
+		}
 
 		$import_plugins = array(
 			'cpo-companion'              => esc_html__( 'CPO Companion', 'antreas' ),
@@ -183,11 +226,27 @@ class Antreas_Theme {
 		return get_template_directory() . '/demo/widgets.wie';
 	}
 
-	public function import_option() {
-		return ANTREAS_PREFIX . '_content_imported';
+	public function import_all_option_name() {
+		return 'antreas_all_demo_imported';
 	}
 
-	public function customizer_options() {
+	public function theme_settings_option_name() {
+		return 'antreas_settings';
+	}
+
+	public function import_content_option_name() {
+		return 'antreas_content_imported';
+	}
+
+	public function import_widgets_option_name() {
+		return 'antreas_widgets_imported';
+	}
+
+	public function import_settings_option_name() {
+		return 'antreas_settings_imported';
+	}
+
+	public function theme_settings() {
 
 		$defaults = array(
 			'general_texttitle' => false,
@@ -211,11 +270,6 @@ class Antreas_Theme {
 
 		return $defaults;
 	}
-
-	public function option_name() {
-		return ANTREAS_SLUG . '_settings';
-	}
-
 }
 
 new Antreas_Theme();
