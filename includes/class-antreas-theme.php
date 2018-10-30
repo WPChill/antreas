@@ -53,12 +53,8 @@ class Antreas_Theme {
 		add_filter( 'cpo_companion_widgets', array( $this, 'widgets_path' ), 99 );
 		add_filter( 'cpo_companion_theme_settings', array( $this, 'theme_settings' ), 99 );
 
-		add_filter( 'cpo_companion_import_content_option_name', array( $this, 'import_content_option_name' ), 99 );
-		add_filter( 'cpo_companion_import_widgets_option_name', array( $this, 'import_widgets_option_name' ), 99 );
-		add_filter( 'cpo_companion_import_settings_option_name', array( $this, 'import_settings_option_name' ), 99 );
-
-		add_filter( 'cpo_companion_theme_settings_option_name', array( $this, 'theme_settings_option_name' ), 99 );
-		add_filter( 'cpo_companion_import_option', array( $this, 'import_all_option_name' ), 99 );
+		add_filter( 'cpo_companion_theme_settings_name', array( $this, 'theme_settings_name' ), 99 );
+		add_filter( 'cpo_companion_import_option', array( $this, 'import_option_name' ), 99 );
 	}
 
 	private function load_dependencies() {
@@ -124,22 +120,22 @@ class Antreas_Theme {
 
 	private function import_action_description() {
 
-		$imported = array();
+		$imported     = array();
 		$not_imported = array();
 
-		if ( 1 == get_option( self::import_content_option_name() ) ) {
+		if ( 1 == get_option( 'antreas_content_imported' ) ) {
 			$imported[] = 'content';
 		} else {
 			$not_imported[] = 'content';
 		}
 
-		if ( 1 == get_option( self::import_widgets_option_name() ) ) {
+		if ( 1 == get_option( 'antreas_widgets_imported' ) ) {
 			$imported[] = 'widgets';
 		} else {
 			$not_imported[] = 'widgets';
 		}
 
-		if ( 1 == get_option( self::import_settings_option_name() ) ) {
+		if ( 1 == get_option( 'antreas_settings_imported' ) ) {
 			$imported[] = 'settings';
 		} else {
 			$not_imported[] = 'settings';
@@ -157,19 +153,19 @@ class Antreas_Theme {
 	private function generate_action_html() {
 
 		$import_actions = array();
-		if ( 1 != get_option( self::import_content_option_name() ) ) {
+		if ( 1 != get_option( 'antreas_content_imported' ) ) {
 			$import_actions['import_content'] = esc_html__( 'Import Content', 'antreas' );
 		}
-		if ( 1 != get_option( self::import_widgets_option_name() ) ) {
+		if ( 1 != get_option( 'antreas_widgets_imported' ) ) {
 			$import_actions['import_widgets'] = esc_html__( 'Import Widgets', 'antreas' );
 		}
-		if ( 1 != get_option( self::import_settings_option_name() ) ) {
-			$import_actions['import_settings'] = esc_html__( 'Import Settings', 'antreas' );
+		if ( 1 != get_option( 'antreas_settings_imported' ) ) {
+			$import_actions['import_options'] = esc_html__( 'Import Settings', 'antreas' );
 		}
 
 		$import_plugins = array(
-			'cpo-companion'              => esc_html__( 'CPO Companion', 'antreas' ),
-			'modula-best-grid-gallery'   => esc_html__( 'Modula Gallery', 'antreas' ),
+			'cpo-companion'            => esc_html__( 'CPO Companion', 'antreas' ),
+			'modula-best-grid-gallery' => esc_html__( 'Modula Gallery', 'antreas' ),
 		);
 
 		$plugins_html = '';
@@ -226,46 +222,34 @@ class Antreas_Theme {
 		return get_template_directory() . '/demo/widgets.wie';
 	}
 
-	public function import_all_option_name() {
-		return 'antreas_all_demo_imported';
+	public function import_option_name() {
+		return 'antreas_all_imported';
 	}
 
-	public function theme_settings_option_name() {
+	public function theme_settings_name() {
 		return 'antreas_settings';
-	}
-
-	public function import_content_option_name() {
-		return 'antreas_content_imported';
-	}
-
-	public function import_widgets_option_name() {
-		return 'antreas_widgets_imported';
-	}
-
-	public function import_settings_option_name() {
-		return 'antreas_settings_imported';
 	}
 
 	public function theme_settings() {
 
 		$defaults = array(
-			'general_texttitle' => false,
-			'sidebar_position' => 'right',
+			'general_texttitle'     => false,
+			'sidebar_position'      => 'right',
 			'sidebar_position_home' => 'none',
-			'home_tagline' => __( 'Antreas is a theme with great potential', 'antreas' ),
-			'home_tagline_content' => __( 'this tagline can be easily added anywhere on your site', 'antreas' ),
-			'home_features' => __( 'Why choose us', 'antreas' ),
-			'home_portfolio' => __( 'See our Online Portfolio', 'antreas' ),
-			'home_services' => __( 'What we can do for you', 'antreas' ),
-			'home_about' => __( 'About us', 'antreas' ),
-			'about_pages' => array(),
-			'home_team' => __( 'Meet our team', 'antreas' ),
-			'home_testimonials' => __( 'What people say about us', 'antreas' ),
-			'home_clients' => __( 'Some of our best clients', 'antreas' ),
-			'home_contact' => __( 'Contact us', 'antreas' ),
-			'home_posts' => true,
-			'home_blog' => __( 'Recent blog posts', 'antreas' ),
-			'postpage_preview' => 'excerpt',
+			'home_tagline'          => __( 'Antreas is a theme with great potential', 'antreas' ),
+			'home_tagline_content'  => __( 'this tagline can be easily added anywhere on your site', 'antreas' ),
+			'home_features'         => __( 'Why choose us', 'antreas' ),
+			'home_portfolio'        => __( 'See our Online Portfolio', 'antreas' ),
+			'home_services'         => __( 'What we can do for you', 'antreas' ),
+			'home_about'            => __( 'About us', 'antreas' ),
+			'about_pages'           => array(),
+			'home_team'             => __( 'Meet our team', 'antreas' ),
+			'home_testimonials'     => __( 'What people say about us', 'antreas' ),
+			'home_clients'          => __( 'Some of our best clients', 'antreas' ),
+			'home_contact'          => __( 'Contact us', 'antreas' ),
+			'home_posts'            => true,
+			'home_blog'             => __( 'Recent blog posts', 'antreas' ),
+			'postpage_preview'      => 'excerpt',
 		);
 
 		return $defaults;
