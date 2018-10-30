@@ -139,7 +139,7 @@ if ( ! class_exists( 'Antreas_Notify_System' ) ) {
 		}
 
 		public static function check_content_import() {
-			if ( 1 == get_option( 'antreas_all_demo_imported' ) ) {
+			if ( 1 == get_option( 'antreas_all_imported' ) ) {
 				return true;
 			}
 

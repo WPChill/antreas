@@ -207,6 +207,7 @@ require_once $core_path . 'taxonomy.php';
 require_once $core_path . 'icons.php';
 require_once $core_path . 'layout.php';
 require_once $core_path . 'menus.php';
+require_once $core_path . 'cpo-companion.php';
 require_once $core_path . 'customizer.php';
 require_once $core_path . 'gutenberg.php';
 
