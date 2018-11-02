@@ -288,6 +288,23 @@ function antreas_sanitize_bool( $data ) {
 	return false;
 }
 
+
+// Sanitize logo dimensions
+function antreas_sanitize_logo_dimensions( $dimensions ) {
+	$new_dimensions = array();
+
+	if ( isset( $dimensions['width'] ) ) {
+		$new_dimensions['width'] = abs( floatval( $dimensions['width'] ) );
+	}
+
+	if ( isset( $dimensions['height'] ) ) {
+		$new_dimensions['height'] = abs( floatval( $dimensions['height'] ) );
+	}
+
+	return $new_dimensions;
+}
+
+
 //Return the URL to the premium theme page
 function antreas_upgrade_link( $medium = 'customizer' ) {
 	$url  = esc_url_raw( ANTREAS_PREMIUM_URL . '?utm_source=antreas&utm_medium=' . $medium . '&utm_campaign=upsell' );

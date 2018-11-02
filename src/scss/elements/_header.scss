@@ -15,29 +15,22 @@
 	box-shadow: 0 1px 6px rgba(0,0,0,.09);
 }
 
-.header .logo {
-    float: left;
-    padding-top: 0;
+.header > .container {
+	position: relative;
 }
 
-.header .logo a,
-.header .logo img {
-    display: block;
-    line-height: 1;
-}
-
-.header .title {
-    display: inline;
-    font-size: 2em;
-	margin: 0;
-	color: #222222;
-}
-
-.header .title a {
-    display: inline;
-    line-height: 40px;
-}
-
-.header .title a:hover {
+.header .logo-link:hover {
     text-decoration: none;
+}
+
+.header .logo-img {
+	display: block;
+}
+
+.header .site-title {
+    display: inline-block;
+    font-size: 2.5em;
+	margin: 0;
+	line-height: 1.6;
+	color: #222222;
 }

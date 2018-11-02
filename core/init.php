@@ -27,7 +27,8 @@ if ( ! function_exists( 'antreas_setup' ) ) {
 		add_theme_support( 'title-tag' );
 		add_theme_support( 'post-thumbnails' );
 		add_theme_support(
-			'custom-header', array(
+			'custom-header',
+			array(
 				'header-text' => false,
 				'width'       => 1600,
 				'height'      => 500,
@@ -37,6 +38,17 @@ if ( ! function_exists( 'antreas_setup' ) ) {
 		);
 		add_theme_support( 'custom-background', apply_filters( 'antreas_background_args', array() ) );
 		add_theme_support( 'automatic-feed-links' );
+
+		add_theme_support(
+			'custom-logo',
+			array(
+				//come back later and modify this values
+				'width'       => 90,
+				'height'      => 43,
+				'flex-width'  => true,
+				'flex-height' => true,
+			)
+		);
 
 		add_theme_support( 'woocommerce' );
 		add_theme_support( 'wc-product-gallery-zoom' );
@@ -66,7 +78,7 @@ if ( ! function_exists( 'antreas_setup' ) ) {
 		$locale      = get_locale();
 		$locale_file = get_template_directory() . "/languages/$locale.php";
 		if ( is_readable( $locale_file ) ) {
-			require_once( $locale_file );
+			require_once $locale_file;
 		}
 
 		$antreas_settings = get_option( 'antreas_settings' );
@@ -129,6 +141,8 @@ if ( ! function_exists( 'antreas_scripts_back' ) ) {
 if ( ! function_exists( 'antreas_scripts_customizer' ) ) {
 	add_action( 'customize_controls_enqueue_scripts', 'antreas_scripts_customizer' );
 	function antreas_scripts_customizer() {
+		wp_enqueue_style( 'antreas-customizer-controls', ANTREAS_ASSETS_CSS . 'customizer-controls.css', array(), ANTREAS_VERSION );
+
 		wp_register_script( 'antreas-selectize', ANTREAS_ASSETS_JS . 'selectize.js', array( 'jquery' ), ANTREAS_VERSION );
 		wp_enqueue_script( 'antreas-customizer-controls', ANTREAS_ASSETS_JS . 'customizer-controls.js', array( 'jquery', 'customize-controls' ), ANTREAS_VERSION, true );
 	}
@@ -194,6 +208,7 @@ require_once $core_path . 'classes/class-antreas-menu-edit-walker.php';
 require_once $core_path . 'classes/class-antreas-customize-contactform-control.php';
 require_once $core_path . 'classes/class-antreas-customize-tinymce-control.php';
 require_once $core_path . 'classes/class-antreas-customize-selectize-control.php';
+require_once $core_path . 'classes/class-antreas-customize-dimensions-control.php';
 
 // Main Components.
 require_once $core_path . 'functions.php';

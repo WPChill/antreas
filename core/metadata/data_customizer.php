@@ -184,40 +184,12 @@ if ( ! function_exists( 'antreas_metadata_customizer' ) ) {
 	function antreas_metadata_customizer( $std = null ) {
 		$data = array();
 
-		$data['general_logo'] = array(
-			'label'       => __( 'Custom Logo', 'antreas' ),
-			'description' => __( 'Insert the URL of an image to be used as a custom logo.', 'antreas' ),
+		$data['logo_dimensions'] = array(
 			'section'     => 'title_tagline',
-			'sanitize'    => 'esc_url',
-			'type'        => 'image',
-			'partials'    => '#logo .site-logo',
-		);
-
-		$data['general_favicon'] = array(
-			'label'       => __( 'Custom Favicon', 'antreas' ),
-			'description' => __( 'Recommended sizes are 16x16 pixels.', 'antreas' ),
-			'section'     => 'title_tagline',
-			'sanitize'    => 'esc_url',
-			'type'        => 'image',
-		);
-
-		$data['general_logo_width'] = array(
-			'label'       => __( 'Logo Width (px)', 'antreas' ),
-			'description' => __( 'Forces the logo to have a specified width.', 'antreas' ),
-			'section'     => 'title_tagline',
-			'type'        => 'text',
-			'placeholder' => '(none)',
-			'sanitize'    => 'absint',
-			'width'       => '100px',
-		);
-
-		$data['general_texttitle'] = array(
-			'label'       => __( 'Enable Text Title?', 'antreas' ),
-			'description' => __( 'Activate this to display the site title as text.', 'antreas' ),
-			'section'     => 'title_tagline',
-			'type'        => 'checkbox',
-			'sanitize'    => 'antreas_sanitize_bool',
-			'default'     => true,
+			'type'        => 'dimensions',
+			'partials'    => '.header .logo-img',
+			'sanitize' => 'antreas_sanitize_logo_dimensions',
+			'priority'    => 1,
 		);
 
 		$data['general_upsell'] = array(

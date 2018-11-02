@@ -8,7 +8,6 @@ function antreas_customizer( $customize ) {
 	$settings = antreas_metadata_panels();
 	foreach ( $settings as $setting_id => $setting_data ) {
 		$customize->add_panel( $setting_id, $setting_data );
-
 	}
 
 	//Add sections to the customizer
@@ -41,6 +40,7 @@ function antreas_customizer( $customize ) {
 	$customize->get_section( 'header_image' )->panel      = 'antreas_management';
 	$customize->get_section( 'background_image' )->panel  = 'antreas_management';
 	$customize->get_section( 'static_front_page' )->panel = 'antreas_management';
+	$customize->get_control( 'custom_logo' )->priority = 0;
 
 	//Add settings & controls
 	$settings = antreas_metadata_customizer();
@@ -125,6 +125,10 @@ function antreas_customizer( $customize ) {
 					break;
 				case 'collection':
 					$customize->add_control( new Antreas_Customize_Collection_Control( $customize, 'antreas_' . $control_id, $args ) );
+					break;
+				case 'dimensions':
+					$args['type'] = 'antreas-dimensions-control';
+					$customize->add_control( new Antreas_Customize_Dimensions_Control( $customize, 'antreas_' . $control_id, $args ) );
 					break;
 				case 'epsilon-upsell':
 					$customize->add_control( new Epsilon_Control_Upsell( $customize, 'antreas_' . $control_id, $args ) );
