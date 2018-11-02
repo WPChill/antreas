@@ -8,12 +8,12 @@ define( 'ANTREAS_PRO_SLUG', 'antreas-pro' );
 define( 'ANTREAS_PREFIX', 'antreas' );
 define( 'ANTREAS_NAME', $theme['Name'] );
 define( 'ANTREAS_VERSION', $theme['Version'] );
-define( 'ANTREAS_LOGO_WIDTH', '90' );
 define( 'ANTREAS_ASSETS_CSS', get_template_directory_uri() . '/assets/css/' );
 define( 'ANTREAS_ASSETS_JS', get_template_directory_uri() . '/assets/js/' );
 define( 'ANTREAS_ASSETS_IMG', get_template_directory_uri() . '/assets/images/' );
 define( 'ANTREAS_PREMIUM_NAME', 'Antreas Pro' );
-define( 'ANTREAS_PREMIUM_URL', 'www.machothemes.com/theme/antreas' );
+define( 'ANTREAS_PREMIUM_URL', 'https://www.machothemes.com/item/antreas/' );
+
 
 //Other constants
 define( 'CPOTHEME_USE_SLIDES', true );
