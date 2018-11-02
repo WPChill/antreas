@@ -829,27 +829,21 @@ body select {
   padding: 10px 0;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.09); }
 
-.header .logo {
-  float: left;
-  padding-top: 0; }
+.header > .container {
+  position: relative; }
 
-.header .logo a,
-.header .logo img {
-  display: block;
-  line-height: 1; }
-
-.header .title {
-  display: inline;
-  font-size: 2em;
-  margin: 0;
-  color: #222222; }
-
-.header .title a {
-  display: inline;
-  line-height: 40px; }
-
-.header .title a:hover {
+.header .logo-link:hover {
   text-decoration: none; }
+
+.header .logo-img {
+  display: block; }
+
+.header .site-title {
+  display: inline-block;
+  font-size: 2.5em;
+  margin: 0;
+  line-height: 1.6;
+  color: #222222; }
 
 .pagetitle {
   overflow: hidden;
@@ -1471,8 +1465,11 @@ img.alignleft, img.alignright, img.aligncenter {
 
 /* MAIN MENU */
 .menu-main {
-  float: right;
-  margin: 6px 0 0 0; }
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0; }
 
 .menu-main ul,
 .menu-main a {
@@ -1640,14 +1637,15 @@ img.alignleft, img.alignright, img.aligncenter {
 /* Open Button */
 .menu-mobile-open {
   display: none;
-  float: right;
   position: relative;
   color: #222;
-  margin: 17px 0px;
   width: 20px;
   height: 20px;
   cursor: pointer;
-  box-sizing: border-box; }
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -10px; }
 
 .menu-mobile-open:before {
   content: ' ';

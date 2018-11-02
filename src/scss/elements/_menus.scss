@@ -101,11 +101,11 @@
     background-color: #333333;
 	transition-delay: 0.2s;
   	visibility: hidden;
-	opacity: 0; 
+	opacity: 0;
 	top: 100%;
 	left: 0;
 	z-index: 9998;
-	transition: 0.6s all cubic-bezier(0.19, 1, 0.22, 1);	
+	transition: 0.6s all cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .menu-top li ul li {
@@ -158,13 +158,17 @@
 
 /* MAIN MENU */
 .menu-main {
-	float: right;
-	margin: 6px 0 0 0;
+	//float: right;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
 }
 
-.menu-main ul, 
+.menu-main ul,
 .menu-main a {
-	transition: 0.6s all cubic-bezier(0.19, 1, 0.22, 1);	
+	transition: 0.6s all cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 /* Menu Elements */
@@ -357,16 +361,15 @@
 /* Open Button */
 .menu-mobile-open {
     display: none;
-    float: right;
     position: relative;
     color: #222;
-    margin: 17px 0px;
     width: 20px;
     height: 20px;
     cursor: pointer;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -10px;
 }
 
 .menu-mobile-open:before {
@@ -446,7 +449,7 @@
     margin: 0 0 25px;
 	padding: 0;
 	display: inline-block;
-	text-align: center; 
+	text-align: center;
 }
 
 .menu-footer > ul {

@@ -233,7 +233,6 @@ class Antreas_Theme {
 	public function theme_settings() {
 
 		$defaults = array(
-			'general_texttitle'     => false,
 			'sidebar_position'      => 'right',
 			'sidebar_position_home' => 'none',
 			'home_tagline'          => __( 'Antreas is a theme with great potential', 'antreas' ),

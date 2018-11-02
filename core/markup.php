@@ -202,38 +202,36 @@ if ( ! function_exists( 'antreas_edit' ) ) {
 
 //Display the site's logo
 if ( ! function_exists( 'antreas_logo' ) ) {
-	function antreas_logo( $width = 0, $height = 0 ) {
-		$output = '<div id="logo" class="logo">';
-		if ( antreas_get_option( 'general_texttitle' ) == 0 ) {
-			if ( antreas_get_option( 'general_logo' ) == '' ) {
-				if ( defined( 'ANTREAS_LOGO_WIDTH' ) ) {
-					$width = ANTREAS_LOGO_WIDTH;
-				}
-				$output .= '<a class="site-logo" href="' . home_url() . '"><img src="' . ANTREAS_ASSETS_IMG . 'logo.png" alt="' . get_bloginfo( 'name' ) . '" width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '"/></a>';
-			} else {
-				$logo_width = antreas_get_option( 'general_logo_width' );
-				$logo_url   = esc_url( antreas_get_option( 'general_logo' ) );
-				if ( $logo_width != '' ) {
-					$logo_width = ' style="width:' . esc_attr( $logo_width ) . 'px;"';
-				}
-				$output .= '<a class="site-logo" href="' . home_url() . '"><img src="' . $logo_url . '" alt="' . get_bloginfo( 'name' ) . '"' . $logo_width . '/></a>';
-			}
+	function antreas_logo() {
+
+		// get custom logo.
+		$custom_logo_id = get_theme_mod( 'custom_logo' );
+
+		// get custom logo dimensions.
+		$logo_dimensions = antreas_get_option( 'logo_dimensions' );
+		if ( ! $logo_dimensions ) {
+			$logo_dimensions = array(
+				'width'  => '',
+				'height' => '',
+			);
 		}
 
-		$classes = '';
-		if ( antreas_get_option( 'general_texttitle' ) == 0 ) {
-			$classes = ' hidden';
-		}
-		if ( ! is_front_page() ) {
-			$output .= '<span class="title site-title' . esc_attr( $classes ) . '"><a href="' . home_url() . '">' . get_bloginfo( 'name' ) . '</a></span>';
+		// We have a custom logo
+		if ( $custom_logo_id ) {
+
+			$custom_logo_img = sprintf( '<img class="logo-img" itemprop="logo" src="%1$s" width="%2$s" height="%3$s" alt="%4$s"/>', wp_get_attachment_url( $custom_logo_id ), $logo_dimensions['width'], $logo_dimensions['height'], get_bloginfo( 'name', 'display' ) );
+			$output          = sprintf( '<a href="%1$s" class="logo-link" rel="home" itemprop="url">%2$s</a>', esc_url( home_url( '/' ) ), $custom_logo_img );
+
+		} elseif ( is_front_page() ) {
+			$output = sprintf( '<a href="%1$s" class="logo-link"><h1 class="site-title">%2$s</h1></a>', esc_url( home_url( '/' ) ), esc_html( get_bloginfo( 'name' ) ) );
 		} else {
-			$output .= '<h1 class="title site-title ' . esc_attr( $classes ) . '"><a href="' . home_url() . '">' . get_bloginfo( 'name' ) . '</a></h1>';
+			$output = sprintf( '<a href="%1$s" class="logo-link"><span class="site-title">%2$s</span></a>', esc_url( home_url( '/' ) ), esc_html( get_bloginfo( 'name' ) ) );
 		}
 
-		$output .= '</div>';
 		echo $output;
 	}
 }
+
 
 //Prints speed, timeout and effect values for the homepage slider
 if ( ! function_exists( 'antreas_slider_data' ) ) {
