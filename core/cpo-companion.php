@@ -24,6 +24,10 @@ function antreas_import_done() {
 	// Sets background image from demo content
 	set_theme_mod( 'background_image', antreas_get_attachment_url_by_slug( 'background' ) );
 
+	// Sets custom logo.
+	$logo_url = antreas_get_attachment_url_by_slug('antreas-logo');
+	set_theme_mod( 'custom_logo', attachment_url_to_postid( $logo_url ) );
+
 	// Sets about pages
 	$about_pages = array();
 	$page        = get_page_by_path( 'our story' );
