@@ -2,39 +2,39 @@ body {
     font-family: 'Hind', Arial, Helvetica, sans-serif;
     background: #fff;
     color: #919191;
-    font-size: 0.875em;
+	font-size: 1.05rem;
 	line-height: 1.6;
 	font-weight: 400;
 }
 
-::selection  { 
-	color:#fff; 
-	background-color: #22c0e3; 
+::selection  {
+	color:#fff;
+	background-color: #22c0e3;
 }
 
 /* MAIN THEME COLORS */
-.primary-color { 
-	color: #22c0e3; 
+.primary-color {
+	color: #22c0e3;
 }
 
-.primary-color-bg { 
-	background-color: #22c0e3; 
+.primary-color-bg {
+	background-color: #22c0e3;
 }
 
-.primary-color-border { 
-	border-color: #22c0e3; 
+.primary-color-border {
+	border-color: #22c0e3;
 }
 
-.secondary-color { 
-	color: #424247; 
+.secondary-color {
+	color: #424247;
 }
 
-.secondary-color-bg { 
-	background-color: #424247; 
+.secondary-color-bg {
+	background-color: #424247;
 }
 
-.secondary-color-border { 
-	border-color: #424247; 
+.secondary-color-border {
+	border-color: #424247;
 }
 
 .screen-reader-text {
