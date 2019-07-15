@@ -46,35 +46,11 @@ class Antreas_Customize_ContactForm_Control extends WP_Customize_Control {
 
 	public function get_cf7_forms() {
 		$contact_forms = array();
-
-		$args = array(
-			'post_type'      => 'wpcf7_contact_form',
-			'post_status'    => 'publish',
-			'posts_per_page' => -1,
-		);
-		$cf7forms = new WP_Query( $args );
-		if ( $cf7forms->have_posts() ) {
-			foreach ( $cf7forms->posts as $cf7form ) {
-				$contact_forms[ $cf7form->ID ] = $cf7form->post_title;
-			}
-		}
 		return $contact_forms;
 	}
 
 	public function get_wpforms() {
 		$contact_forms = array();
-
-		$args = array(
-			'post_type'      => 'wpforms',
-			'post_status'    => 'publish',
-			'posts_per_page' => -1,
-		);
-		$cf7forms = new WP_Query( $args );
-		if ( $cf7forms->have_posts() ) {
-			foreach ( $cf7forms->posts as $cf7form ) {
-				$contact_forms[ $cf7form->ID ] = $cf7form->post_title;
-			}
-		}
 		return $contact_forms;
 	}
 
