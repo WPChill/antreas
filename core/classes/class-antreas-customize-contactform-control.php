@@ -91,7 +91,7 @@ class Antreas_Customize_ContactForm_Control extends WP_Customize_Control {
 		?>
 
 		<?php if($count === 0){ ?>
-			<p><?php _e('There are no contact form plugins activated. Please activate KaliForms, WPForms or Contact Form 7', 'antreas'); ?></p>
+			<p><?php _e('There are no contact form plugins activated. Please activate KaliForms, WPForms or Contact Form 7.', 'antreas'); ?></p>
 		<?php } ?>
 
 		<?php if($count === 1) { ?>
@@ -111,8 +111,12 @@ class Antreas_Customize_ContactForm_Control extends WP_Customize_Control {
 					<span class="customize-control-title"><?php _e('Select form', 'antreas'); ?></span>
 					<select>
 						<option>...</option>
-						<?php foreach ( $forms as $id => $form_title ) { ?>
-							<option value="<?php echo $id; ?>" <?php echo $form_id == $id ? 'selected' : ''; ?>><?php echo $form_title; ?></option>
+						<?php if ( $plugin_select === 'cf7' || $plugin_select == 'wpforms' ) { ?>
+						<option selected value="<?php echo $form_id ?>"> <?php echo $plugin_select . __('Form', 'antreas'); ?> </option>
+						<?php } else { ?>
+							<?php foreach ( $forms as $id => $form_title ) { ?>
+								<option value="<?php echo $id; ?>" <?php echo $form_id == $id ? 'selected' : ''; ?>><?php echo $form_title; ?></option>
+							<?php } ?>
 						<?php } ?>
 					</select>
 				<?php } else { ?>
