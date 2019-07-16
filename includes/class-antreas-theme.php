@@ -16,6 +16,7 @@ class Antreas_Theme {
 			'wpforms-lite'               => array( 'recommended' => true ),
 			'shortpixel-image-optimiser' => array( 'recommended' => true ),
 			'simple-author-box'          => array( 'recommended' => true ),
+			'kali-forms'          => array( 'recommended' => true ),
 		);
 
 		// Recommended Actions
@@ -40,6 +41,13 @@ class Antreas_Theme {
 				'description' => __( 'It is highly recommended that you install the Modula plugin.', 'antreas' ),
 				'check'       => Antreas_Notify_System::has_plugin( 'modula-best-grid-gallery' ),
 				'plugin_slug' => 'modula-best-grid-gallery',
+			),
+			array(
+				'id'          => ANTREAS_SLUG . '-req-ac-install-kaliforms',
+				'title'       => Antreas_Notify_System::create_plugin_requirement_title( __( 'Install: Kaliforms', 'antreas' ), __( 'Activate: Kaliforms', 'antreas' ), 'kali-forms' ),
+				'description' => __( 'It is highly recommended that you install the Kaliforms plugin.', 'antreas' ),
+				'check'       => Antreas_Notify_System::has_plugin( 'kali-forms' ),
+				'plugin_slug' => 'kali-forms',
 			),
 		);
 
@@ -166,6 +174,7 @@ class Antreas_Theme {
 		$import_plugins = array(
 			'cpo-companion'            => esc_html__( 'CPO Companion', 'antreas' ),
 			'modula-best-grid-gallery' => esc_html__( 'Modula Gallery', 'antreas' ),
+			'kali-forms'               => esc_html__( 'Kaliforms', 'antreas' ),
 		);
 
 		$plugins_html = '';
