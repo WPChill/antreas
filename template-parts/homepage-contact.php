@@ -11,6 +11,8 @@
 		$shortcode_tag = 'wpforms';
 	} elseif ( $contact_form_plugin === 'cf7' ) {
 		$shortcode_tag = 'contact-form-7';
+	} elseif ( $contact_form_plugin === 'kali-forms' ) {
+		$shortcode_tag = 'kaliform';
 	} else {
 		$shortcode_tag = '';
 	}
