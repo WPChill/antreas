@@ -14,9 +14,8 @@ class Antreas_Theme {
 		// Recommended Plugins
 		$this->plugins = array(
 			'wpforms-lite'               => array( 'recommended' => true ),
-			'shortpixel-image-optimiser' => array( 'recommended' => true ),
 			'simple-author-box'          => array( 'recommended' => true ),
-			'kali-forms'          => array( 'recommended' => true ),
+			'kali-forms'                 => array( 'recommended' => true ),
 		);
 
 		// Recommended Actions
