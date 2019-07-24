@@ -11,10 +11,9 @@
 		$shortcode_tag = 'wpforms';
 	} elseif ( $contact_form_plugin === 'cf7' ) {
 		$shortcode_tag = 'contact-form-7';
-	} elseif ( $contact_form_plugin === 'kali-forms' ) {
+	}
+	if ( defined( 'KALIFORMS_VERSION' ) ) {
 		$shortcode_tag = 'kaliform';
-	} else {
-		$shortcode_tag = '';
 	}
 ?>
 
@@ -23,7 +22,7 @@
 		<?php antreas_section_heading( 'contact' ); ?>
 
 		<div class="row">
-			<?php if ( $shortcode_tag !== '' && $form_id !== '' ) { ?>
+			<?php if ( $shortcode_tag !== '' && $form_id !== '' && $form_id !== 'default' ) { ?>
 				<div class="column col2 contact__form">
 					<?php echo do_shortcode( '[' . $shortcode_tag . ' id="' . $form_id . '"]' ); ?>
 				</div>
