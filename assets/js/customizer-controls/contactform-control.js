@@ -8,6 +8,7 @@
 
 			$kaliformsContainer.find('select').change(function() {
 				var val = $( this ).val();
+				control.settings.plugin_select( 'kali-forms' );
 				control.settings.form_id( val );
 			});
 
