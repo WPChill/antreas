@@ -13,9 +13,9 @@ class Antreas_Theme {
 
 		// Recommended Plugins
 		$this->plugins = array(
-			'wpforms-lite'               => array( 'recommended' => true ),
-			'simple-author-box'          => array( 'recommended' => true ),
 			'kali-forms'                 => array( 'recommended' => true ),
+			'modula-best-grid-gallery'   => array( 'recommended' => true ),
+			'simple-author-box'          => array( 'recommended' => true ),
 		);
 
 		// Recommended Actions
@@ -56,8 +56,8 @@ class Antreas_Theme {
 		add_action( 'customize_register', array( $this, 'customizer' ) );
 
 		// filters for cpo companion.
-		add_filter( 'cpo_companion_content', array( $this, 'content_path' ), 99 );
-		add_filter( 'cpo_companion_widgets', array( $this, 'widgets_path' ), 99 );
+		add_filter( 'cpo_theme_have_content', '__return_true' );
+		add_filter( 'cpo_theme_have_widgets', '__return_true' );
 		add_filter( 'cpo_companion_theme_settings', array( $this, 'theme_settings' ), 99 );
 
 		add_filter( 'cpo_companion_theme_settings_name', array( $this, 'theme_settings_name' ), 99 );

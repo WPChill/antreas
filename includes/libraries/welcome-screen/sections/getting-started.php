@@ -6,8 +6,8 @@ $customizer_url = admin_url() . 'customize.php';
 $count          = $this->count_actions();
 ?>
 
-<div class="feature-section getting-started three-col">
-	<div class="col">
+<div class="feature-section getting-started three-col has-3-columns is-fullwidth">
+	<div class="col column">
 		<h4><?php esc_html_e( 'Implement recommended actions', 'antreas' ); ?></h4>
 		<p><?php esc_html_e( 'Make sure you implement all of our recommended actions.', 'antreas' ); ?></p>
 		<?php if ( $count == 0 ) { ?>
@@ -22,7 +22,7 @@ $count          = $this->count_actions();
 		?>
 	</div><!--/.col-->
 
-	<div class="col">
+	<div class="col column">
 		<h4><?php esc_html_e( 'Check our documentation', 'antreas' ); ?></h4>
 		<p><?php esc_html_e( 'Even if you\'re a long-time WordPress user, we believe you should give our docs a read.', 'antreas' ); ?></p>
 		<p>
@@ -31,7 +31,7 @@ $count          = $this->count_actions();
 		</p>
 	</div><!--/.col-->
 
-	<div class="col">
+	<div class="col column">
 		<h4><?php esc_html_e( 'Customize everything', 'antreas' ); ?></h4>
 		<p><?php esc_html_e( 'Using the WordPress Customizer you can easily customize every aspect of the theme.', 'antreas' ); ?></p>
 		<p><a target="_blank" href="<?php echo esc_url( $customizer_url ); ?>"
