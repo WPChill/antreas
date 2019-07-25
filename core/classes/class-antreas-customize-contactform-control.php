@@ -54,7 +54,7 @@ class Antreas_Customize_ContactForm_Control extends WP_Customize_Control {
 						<?php endforeach; ?>
 					</select>
 				<?php else: ?>
-					<?php printf( __( '<p>%s <a href="' . admin_url( $plugin_data['backendUrl'] ) . '">%s</a></p>', 'antreas' ), 'please add a', 'new form' );  ?>
+					<?php printf(  '<p>%s <a href="' . admin_url( $plugin_data['backendUrl'] ) . '">%s</a></p>', __( 'In order to use contact section you need to', 'antreas' ), __( 'add a contact form', 'antreas' ) );  ?>
 				<?php endif; ?>
 			</div>
 		<?php endif; ?>

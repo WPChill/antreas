@@ -40,11 +40,11 @@ class Antreas_Customize_Dimensions_Control extends WP_Customize_Control {
 
 	 	<div class="antreas-logo-dimensions">
 			<div>
-				<label for="<?php echo esc_attr( $this->id ); ?>-width"><?php esc_html_e( 'Logo Width:', 'shapely' ); ?></label>
+				<label for="<?php echo esc_attr( $this->id ); ?>-width"><?php esc_html_e( 'Logo Width:', 'antreas' ); ?></label>
 				<input type="number" min="0" id="<?php echo esc_attr( $this->id ); ?>-width" value="<?php echo esc_attr( $dimensions['width'] ); ?>">
 			</div>
 			 <div>
-				<label for="<?php echo esc_attr( $this->id ); ?>-height"><?php esc_html_e( 'Logo Height:', 'shapely' ); ?></label>
+				<label for="<?php echo esc_attr( $this->id ); ?>-height"><?php esc_html_e( 'Logo Height:', 'antreas' ); ?></label>
 				<input type="number" min="0" id="<?php echo esc_attr( $this->id ); ?>-height" value="<?php echo esc_attr( $dimensions['height'] ); ?>">
 			</div>
 		</div>
