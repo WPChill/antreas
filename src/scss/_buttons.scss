@@ -18,7 +18,9 @@ html body input[type=submit] {
 }
 
 html body .button:hover,
-html body input[type=submit]:hover {
+html body .button:focus,
+html body input[type=submit]:hover,
+html body input[type=submit]:focus {
 	text-decoration: none;
 	color: #fff;
 	background: #121212;

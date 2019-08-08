@@ -31,11 +31,12 @@
     color: #fff;
 }
 
-.widget_nav_menu a .menu-icon { 
-	color: #22c0e3; 
+.widget_nav_menu a .menu-icon {
+	color: #22c0e3;
 }
 
-.widget_nav_menu a:hover {
+.widget_nav_menu a:hover,
+.widget_nav_menu a:focus {
     text-decoration: none;
     opacity: 0.8;
 }

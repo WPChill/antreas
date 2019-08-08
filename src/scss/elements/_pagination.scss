@@ -28,7 +28,8 @@
     background-color: #22c0e3;
 }
 
-.pagination a:hover {
+.pagination a:hover,
+.pagination a:focus {
     background: #eee;
     text-decoration: none;
 }

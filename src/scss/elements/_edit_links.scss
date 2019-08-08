@@ -15,10 +15,10 @@
     transition: 0.2s all;
 }
 
-.post-edit-link:hover {
+.post-edit-link:hover,
+.post-edit-link:focus {
     background: #fa1;
     color: #fff;
     text-decoration: none !important;
     text-shadow: 0 0 3px #fff;
 }
- 

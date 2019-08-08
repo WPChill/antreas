@@ -69,7 +69,8 @@
 	border-radius: 30px;
 }
 
-.menu-portfolio .menu-item:hover {
+.menu-portfolio .menu-item:hover,
+.menu-portfolio .menu-item:focus {
     text-decoration: none;
 }
 
