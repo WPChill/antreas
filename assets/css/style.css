@@ -2515,6 +2515,9 @@ img.alignleft, img.alignright, img.aligncenter {
   text-decoration: none;
   opacity: 0.7; }
 
+.ctwg-social-link:hover, .ctwg-social-link:focus {
+  opacity: 0.4; }
+
 /* BUTTONS */
 body .ctsc-button,
 body .ctsc-button:visited {
