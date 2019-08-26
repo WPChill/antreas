@@ -1,5 +1,5 @@
 Version 1.0.1
-Added compatibility with Kaliforms
+Added compatibility with Kali Forms plugin
 Improved accesibility with keyboard navigation
 
 Version 1.0.0
