@@ -1,3 +1,6 @@
+Version 1.0.3
+Security Fix
+
 Version 1.0.2
 Improved accesibility with keyboard navigation
 
