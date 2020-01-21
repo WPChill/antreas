@@ -7,21 +7,23 @@ if ( ! function_exists( 'antreas_icon' ) ) {
 		if ( $value === '0' || $value === 0 || $value === '' ) {
 			return;
 		}
+		$value = explode( '-', $value);
 
-		if ( strpos( $value, '-' ) === false ) {
-			$font_library = 'fontawesome';
-			$font_value   = $value;
-		} else {
-			$icon_data    = explode( '-', $value );
-			$font_library = $icon_data[0];
-			$font_value   = $icon_data[1];
-		}
-
+		// if ( strpos( $value, '-' ) === false ) {
+		// 	$font_library = 'fontawesome';
+		// 	$font_value   = $value;
+		// 	var_dump( $font_library);
+		// 	var_dump( $font_value);
+		// } else {
+		// 	$icon_data    = explode( '-', $value );
+		// 	$font_library = $icon_data[0];
+		// 	$font_value   = $icon_data[1];
+		// }
 		$output = '';
 		if ( $wrapper != '' ) {
 			$output .= '<div class="' . $wrapper . '">';
 		}
-		$output .= antreas_get_icon( $font_library, html_entity_decode( $font_value ) );
+		$output .= antreas_get_icon( html_entity_decode( $value[1] ) );
 		if ( $wrapper != '' ) {
 			$output .= '</div>';
 		}
@@ -35,22 +37,27 @@ if ( ! function_exists( 'antreas_icon' ) ) {
 }
 
 //Retrieve the correct library
-function antreas_get_icon( $library, $value ) {
+function antreas_get_icon( $value ) {
 	$result = '';
-	switch ( $library ) {
-		case 'fontawesome':
-			$result = antreas_icon_library_fontawesome( $value );
-			break;
-		default:
-			$result = antreas_icon_library_fontawesome( $value );
-			break;
+	$icons = antreas_metadata_icons();
+
+	if ( in_array( $value, $icons['Font Awesome 5 Free']['icons'] ) ){
+		$result = antreas_icon_library_fontawesome( $value );
+	}else{
+		$result = antreas_icon_library_fontawesome_brands( $value );
 	}
 	return $result;
-}
+	}
+
 
 
 //Icon library for fontawesome
 function antreas_icon_library_fontawesome( $value ) {
 	wp_enqueue_style( 'antreas-fontawesome' );
-	return '<span style="font-family:\'fontawesome\'">' . $value . '</span>';
+	return '<span style="font-family:\'Font Awesome 5 Free\'; font-weight: 900;">' . $value . '</span>';
+}
+
+function antreas_icon_library_fontawesome_brands( $value ) {
+	wp_enqueue_style( 'antreas-fontawesome' );
+	return '<span style="font-family:\'Font Awesome 5 Brands\'; font-weight: 900;">' . $value . '</span>';
 }
