@@ -7,7 +7,7 @@ if ( ! function_exists( 'antreas_metadata_icons' ) ) {
 				'name'  => 'Font Awesome 5 Brands',
 				'icons' => antreas_metadata_fontawesome_brands(),
 			),
-			'fontawesome'   => array(
+			'fontawesomefree'   => array(
 				'name'  => 'Font Awesome 5 Free',
 				'icons' => antreas_metadata_fontawesome(),
 			)

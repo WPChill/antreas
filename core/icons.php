@@ -6,13 +6,40 @@ function antreas_icon( $value, $wrapper = '', $echo = true ) {
 	if ( $value === '0' || $value === 0 || $value === '' ) {
 		return;
 	}
+
+	$icon_pack = antreas_metadata_icons();
 	
 	if( strpos( $value, '-') === false ) {
-		$font_library = 'fontawesome';
-		$font_value   = $value;
+
+		if( isset( $icon_pack['fontawesomefree']['icons'][html_entity_decode($value)] ) ){
+
+			$font_library = 'fontawesomebrands';
+			$font_value   = $value;
+
+		}else {
+
+			$font_library = 'fontawesomefree';
+			$font_value   = $value;
+		}
 
 	}else{
+
 		$icon_data    = explode( '-', $value);
+		$icon_data[1] = html_entity_decode( $icon_data[1]);
+		
+		if( $icon_data[0] == 'fontawesome' ){
+
+			if( isset( $icon_pack['fontawesomebrands']['icons'][$icon_data[1]] ) ){
+				$font_library = 'fontawesomebrands';
+				$font_value   = $icon_data[1];
+
+			}else{
+				
+				$font_library = 'fontawesomefree';
+				$font_value   = $icon_data[1];
+			}
+		}
+
 		$font_library = $icon_data[0];
 		$font_value   = $icon_data[1];
 	}
@@ -39,7 +66,7 @@ function antreas_get_icon( $library, $value ) {
 $result = '';
 
 switch ( $library ) {
-	case 'fontawesome':
+	case 'fontawesomefree':
 		$result = antreas_icon_library_fontawesome( $value );
 		break;
 	case 'fontawesomebrands':
