@@ -3,12 +3,12 @@
 if ( ! function_exists( 'antreas_metadata_icons' ) ) {
 	function antreas_metadata_icons() {
 		$icons_packs = array(
-			'Font Awesome 5 Brands' => array(
-				'name'  => 'Font Awesome Brands',
+			'fontawesomebrands' => array(
+				'name'  => 'Font Awesome 5 Brands',
 				'icons' => antreas_metadata_fontawesome_brands(),
 			),
-			'Font Awesome 5 Free'   => array(
-				'name'  => 'Font Awesome Icons',
+			'fontawesome'   => array(
+				'name'  => 'Font Awesome 5 Free',
 				'icons' => antreas_metadata_fontawesome(),
 			)
 		);

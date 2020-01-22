@@ -6,38 +6,22 @@ function antreas_icon( $value, $wrapper = '', $echo = true ) {
 	if ( $value === '0' || $value === 0 || $value === '' ) {
 		return;
 	}
-
-	$icon = antreas_metadata_icons();
 	
 	if( strpos( $value, '-') === false ) {
+		$font_library = 'fontawesome';
+		$font_value   = $value;
 
-		$value = html_entity_decode( $value );
-		if( in_array( $value, $icon['Font Awesome 5 Free']['icons'] ) ) {
-			$font_library = 'Font Awesome 5 Free';
-			$font_value   = $value;
-		} else {
-			$font_library = 'Font Awesome 5 Brands';
-			$font_value   = $value;
-		}
-		
 	}else{
-
-		$value = explode( '-', $value);
-		$value = html_entity_decode( $value[1] );
-		if ( in_array( $value, $icon['Font Awesome 5 Free']['icons']) ) {
-			$font_library = 'Font Awesome 5 Free';
-			$font_value   = $value;
-		} else {
-			$font_library = 'Font Awesome 5 Brands';
-			$font_value   = $value;
-		}
+		$icon_data    = explode( '-', $value);
+		$font_library = $icon_data[0];
+		$font_value   = $icon_data[1];
 	}
 
 	$output = '';
 	if ( $wrapper != '' ) {
 		$output .= '<div class="' . $wrapper . '">';
 	}
-	$output .= antreas_get_icon( $font_library, $font_value  );
+	$output .= antreas_get_icon( $font_library, html_entity_decode($font_value)  );
 	if ( $wrapper != '' ) {
 		$output .= '</div>';
 	}
@@ -53,11 +37,12 @@ function antreas_icon( $value, $wrapper = '', $echo = true ) {
 //Retrieve the correct library
 function antreas_get_icon( $library, $value ) {
 $result = '';
+
 switch ( $library ) {
-	case 'Font Awesome 5 Free':
+	case 'fontawesome':
 		$result = antreas_icon_library_fontawesome( $value );
 		break;
-	case 'Font Awesome 5 Brands':
+	case 'fontawesomebrands':
 		$result = antreas_icon_library_fontawesome_brands( $value );
 		break;
 	default:
