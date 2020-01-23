@@ -1428,7 +1428,7 @@ if ( ! function_exists( 'antreas_metadata_fontawesome' ) ) {
 			'&#xf003' => '&#xf003',
 			'&#xf2b7' => '&#xf2b7',
 			'&#xf2ba' => '&#xf2ba',
-			'&#xf2bc' => '&#xf2bc'
+			'&#xf2bc' => '&#xf2bc',
 			'&#xf01a' => '&#xf01a',
 			'&#xf190' => '&#xf190', 
 			'&#xf18e' => '&#xf18e', 
@@ -1541,6 +1541,7 @@ if ( ! function_exists( 'antreas_metadata_fontawesome' ) ) {
 			'&#xf16a' => '&#xf16a', 
 			'&#xf166' => '&#xf166', 
 			'&#xf1f8' => '&#xf1f8', 
-		)
+		);
 
 	}
+}
