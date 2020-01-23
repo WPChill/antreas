@@ -1422,7 +1422,7 @@ if ( ! function_exists( 'antreas_metadata_fontawesome' ) ) {
 }
 
 
-if ( ! function_exists( 'antreas_metadata_fontawesome' ) ) {
+if ( ! function_exists( 'antreas_metadata_fontawesome_exceptions' ) ) {
 	function antreas_metadata_fontawesome_exceptions() {
 		$data = array(
 			'&#xf003' => '&#xf003',

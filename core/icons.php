@@ -71,6 +71,7 @@ function antreas_icon( $value, $wrapper = '', $echo = true ) {
 //Retrieve the correct library
 function antreas_get_icon( $library, $value ) {
 $result = '';
+
 switch ( $library ) {
 	case 'fontawesomefree':
 		$result = antreas_icon_library_fontawesome( $value );
@@ -80,6 +81,7 @@ switch ( $library ) {
 		break;
 	case 'fontawesome':
 		$result = antreas_icon_library_fontawesome_exceptions( $value );
+		break;
 	default:
 		$result = antreas_icon_library_fontawesome( $value );
 		break;
