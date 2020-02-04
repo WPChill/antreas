@@ -191,7 +191,9 @@ if ( ! function_exists( 'antreas_form_iconlist' ) ) {
 		$output .= '</label>';
 
 		$list = antreas_metadata_icons();
+		
 		foreach ( $list as $library_key => $library_value ) {
+			
 			$output .= '<div class="cpotheme-iconlist-heading">' . $library_value['name'] . '</div>';
 			foreach ( $library_value['icons'] as $list_key => $list_value ) {
 				$checked  = null;
@@ -200,7 +202,7 @@ if ( ! function_exists( 'antreas_form_iconlist' ) ) {
 					$checked  = ' checked="checked"';
 					$selected = ' selected';
 				}
-				$output .= '<label class="cpotheme-iconlist-item' . $selected . '" style="font-family:\'' . $library_key . '\';" for="' . $name . '_' . htmlentities( stripslashes( $list_key ) ) . '">';
+				$output .= '<label class="cpotheme-iconlist-item' . $selected . '" style="font-family:\'' . $library_value['name'] . '\';font-weight: 900;" for="' . $name . '_' . htmlentities( stripslashes( $list_key ) ) . '">';
 				if ( $list_key == '0' ) {
 					$output .= ' ';
 				} else {
