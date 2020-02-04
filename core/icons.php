@@ -16,7 +16,7 @@ function antreas_icon( $value, $wrapper = '', $echo = true ) {
 			$font_library = 'fontawesomefree';
 			$font_value   = $value;
 
-		}else if( $icon_pack['fontawesomebrands']['icons'][html_entity_decode($value)] ){
+		}else if( isset($icon_pack['fontawesomebrands']['icons'][html_entity_decode($value)]) ){
 
 			$font_library = 'fontawesomebrands';
 			$font_value   = $value;
