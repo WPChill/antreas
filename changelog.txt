@@ -1,5 +1,7 @@
 Version 1.0.3
 Security Fix
+Removed Simple Author Box from recommended plugins
+
 
 Version 1.0.2
 Improved accesibility with keyboard navigation
