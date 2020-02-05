@@ -198,7 +198,7 @@ if ( ! function_exists( 'antreas_form_iconlist' ) ) {
 			foreach ( $library_value['icons'] as $list_key => $list_value ) {
 				$checked  = null;
 				$selected = '';
-				if ( $library_key . '-' . $list_key === $value && $value != '' ) {
+				if ( $library_key . '-' . esc_html($list_key) === $value && $value != '' ) {
 					$checked  = ' checked="checked"';
 					$selected = ' selected';
 				}

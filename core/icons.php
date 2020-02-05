@@ -13,19 +13,14 @@ if ( ! function_exists( 'antreas_icon' ) ) {
         if (strpos($value, '-') === false) {
 
             if (isset($icon_pack['fontawesomefree']['icons'][html_entity_decode($value)])) {
-
                 $font_library = 'fontawesomefree';
-                $font_value   = $value;
-
             } else if (isset($icon_pack['fontawesomebrands']['icons'][html_entity_decode($value)])) {
-
                 $font_library = 'fontawesomebrands';
-                $font_value   = $value;
             } else {
-
                 $font_library = 'fontawesome';
-                $font_value   = $value;
             }
+
+            $font_value   = $value;
 
         } else {
 
