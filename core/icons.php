@@ -31,25 +31,24 @@ if ( ! function_exists( 'antreas_icon' ) ) {
 
             $icon_data    = explode('-', $value);
             $icon_data[1] = html_entity_decode($icon_data[1]);
+
+
+            $font_library = $icon_data[0];
+            $font_value   = $icon_data[1];
+
             if ($icon_data[0] == 'fontawesome') {
 
                 if (isset($icon_pack['fontawesomebrands']['icons'][$icon_data[1]])) {
                     $font_library = 'fontawesomebrands';
-                    $font_value   = $icon_data[1];
 
                 } else if (isset($icon_pack['fontawesomefree']['icons'][$icon_data[1]])) {
 
                     $font_library = 'fontawesomefree';
-                    $font_value   = $icon_data[1];
                 } else {
 
                     $font_library = 'fontawesome';
-                    $font_value   = $icon_data[1];
                 }
             }
-
-            $font_library = $icon_data[0];
-            $font_value   = $icon_data[1];
         }
 
         $output = '';
