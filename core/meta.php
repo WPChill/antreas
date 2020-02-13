@@ -83,9 +83,9 @@ if ( ! function_exists( 'antreas_meta_save' ) ) {
 		}
 
 
-     if (!isset($_POST['antreas_nonce']) || !wp_verify_nonce($_POST['antreas_nonce'], 'antreas_savemeta')) {
-       return;
-     }
+         if (!isset($_POST['antreas_nonce']) || !wp_verify_nonce($_POST['antreas_nonce'], 'antreas_savemeta')) {
+           return;
+         }
 
 
 		$metaboxes = $option;
