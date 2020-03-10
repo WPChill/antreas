@@ -197,9 +197,12 @@ class Antreas_Menu_Edit_Walker extends Walker_Nav_Menu {
 				<div class="description-wide menu-item-iconlist">
 					<label><?php esc_html_e( 'Icon', 'antreas' ); ?></label>
 				<?php 
-				echo $item->icon;
 				$name = 'menu-item-icon[' . $item_id . ']';
-				echo antreas_form_iconlist( $name, htmlentities($item->icon) ) ?>
+				$value = antreas_check_fontawesome_compatibility( html_entity_decode( $item->icon ) );
+				if ( is_array( $value ) ) {
+					$value = implode( '-', $value );
+				}
+				echo antreas_form_iconlist( $name, htmlentities($value) ) ?>
 				<?php /* End custom fields */ ?>
 				</div>
 
