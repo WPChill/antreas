@@ -2,7 +2,7 @@ jQuery(document).ready(function () {
 
     /* SETTINGS MENU TABS */
     /* Menu Transitions */
-    jQuery('.cpothemes-menu-item').click(function (event) {
+    jQuery('.cpothemes-menu-item').on('click', function (event) {
       var current_id = event.target.id
       if (!jQuery('#' + current_id).hasClass('active')) {
         jQuery('.cpothemes-block').fadeOut(300)
@@ -12,12 +12,12 @@ jQuery(document).ready(function () {
       }
     })
     /* Memorize Current Tab on Saves */
-    jQuery('.cpothemes-menu-item').click(function (event) {
+    jQuery('.cpothemes-menu-item').on('click', function (event) {
       var current_id = jQuery(this).attr('id')
       jQuery('#cpotheme_custom_tab').val(current_id)
     })
     /* Save Settings */
-    jQuery('.cpothemes-submit').click(function (event) {
+    jQuery('.cpothemes-submit').on('click', function (event) {
       jQuery('.cpothemes-submit').val('...')
     })
 
@@ -34,7 +34,7 @@ jQuery(document).ready(function () {
 
     /* UPLOAD FIELD */
     // When the Button is clicked...
-    jQuery('.upload_button').click(function () {
+    jQuery('.upload_button').on('click', function () {
       var text = jQuery(this).siblings('.upload_field')
 
       tb_show('Upload Image', 'media-upload.php?referer=cpotheme_settings&type=image&TB_iframe=true&post_id=0', false)
@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
       return false
     })
     //Change image preview for the upload field
-    jQuery('.upload_field').bind('change', function () {
+    jQuery('.upload_field').on('change', function () {
       var url = this.value
       var preview = jQuery(this).siblings('.upload_preview')
       jQuery(preview).attr('src', url)
@@ -76,7 +76,7 @@ jQuery(document).ready(function () {
 
     /* IMAGE LIST FIELD */
     //Change border color when selecting the image
-    jQuery('.form_image_list_item img').click(function () {
+    jQuery('.form_image_list_item img').on('click', function () {
 
       //Change other borders
       var parent = jQuery(this).parent().parent()
@@ -90,7 +90,7 @@ jQuery(document).ready(function () {
 
     /* IMAGE LIST FIELD */
     //Change border color when selecting the image
-    jQuery('.cpotheme-iconlist label').click(function () {
+    jQuery('.cpotheme-iconlist label').on('click', function () {
 
       //Change other borders
       var parent = jQuery(this).parent().parent()
