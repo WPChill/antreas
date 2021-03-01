@@ -16,6 +16,8 @@ class Antreas_Theme {
 			'kali-forms'                 => array( 'recommended' => true ),
 			'modula-best-grid-gallery'   => array( 'recommended' => true ),
 			'strong-testimonials'        => array( 'recommended' => true ),
+			'kb-support'                 => array( 'recommended' => true ),
+			'rsvp'                       => array( 'recommended' => true ),
 		);
 
 		// Recommended Actions
